@@ -1,0 +1,19 @@
+#
+# These data are from the paper
+# J.J. Shepherd, G. H. Booth, and A. Alavi,
+# J. Chem. Phys. 136, 244101 (2012).
+#
+# FCIQMC results for the three-dimensional electron
+# gas, obtained using a cell with 14 particles and
+# rs = 2.0.
+#
+# ene_corr = Total correlation energy, given in Hartrees.
+# nOrbits = Total number of single-particle orbits. 
+#
+#	nOrbits		ene_corr
+	114		-0.3842
+	186		-0.4207
+	358		-0.4355
+	778		-0.4410
+	1850		-0.4431
+	2378		-0.4430

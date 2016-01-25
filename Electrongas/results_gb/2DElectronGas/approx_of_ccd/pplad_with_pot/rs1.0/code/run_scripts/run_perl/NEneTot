@@ -1,0 +1,11 @@
+#
+# Reference energy of three-dimensional electron gas
+#
+# rs = 0.1
+# N = number of particles
+# ene_ref = Reference energy per particle in units
+#           of rydberg (e^2/(2*a_{0})) 
+# ene_pot = ene_ref - ene_kin, where ene_kin is
+#           the kinetic energy per particle
+#
+# N	ene_ref			ene_pot

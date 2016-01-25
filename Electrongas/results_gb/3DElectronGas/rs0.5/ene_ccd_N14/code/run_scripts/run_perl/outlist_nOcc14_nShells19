@@ -1,0 +1,996 @@
+  
+  Setting up single-particle basis...
+ Total number of orbitals:          778
+  
+ nx=           0 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            1 , orbitals:            2
+ nx=          -1 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            2 , orbitals:           14
+ nx=          -1 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           0 ,ms=           1
+ shell:            3 , orbitals:           38
+ nx=          -1 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           1 ,ms=           1
+ shell:            4 , orbitals:           54
+ nx=          -2 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            5 , orbitals:           66
+ nx=          -2 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=           0 ,ms=           1
+ shell:            6 , orbitals:          114
+ nx=          -2 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=           1 ,ms=           1
+ shell:            7 , orbitals:          162
+ shell:            8 , orbitals:          162
+ nx=          -2 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=           0 ,ms=           1
+ shell:            8 , orbitals:          186
+ nx=          -3 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            9 , orbitals:          246
+ nx=          -3 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=           0 ,ms=           1
+ shell:           10 , orbitals:          294
+ nx=          -3 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=           1 ,ms=           1
+ shell:           11 , orbitals:          342
+ nx=          -2 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=           2 ,ms=           1
+ shell:           12 , orbitals:          358
+ nx=          -3 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=          -3 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=          -2 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=           2 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           3 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           3 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=           2 ,nz=           0 ,ms=           1
+ shell:           13 , orbitals:          406
+ nx=          -3 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=          -3 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=          -3 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=          -3 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=          -2 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=           3 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=           3 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=           3 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=           2 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=           3 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=           3 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=           2 ,nz=           1 ,ms=           1
+ shell:           14 , orbitals:          502
+ shell:           15 , orbitals:          502
+ nx=          -4 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -4 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -4 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -4 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -4 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -4 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           4 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           4 ,ms=           1
+ nx=           0 ,ny=           4 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           4 ,nz=           0 ,ms=           1
+ nx=           4 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           4 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:           15 , orbitals:          514
+ nx=          -4 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -4 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -4 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -4 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -4 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -4 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -4 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -4 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=          -3 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=          -3 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=          -3 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=          -3 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=          -3 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=          -3 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=          -3 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=          -3 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=          -3 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=          -3 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=          -3 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=          -3 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=          -2 ,nz=          -3 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=          -3 ,ms=           1
+ nx=          -2 ,ny=          -2 ,nz=           3 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=           3 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=          -3 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=          -3 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=           3 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=           3 ,ms=           1
+ nx=          -2 ,ny=           3 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=           3 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=           3 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=           3 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=          -4 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -4 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -4 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -4 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           4 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           4 ,ms=           1
+ nx=          -1 ,ny=           4 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           4 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -4 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -4 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -4 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -4 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -4 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -4 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           4 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           4 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -4 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -4 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           4 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           4 ,ms=           1
+ nx=           0 ,ny=           4 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           4 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           4 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           4 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -4 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -4 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -4 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -4 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           4 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           4 ,ms=           1
+ nx=           1 ,ny=           4 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           4 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=          -3 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=          -3 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=          -3 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=          -3 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=          -3 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=          -3 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=           3 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=           3 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=          -3 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=          -3 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=           3 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=           3 ,ms=           1
+ nx=           2 ,ny=           3 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=           3 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=           3 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=           3 ,nz=           2 ,ms=           1
+ nx=           3 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=           3 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=           3 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=           3 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=           3 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=           3 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=           3 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=           3 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           4 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           4 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           4 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           4 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           4 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           4 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           4 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           4 ,ny=           1 ,nz=           0 ,ms=           1
+ shell:           16 , orbitals:          610
+ nx=          -4 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=          -4 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=          -4 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=          -4 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=          -4 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=          -4 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=          -4 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=          -4 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=          -3 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=          -3 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=          -4 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=          -4 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=          -4 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=          -4 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=          -4 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=          -4 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=           4 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           4 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=          -4 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=          -4 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           4 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           4 ,ms=           1
+ nx=          -1 ,ny=           4 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           4 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           4 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           4 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=          -4 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=          -4 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=          -4 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=          -4 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=          -4 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=          -4 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           4 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           4 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=          -4 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=          -4 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           4 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           4 ,ms=           1
+ nx=           1 ,ny=           4 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           4 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           4 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           4 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=           3 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           4 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           4 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           4 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           4 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           4 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           4 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           4 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           4 ,ny=           1 ,nz=           1 ,ms=           1
+ shell:           17 , orbitals:          682
+ nx=          -3 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=          -3 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=          -3 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=          -3 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=           3 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=           3 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=           3 ,ms=           1
+ nx=           3 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=           3 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=           3 ,nz=           1 ,ms=           1
+ shell:           18 , orbitals:          730
+ nx=          -4 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=          -4 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=          -4 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=          -4 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=          -4 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=          -4 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=          -4 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=          -4 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=          -4 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=          -4 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=          -4 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=          -4 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=           4 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           4 ,ms=           1
+ nx=          -2 ,ny=           4 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           4 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -4 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=          -4 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=          -4 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=          -4 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=          -4 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=          -4 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           4 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           4 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=          -4 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=          -4 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           4 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           4 ,ms=           1
+ nx=           0 ,ny=           4 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           4 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           4 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           4 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -4 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=          -4 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=          -4 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=          -4 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           4 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           4 ,ms=           1
+ nx=           2 ,ny=           4 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           4 ,nz=           0 ,ms=           1
+ nx=           4 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           4 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           4 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           4 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           4 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           4 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           4 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           4 ,ny=           2 ,nz=           0 ,ms=           1
+ shell:           19 , orbitals:          778
+  
+  
+  
+  Counting number of blocks...
+  
+  Number of hh pairs:         196
+  Number of pp pairs:      583696
+  Number of ph pairs:       10696
+  Numbers of blocks:         8307
+  Number of pphh blocks:           75
+  
+  Setting up (K_CM, M_S) blocks...
+  
+  
+ Setting up recoupled blocks...
+  
+  
+  Number of ph pairs:       10696
+  Number of hp pairs:       10696
+  
+ ||>> iam=           0
+  Setting up interaction matrix...
+ Memory of vPppp:     99529536  Bytes
+  Setting up reference energy object
+  Setting up Fock matrix...
+  Setting up correlation energy object
+  
+ Memory in use:              135496752  Bytes
+  
+  
+ ------  Setup is done  ------
+  
+  
+ eneKin/N =    8.96730294203477      , potRef/N =  -0.596920803713329     
+ eneRef/N =    8.37038213832144     
+  
+  
+ Self-consistency loop:
+  
+ Iteration number            1
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.836306721446165E-002
+  
+ Difference:    100000.677082941     
+  
+ Iteration number            2
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.014119152297451E-002
+  
+ Difference:   0.115106259680820     
+  
+ Iteration number            3
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.195382826483564E-002
+  
+ Difference:   2.537691438605583E-002
+  
+ Iteration number            4
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.153906033297147E-002
+  
+ Difference:   5.806751046098402E-003
+  
+ Iteration number            5
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.163553192162726E-002
+  
+ Difference:   1.350602241180998E-003
+  
+ Iteration number            6
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161300850126728E-002
+  
+ Difference:   3.153278850396291E-004
+  
+ Iteration number            7
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161827453484795E-002
+  
+ Difference:   7.372447012932160E-005
+  
+ Iteration number            8
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161704276022322E-002
+  
+ Difference:   1.724484474607824E-005
+  
+ Iteration number            9
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161733094079673E-002
+  
+ Difference:   4.034528029106532E-006
+  
+ Iteration number           10
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161726351326040E-002
+  
+ Difference:   9.439855086501581E-007
+  
+ Iteration number           11
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161727929050022E-002
+  
+ Difference:   2.208813574267054E-007
+  
+ Iteration number           12
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161727559870896E-002
+  
+ Difference:   5.168507766217800E-008
+  
+ Iteration number           13
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161727646258435E-002
+  
+ Difference:   1.209425548598375E-008
+  
+ Iteration number           14
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.161727626043590E-002
+  
+ Difference:   2.830078282833881E-009
+  
+ ------  Selfconsistency loop done ------
+  
+  
+ In Rydbergs:
+ eneCorrel/N =  -8.323455252087179E-002 , eneTot/N =    8.28714758580057     
+ In Hartree:
+ eneCorrel/N =  -0.582641867646103      , eneTot/N =    58.0100331006040     
+  
+ Time for setup:    1.73380804061890       seconds
+ Time for calculations:    1.18592786788940       seconds
+ Total time:    2.91973590850830       seconds
+  
+ Maximum memory used:              135582320  Bytes
+  

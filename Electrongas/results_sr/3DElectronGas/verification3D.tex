@@ -1,0 +1,43 @@
+\documentclass[11pt,a4wide]{article}
+\usepackage{graphicx}
+\usepackage{a4wide}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{cite} 
+\usepackage{parskip}
+\usepackage{framed}
+\usepackage{subfigure}
+\usepackage{framed,color}
+\usepackage{fancybox}
+
+\newcommand{\br}{\bar{r}}
+\newcommand{\bB}{\bar{B}}
+\renewcommand{\thesubfigure}{\thefigure.\arabic{subfigure}}
+
+\begin{document}
+
+\section*{Comparison of results}
+\clearpage
+\begin{table}
+\begin{center}
+\begin{tabular}{cccccc}
+\hline\hline
+$ r_s$ & 	N\_orbitals	 & Im-SRG(2)	& CCD &  	FCIQMC Karl & 	Shepherd \\
+\hline 
+0.5	 &114	&	-0.07363757 & 	-0.073145 &	-0.073842		&-0.07384 \\
+	&186		&-0.07958207&	-0.079047	&-0.07986	&	-0.07984\\
+	&358		&-0.08250370&	-0.081954&	-0.08284		&-0.08281\\
+1.0&	114		&-0.06528973 & -0.063987	& -0.06583		& -0.06587\\
+	& 186		&	-0.07077865 	& -0.069360	& -0.07152		& -0.07156\\
+	& 358		&  -0.07323493  &		-0.071789&	-0.07413	&	-0.07412 \\
+2.0	& 114		& 	-0.05374624	&-0.051114 & 	-0.05487		& -0.05489\\
+\hline\hline
+\end{tabular}
+\end{center}
+\caption{Comparison of results 3D electron gas, 14 particles.}
+\end{table}
+
+\end{document}

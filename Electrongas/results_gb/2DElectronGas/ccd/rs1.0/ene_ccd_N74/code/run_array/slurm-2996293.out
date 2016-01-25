@@ -1,0 +1,33 @@
+Starting job 2996293 ("arrayscript_omp") on c6-14 at Fri Aug 30 12:05:29 CEST 2013
+TASK_IDs to submit: 1
+Command line: jobscript_omp
+Main job id: 2996293
+Start time: 2013-08-30
+Fri Aug 30 12:05:30 2013: Submitting jobs...
+1 more job(s) to submit
+0 job(s) are running, and 0 are waiting
+Submitting 1 job(s):
+ TASK_ID 1:
+  Result from submit: Submitted batch job 2996294 => job ID 2996294
+Sleeping...
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[c6-14]: *** STEP 2996293.0 CANCELLED AT 2013-08-30T12:07:22 ***
+Caught signal.  Cleaning up...
+slurmd[c6-14]: *** JOB 2996293 CANCELLED AT 2013-08-30T12:07:22 ***
+Cancelling  2996294 
+
+Job script resource usage:
+scancel 2996294
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+2996293.bat+    460788K      9048K 
+
+Job step resource usage:
+scancel: error: Kill job error on job id 2996294: Invalid job id specified
+Cancelled  2996294 
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+2996293      arrayscri+          1                         00:01:53      0:0 
+2996293.0    arrayrun_+          1          0          0   00:01:52      0:0 
+
+Job 2996293 ("arrayscript_omp") completed on c6-14 at Fri Aug 30 12:07:23 CEST 2013

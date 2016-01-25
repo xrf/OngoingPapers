@@ -1,0 +1,191 @@
+
+!
+!     Module for tests.
+!
+MODULE TestsMod
+  USE ConstantsMod
+  IMPLICIT NONE
+  
+  
+  
+CONTAINS
+  
+  SUBROUTINE testQuicksort2
+    REAL(DP), ALLOCATABLE :: rand1(:), rand2(:)
+    INTEGER, ALLOCATABLE :: array1(:), array2(:)
+    INTEGER :: n, i
+    
+    n = 7
+    ALLOCATE(rand1(n), rand2(n))
+    ALLOCATE(array1(n), array2(n))
+    
+    !CALL RANDOM_NUMBER(rand2)
+    !CALL RANDOM_NUMBER(rand1)
+    !array1 = INT(10.d0*rand1)
+    !array2 = INT(10.d0*rand2)
+    array1 = (/8, 2, -1, 4, 3, 6, 5/)
+    !array2 = array1
+    array2 = (/(i, i=1, 7)/)
+    rand1 = 1.d0*array1
+    rand2 = rand1
+
+    DO i=1, n
+       !write(*,*) array1(i), array2(i)
+       write(*,*) rand1(i), array2(i)
+    ENDDO
+    WRITE(*,*) '--------------------------'
+    
+    !CALL quicksort2(array1, array2, n)
+    !CALL quicksort(array1, n)
+    !CALL sort2(n,rand1,rand2)
+    CALL sortrx(n,rand1,array2)
+    CALL qsorti(array2,n,array1)
+
+    DO i=1, n
+       write(*,*) rand1(i), array2(i)
+    ENDDO
+    
+    DEALLOCATE(array1, array2)
+    
+    
+  END SUBROUTINE testQuicksort2
+  
+  ! SUBROUTINE testSpPotential(solv)
+  !   USE SpPotentialMod
+  !   USE SolverMod
+  !   TYPE(SpPotential) :: spPot
+  !   TYPE(Solver) :: solv
+  !   REAL(DP) :: potential,k
+
+  !   k = 1.d0
+  !   spPot = solv%energy%eneCorrel%spPot
+  !   potential = calcSpPotential(k,spPot)
+  !   write(*,*) 'spPot = ', potential
+    
+  ! END SUBROUTINE testSpPotential
+
+  ! SUBROUTINE testGaussian
+  !   USE QuadratureMod
+  !   USE HamiltonianMod
+  !   TYPE(Quadrature) :: quad
+  !   REAL(DP) :: xmin,xmax,rij,potential,k,kp
+  !   COMPLEX(DP) :: potentialC
+  !   INTEGER :: nx,i
+
+  !   nx = 200
+  !   xmin = 0.d0
+  !   xmax = 2.d0
+  !   !     Set up Gausss-Legendre quadrature
+  !   quad = gaussLegendre(xmin,xmax,nx)
+  
+  !   OPEN(12,FILE='r_potential')
+
+  !   DO i=1, nx
+  !      rij = quad%xpoints(i)
+  !      potential = gaussian(rij)
+  !      write(12,*) rij, potential
+  !   ENDDO
+  !   CLOSE(12)
+
+  !   k = 2.d0
+  !   kp = 0.3d0
+  !   potentialC = gaussianRelMom(k,kp)
+  !   write(*,*) 'potential = ', potentialC
+
+  !   !     Deallocate quadrature object
+  !   CALL deallocateQuad(quad)
+    
+    
+  ! END SUBROUTINE testGaussian
+
+  
+  ! SUBROUTINE testHF
+  !   USE HamiltonianMod
+  !   INTEGER, ALLOCATABLE :: spStates(:)
+  !   INTEGER :: nParticles,n,spState,spState1,spState2
+  !   REAL(DP) :: boxWidth,density,eneKin,potHF,eneHF
+  !   REAL(DP) :: temp,k1,k2,krel,potential,interaction
+  !   REAL(DP) :: spPotential
+    
+  !   density = 1.27323950930405d0
+  !   nParticles = 181
+  !   IF (MOD(nParticles,2)==0) THEN
+  !      WRITE(*,*) 'The number of particles must be odd!'
+  !      STOP
+  !   ENDIF
+    
+  !   ALLOCATE(spStates(nParticles))
+  !   spStates = 0
+  !   n = 1
+  !   DO spState=2, nParticles, 2
+  !      !write(*,*) 'spState=',spState
+  !      spStates(spState) = -n
+  !      spStates(spState+1) = n
+  !      n = n + 1
+  !   ENDDO
+    
+  !   !write(*,*) 'spStates = ', spStates
+    
+  !   boxWidth = 1.d0*nParticles/density
+
+  !   temp = 0.d0
+  !   DO spState=1, nParticles
+  !      temp = temp + 1.d0*spStates(spState)**2
+  !   ENDDO
+  !   !     Kinetic energy per particle
+  !   eneKin = 2.d0*pi**2*temp/(nParticles*mass*boxWidth**2)
+    
+  !   temp = 0.d0
+  !   DO spState1=1, nParticles
+  !      !     Lab frame momentum of state 1
+  !      k1 = 2.d0*pi*spStates(spState1)/boxWidth
+  !      DO spState2=spState1+1, nParticles
+  !         !     Lab frame momentum of state 2
+  !         k2 = 2.d0*pi*spStates(spState2)/boxWidth
+  !         !     Relative momentum
+  !         krel = 0.5d0*(k1-k2)
+          
+  !         potential = REAL(gaussianRelMomDiscr(krel,krel,&
+  !              boxWidth),DP)
+  !         temp = temp + potential
+  !      ENDDO
+  !   ENDDO
+  !   !      HF potential energy per particle
+  !   potHF = temp/nParticles
+    
+  !   !      HF energy per particle
+  !   eneHF = eneKin + potHF
+    
+  !   write(*,*) 'boxWidth = ', boxWidth
+  !   write(*,*) 'eneKin = ', eneKin, ', potHF = ', potHF
+  !   write(*,*) 'eneHF = ', eneHF, ', density = ', density
+    
+    
+  !   !     Test the single-particle potential
+  !   k1 = 1.d0
+    
+  !   temp = 0.d0
+  !   DO spState=1, nParticles
+  !      !     Lab frame momentum of state 1
+  !      k2 = 2.d0*pi*spStates(spState)/boxWidth
+  !      !     Relative momentum
+  !      krel = 0.5d0*(k1-k2)
+       
+  !      !     Get antisymmetrized two-particle
+  !      !     interaction
+  !      interaction = REAL(gaussianRelMomDiscr(krel,krel,&
+  !           boxWidth),DP)
+       
+  !      temp = temp + interaction
+  !   ENDDO
+  !   spPotential = temp
+  !   write(*,*) 'spPotential = ', spPotential
+    
+  !   DEALLOCATE(spStates)
+    
+    
+  ! END SUBROUTINE testHF
+
+  
+  
+END MODULE TestsMod

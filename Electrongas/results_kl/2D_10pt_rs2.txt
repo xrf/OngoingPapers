@@ -1,0 +1,8 @@
+#
+# 10 pt results for the 2DHEG:
+# Wigner-Seitz radius rs = 2.0
+# The reference energy is - ,,, Ry
+#
+#sh. 	N_W 	E_corr(Ry) 	error	
+
+

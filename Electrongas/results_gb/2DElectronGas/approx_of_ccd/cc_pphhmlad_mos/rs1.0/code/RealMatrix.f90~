@@ -1,0 +1,43 @@
+
+!
+!     Class for a general real matrix.
+!
+MODULE RealMatrixMod
+  USE ConstantsMod
+  USE MatrixMod
+  IMPLICIT NONE
+  
+  TYPE, EXTENDS(Matrix) :: RealMatrix
+     REAL(DP), ALLOCATABLE :: matr(:,:)
+  END TYPE RealMatrix
+  
+CONTAINS
+  
+  !
+  !     Constructor for RealMatrix object
+  !
+  FUNCTION RealMatrix_(dim1, dim2) RESULT(this)
+    INTEGER, INTENT(IN) :: dim1, dim2
+    TYPE(RealMatrix) :: this
+    
+    this%dim1 = dim1
+    this%dim2 = dim2
+    ALLOCATE(this%matr(dim1, dim2))
+    !this%matr = 0.d0
+    
+    
+  END FUNCTION RealMatrix_
+  
+  !
+  !     Destructor for a RealMatrix object
+  !
+  SUBROUTINE RealMatrix_d(this)
+    TYPE(RealMatrix) :: this
+
+    DEALLOCATE(this%matr)
+    
+    
+  END SUBROUTINE RealMatrix_d
+  
+  
+END MODULE RealMatrixMod

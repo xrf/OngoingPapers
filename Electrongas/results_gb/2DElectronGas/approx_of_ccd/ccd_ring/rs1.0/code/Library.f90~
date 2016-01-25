@@ -1,0 +1,287 @@
+
+! !
+! !     Quicksort routine from W. H. Press et al.,
+! !     Numerical Recipes in Fortran 90, 1996.
+! !
+! SUBROUTINE quicksort(array, n)
+!   IMPLICIT NONE
+!   INTEGER, INTENT(IN) :: n 
+!   INTEGER, INTENT(INOUT) :: array(n)
+!   INTEGER, PARAMETER :: NN=0, NSTACK=1000
+!   !
+!   !     Sorts an array 'array' into ascending numerical
+!   !     order using the Quicksort algorithm. 'array' is
+!   !     replaced on output by its sorted rearrangement. 
+!   !
+!   !     Parameters: NN is the size of subarrays sorted
+!   !     by straight insertion and NSTACK is the required
+!   !     auxiliary storage.
+!   !
+!   INTEGER :: a
+!   INTEGER :: k, i, j, jstack, l, r
+!   INTEGER, DIMENSION(NSTACK) :: istack
+  
+!   jstack = 0
+!   l = 1
+!   r = n
+!   DO
+     
+  !      !     Insertion sort when subarray small enough.
+!      IF (r-1 < NN) THEN
+!         DO j=l+1, r
+!            a = array(j)
+!            DO i=j-1, l, -1
+!               IF (array(i) <= a) EXIT
+!               array(i+1) = array(i)
+!            ENDDO
+!            array(i+1) = a
+!         ENDDO
+!         IF (jstack == 0) RETURN
+!         !     Pop stack and begin a new round of 
+!         !     partitioning.
+!         r = istack(jstack)
+!         l = istack(jstack-1)
+!         jstack = jstack - 2
+!      ELSE
+!         !     Choose median of left, center, and 
+!         !     right elements as partitioning element
+!         !     a. Also rearrange so that a(l) <= a(l+1)
+!         !     <= a(r)
+!         !write(*,*) 'array=',array,',l=',l
+!         k = (l+r)/2
+!         !write(*,*) 'k=',k
+!         CALL swap(array(k), array(l+1))
+!         !write(*,*) 'array=',array
+!         CALL masked_swap(array(l), array(r), array(l)>array(r))
+!         !write(*,*) 'array=',array
+!         CALL masked_swap(array(l+1), array(r), array(l+1)>array(r))
+!         !write(*,*) 'array=',array
+!         CALL masked_swap(array(l), array(l+1), array(l)>array(l+1))
+        
+!         !write(*,*) 'array=',array
+!         !     Initialize pointers for partitioning.
+!         i = l + 1
+!         j = r
+!         !     Partitioning element.
+!         a = array(l+1)
+!         !write(*,*) 'a=',a
+!         DO
+!            !     Here is the meat.
+!            !     Scan up to find element >= a.
+!            DO
+!               i = i+1
+!               !write(*,*) 'i=',i
+!               IF (array(i) >= a) EXIT
+!               !if (i == 4) stop
+!            ENDDO
+!            !write(*,*) 'i=',i
+           
+!            !write(*,*) 'after'
+!            !     Scan down to find element <= a.
+!            DO
+!               j = j - 1
+!               IF (array(j) <= a) EXIT
+!            ENDDO
+!            !     Pointers crossed. Exit with 
+!            !     partitioning complete. 
+!            IF (j < i) EXIT
+!            !     Exchange elements.
+!            CALL swap(array(i), array(j))
+!         ENDDO
+!         !write(*,*) 'ar=',array,',l+1=',l+1
+        
+!         !     Insert partitioning element.
+!         array(l+1) = array(j)
+!         array(j) = a
+!         !write(*,*) 'ar2=',array
+!         !stop
+!         jstack = jstack + 2
+!         !     Push pointers to larger subarray on
+!         !     stack; process smaller subarray
+!         !     immediately.
+!         IF (jstack > NSTACK) THEN
+!            WRITE(*,*) 'nrerror: sort: NSTACK too small'
+!            STOP 'program terminated by nrerror'
+!         ENDIF
+!         IF (r-i+1 >= j-1) THEN
+!            istack(jstack) = r
+!            istack(jstack-1) = i
+!            r = j - 1
+!         ELSE
+!            istack(jstack) = j - 1
+!            istack(jstack-1) = l
+!            l = i
+!         ENDIF
+!         write(*,'(7(2X, I3))') array
+        
+!      ENDIF
+!   ENDDO
+  
+  
+! END SUBROUTINE quicksort
+
+
+! !
+! !     Quicksort routine from W. H. Press et al.,
+! !     Numerical Recipes in Fortran 90, 1996.
+! !
+! SUBROUTINE quicksort2(array, array2, n)
+!   IMPLICIT NONE
+!   INTEGER, INTENT(IN) :: n 
+!   INTEGER, INTENT(INOUT) :: array(n), array2(n)
+!   INTEGER, PARAMETER :: NN=15, NSTACK=1000
+!   !
+!   !     Sorts an array 'array' into ascending numerical
+!   !     order using the Quicksort algorithm. 'array' is
+!   !     replaced on output by its sorted rearrangement. 
+!   !
+!   !     Parameters: NN is the size of subarrays sorted
+!   !     by straight insertion and NSTACK is the required
+!   !     auxiliary storage.
+!   !
+!   INTEGER :: a, b
+!   INTEGER :: k, i, j, jstack, l, r
+!   INTEGER, DIMENSION(NSTACK) :: istack
+  
+!   write(*,*) '102'
+!   jstack = 0
+!   l = 1
+!   r = n
+!   DO     
+!      !     Insertion sort when subarray small enough.
+!      IF (r-1 < NN) THEN
+!         DO j=l+1, r
+!            a = array(j)
+!            b = array2(j)
+!            DO i=j-1, l, -1
+!               IF (array(i) <= a) EXIT
+!               array(i+1) = array(i)
+!               array2(i+1) = array2(i)
+!            ENDDO
+!            array(i+1) = a
+!            array2(i+1) = b
+!         ENDDO
+!         IF (jstack == 0) RETURN
+!         !     Pop stack and begin a new round of 
+!         !     partitioning.
+!         r = istack(jstack)
+!         l = istack(jstack-1)
+!         jstack = jstack - 2
+!      ELSE
+!         write(*,*) '105'
+!         !     Choose median of left, center, and 
+!         !     right elements as partitioning element
+!         !     a. Also rearrange so that a(l) <= a(l+1)
+!         !     <= a(r)
+!         k = (l+r)/2
+!         write(*,*) 'array(k)=',array(k),&
+!              ',array(l+1)=',array(l+1)
+!         CALL swap(array(k), array(l+1))
+!         write(*,*) '--..'
+!         CALL swap(array2(k), array2(l+1))
+!         write(*,*) '105.8'
+!         CALL masked_swap(array(l), array(r), array(l)>array(r))
+!         write(*,*) '105.9'
+!         CALL masked_swap(array2(l), array2(r), array2(l)>array2(r))
+!         write(*,*) '106'
+!         CALL masked_swap(array(l+1), array(r), array(l+1)>array(r))
+!         CALL masked_swap(array2(l+1), array2(r), array2(l+1)>array2(r))
+!         CALL masked_swap(array(l), array(l+1), array(l)>array(l+1))
+!         CALL masked_swap(array2(l), array2(l+1), array2(l)>array2(l+1))
+!         write(*,*) '107'
+!         !     Initialize pointers for partitioning.
+!         i = l + 1
+!         j = r
+!         !     Partitioning element.
+!         a = array(l+1)
+!         b = array2(l+1)
+!         write(*,*) '108'
+!         DO
+!            !     Here is the meat.
+!            !     Scan up to find element >= a.
+!            DO
+!               i = i+1
+!               write(*,*) 'i=',i
+!               IF (array(i) >= a) EXIT
+!            ENDDO
+!            write(*,*) '110'
+!            !     Scan down to find element <= a.
+!            DO
+!               j = j - 1
+!               IF (array(j) <= a) EXIT
+!            ENDDO
+!            write(*,*) '113'
+!            !     Pointers crossed. Exit with 
+!            !     partitioning complete. 
+!            IF (j < i) EXIT
+!            !     Exchange elements.
+!            CALL swap(array(i), array(j))
+!            CALL swap(array2(i), array2(j))
+!         ENDDO
+!         write(*,*) '115'
+!         !     Insert partitioning element.
+!         array(l+1) = array(j)
+!         array(j) = a
+!         array2(l+1) = array2(j)
+!         array2(j) = b
+!         jstack = jstack + 2
+!         !     Push pointers to larger subarray on
+!         !     stack; process smaller subarray
+!         !     immediately.
+!         IF (jstack > NSTACK) THEN
+!            WRITE(*,*) 'nrerror: sort: NSTACK too small'
+!            STOP 'program terminated by nrerror'
+!         ENDIF
+!         IF (r-i+1 >= j-1) THEN
+!            istack(jstack) = r
+!            istack(jstack-1) = i
+!            r = j - 1
+!         ELSE
+!            istack(jstack) = j - 1
+!            istack(jstack-1) = l
+!            l = i
+!         ENDIF
+!      ENDIF
+!   ENDDO
+  
+  
+! END SUBROUTINE quicksort2
+
+
+! SUBROUTINE swap(a, b)
+!   !     Swap the contents of a and b.
+!   INTEGER, INTENT(INOUT) :: a, b
+!   INTEGER :: temp
+  
+!   temp = a
+!   a = b
+!   b = temp
+  
+  
+! END SUBROUTINE swap
+
+! SUBROUTINE masked_swap(a, b, mask)
+!   INTEGER, INTENT(INOUT) :: a, b
+!   LOGICAL, INTENT(IN) :: mask
+!   INTEGER :: temp
+  
+!   IF (mask) THEN
+!      temp = a
+!      a = b
+!      b = temp
+!   ENDIF
+  
+  
+! END SUBROUTINE masked_swap
+
+! FUNCTION isEqual(pairState1, pairState2, n) RESULT(equal)
+!   INTEGER, INTENT(IN) :: n, pairState1(n), pairState2(n)
+!   LOGICAL :: equal
+
+!   equal = .TRUE.
+!   IF (ALL(pairState1 .EQ. pairState2)) THEN
+!      equal = .FALSE.
+!   ENDIF
+
+
+! END FUNCTION isEqual

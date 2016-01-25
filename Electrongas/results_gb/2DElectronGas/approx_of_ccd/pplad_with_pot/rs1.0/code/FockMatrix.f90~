@@ -1,0 +1,149 @@
+
+!
+!     Class for the Fock matrix
+!
+MODULE FockMatrixMod
+  USE HamiltonianMod
+  USE ConstantsMod
+  USE SpBasisMod
+  IMPLICIT NONE
+  
+  TYPE FockMatrix
+     !
+     !     hamilt:       Hamiltonian operator
+     !     basis:        Single-particle basis
+     !     matrix(:,:):  Fock matrix 
+     !     vector(:):    Diagonal Fock matrix      
+     !
+     CLASS(Hamiltonian), POINTER :: hamilt  
+     CLASS(SpBasis), POINTER :: basis       
+     REAL(DP), ALLOCATABLE :: matrix(:,:)     
+     REAL(DP), ALLOCATABLE :: vector(:)
+   CONTAINS
+     PROCEDURE :: calcFockPotential
+     PROCEDURE :: calcFockMatEle
+     PROCEDURE :: setupFockMatrix
+  END TYPE FockMatrix
+  
+  
+CONTAINS
+  
+  !
+  !     Constructor for FockMatrix object     
+  !
+  FUNCTION FockMatrix_(ham, basis) RESULT(fockMat)
+    CLASS(Hamiltonian), TARGET, INTENT(IN) :: ham
+    CLASS(SpBasis), TARGET, INTENT(IN) :: basis
+    TYPE(FockMatrix) :: fockMat
+    INTEGER :: nOrbits
+    
+    nOrbits = basis%nOccupied + basis%nUnoccupied
+!    ALLOCATE(fockMat%matrix(nOrbits, nOrbits))
+    ALLOCATE(fockMat%vector(nOrbits))
+!    fockMat%matrix = 0.d0
+    fockMat%vector = 0.d0
+    fockMat%hamilt => ham
+    fockMat%basis => basis
+    
+    
+  END FUNCTION FockMatrix_
+  
+  !
+  !      Routine to calculate the single-particle
+  !      potential u(p, q) = \sum_i <p,i|v|q,i>_AS. 
+  !
+  FUNCTION calcFockPotential(this, orbit1, orbit2) &
+       RESULT(potential)
+    INTEGER, INTENT(IN) :: orbit1, orbit2
+    CLASS(FockMatrix), INTENT(IN) :: this
+    REAL(DP) :: potential
+    REAL(DP) :: temp, interaction
+    INTEGER :: hole
+    
+    temp = 0.d0
+    DO hole=1, this%basis%nOccupied
+       
+       !     Get antisymmetrized two-particle
+       !     interaction
+       interaction = this%hamilt%getInteraction( &
+            orbit1, hole, orbit2, hole)
+       
+       temp = temp + interaction
+    ENDDO
+    potential = temp
+    
+    
+  END FUNCTION calcFockPotential
+  
+  !
+  !     Calculate a Fock matrix element
+  !     <p|h0|q>\delta_pq + \sum_i <p,i|v|q,i>_AS. 
+  !
+  FUNCTION calcFockMatEle(this, orbit1, orbit2) &
+       RESULT(matrixElement)
+    INTEGER, INTENT(IN) :: orbit1, orbit2
+    CLASS(FockMatrix), INTENT(IN) :: this
+    REAL(DP) :: nonInteract, potential
+    REAL(DP) :: matrixElement
+    
+    IF (orbit1 == orbit2) THEN
+       nonInteract = this%basis%spEnergies(orbit1)
+    ELSE
+       nonInteract = 0.d0
+    ENDIF
+    
+    potential = this%calcFockPotential(orbit1, orbit2)
+    
+    matrixElement = nonInteract + potential
+    
+    
+  END FUNCTION calcFockMatEle
+  
+  !
+  !     Set up vector of single-particle
+  !     energies (diagonal elements of Fock
+  !     matrix).
+  !
+  SUBROUTINE setupFockVector(this)
+    CLASS(FockMatrix), INTENT(INOUT) :: this
+    INTEGER :: nOrbits, orbit
+    REAL(DP) :: matrixEle
+    
+    nOrbits = this%basis%nOccupied &
+         + this%basis%nUnoccupied
+    
+    DO orbit=1, nOrbits
+       matrixEle = this%calcFockMatEle(orbit, orbit)
+       this%vector(orbit) = matrixEle
+    ENDDO
+    
+    
+  END SUBROUTINE setupFockVector
+  
+  !
+  !     Set up matrix of single-particle
+  !     energies.
+  !
+  SUBROUTINE setupFockMatrix(this)
+    CLASS(FockMatrix), INTENT(INOUT) :: this
+    INTEGER :: nOrbits, orbit1, orbit2
+    REAL(DP) :: matrixEle
+    
+    nOrbits = this%basis%nOccupied &
+         + this%basis%nUnoccupied
+    
+    DO orbit1=1, nOrbits
+       DO orbit2=orbit1, nOrbits
+          matrixEle = this%calcFockMatEle(orbit1, orbit2)
+          this%matrix(orbit1, orbit2) = &
+               matrixEle
+          this%matrix(orbit2, orbit1) = &
+               matrixEle
+       ENDDO
+    ENDDO
+    
+    
+  END SUBROUTINE setupFockMatrix
+  
+  
+END MODULE FockMatrixMod

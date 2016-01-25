@@ -1,0 +1,10 @@
+Starting job 2996294 ("2996293.1") on c11-[22,24] at Fri Aug 30 12:06:00 CEST 2013
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+2996294       2996293.1         28                         00:00:09      0:0 
+2996294.0          true          2    176120K      1092K   00:00:01      0:0 
+2996294.1         orted          1          0          0   00:00:05      0:0 
+
+Job 2996294 ("2996293.1") completed on c11-[22,24] at Fri Aug 30 12:06:08 CEST 2013

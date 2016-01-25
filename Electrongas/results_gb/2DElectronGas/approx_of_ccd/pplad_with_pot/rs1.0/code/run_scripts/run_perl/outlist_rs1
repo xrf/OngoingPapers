@@ -1,0 +1,318 @@
+  
+  Setting up single-particle basis...
+ Orbitals =           66
+  
+ nx=           0 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           0 ,ms=           1
+ shell=           1 , orbits=           2
+ nx=          -1 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           0 ,ms=           1
+ shell=           2 , orbits=          14
+ nx=          -1 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           0 ,ms=           1
+ shell=           3 , orbits=          38
+ nx=          -1 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           1 ,ms=           1
+ shell=           4 , orbits=          54
+ nx=          -2 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           0 ,ms=           1
+ shell=           5 , orbits=          66
+  
+  Setting up interaction matrix...
+  Setting up Fock matrix...
+  
+ ------  Setup is done  ------
+  
+  
+ eneKin/N =    2.24182581868800      , potRef/N =  -0.298460390782775     
+ eneRef/N =    1.94336542790523     
+  
+  
+ Self-consistency loop:
+  
+ Iteration number            1
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.781445996261493E-002
+  
+ Difference:    100000.529402439     
+  
+ Iteration number            2
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.340447238450564E-002
+  
+ Difference:   0.201739826093530     
+  
+ Iteration number            3
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.022032878493401E-002
+  
+ Difference:   9.542198960599713E-002
+  
+ Iteration number            4
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.701738522014199E-002
+  
+ Difference:   4.484120990708829E-002
+  
+ Iteration number            5
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.853879785032503E-002
+  
+ Difference:   2.129977682256262E-002
+  
+ Iteration number            6
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.781733429557665E-002
+  
+ Difference:   1.010048976647743E-002
+  
+ Iteration number            7
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.816009186515316E-002
+  
+ Difference:   4.798605974071224E-003
+  
+ Iteration number            8
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.799733700586297E-002
+  
+ Difference:   2.278568030062711E-003
+  
+ Iteration number            9
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.807464825432571E-002
+  
+ Difference:   1.082357478478346E-003
+  
+ Iteration number           10
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.803792891363819E-002
+  
+ Difference:   5.140707696252855E-004
+  
+ Iteration number           11
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.805537033842809E-002
+  
+ Difference:   2.441799470587203E-004
+  
+ Iteration number           12
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804708603656609E-002
+  
+ Difference:   1.159802260680132E-004
+  
+ Iteration number           13
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.805102097289578E-002
+  
+ Difference:   5.508910861556915E-005
+  
+ Iteration number           14
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804915194154417E-002
+  
+ Difference:   2.616643892255910E-005
+  
+ Iteration number           15
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.805003970503696E-002
+  
+ Difference:   1.242868889911319E-005
+  
+ Iteration number           16
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804961803051877E-002
+  
+ Difference:   5.903443254628993E-006
+  
+ Iteration number           17
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804981831987475E-002
+  
+ Difference:   2.804050983740147E-006
+  
+ Iteration number           18
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804972318532651E-002
+  
+ Difference:   1.331883675403933E-006
+  
+ Iteration number           19
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804976837287289E-002
+  
+ Difference:   6.326256493105475E-007
+  
+ Iteration number           20
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804974690943713E-002
+  
+ Difference:   3.004881006796190E-007
+  
+ Iteration number           21
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804975710426150E-002
+  
+ Difference:   1.427275412857476E-007
+  
+ Iteration number           22
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804975226186604E-002
+  
+ Difference:   6.779353650676612E-008
+  
+ Iteration number           23
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804975456193457E-002
+  
+ Difference:   3.220095945444257E-008
+  
+ Iteration number           24
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804975346943498E-002
+  
+ Difference:   1.529499421559777E-008
+  
+ Iteration number           25
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -2.804975398835662E-002
+  
+ Difference:   7.264902901482628E-009
+  
+ ------  Selfconsistency loop done ------
+  
+  
+ eneCorrel/N =  -5.609950797671324E-002 , eneTot/N =    1.88726591992852     
+  

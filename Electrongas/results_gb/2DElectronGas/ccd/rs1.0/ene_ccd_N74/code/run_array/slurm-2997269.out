@@ -1,0 +1,51 @@
+Starting job 2997269 ("arrayscript_omp") on c9-10 at Fri Aug 30 13:29:00 CEST 2013
+TASK_IDs to submit: 1
+Command line: jobscript_omp
+Main job id: 2997269
+Start time: 2013-08-30
+Fri Aug 30 13:29:00 2013: Submitting jobs...
+1 more job(s) to submit
+0 job(s) are running, and 0 are waiting
+Submitting 1 job(s):
+ TASK_ID 1:
+  Result from submit: Submitted batch job 2997278 => job ID 2997278
+Sleeping...
+Fri Aug 30 13:31:06 2013: Checking queue...
+Number of jobs to check: 1
+ Job 2997278 is still running
+All jobs have been submitted
+1 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 13:33:17 2013: Checking queue...
+Number of jobs to check: 1
+ Job 2997278 is still running
+1 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 13:35:27 2013: Checking queue...
+Number of jobs to check: 1
+ Job 2997278 is still running
+1 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 13:37:38 2013: Checking queue...
+Number of jobs to check: 1
+ Job 2997278 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2997278      2013-08-30T13:29:59 2013-08-30T13:36:07                        COMPLETED      0:0 
+  2997278.bat+ 2013-08-30T13:29:59 2013-08-30T13:36:07   2039752K   1372112K  COMPLETED      0:0 
+  2997278.0    2013-08-30T13:29:59 2013-08-30T13:30:00    176116K       836K  COMPLETED      0:0 
+  2997278.1    2013-08-30T13:30:01 2013-08-30T13:36:07   1570344K   1261940K  COMPLETED      0:0 
+Done.
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+2997269.bat+    359092K      6564K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+2997269      arrayscri+          1                         00:08:50      0:0 
+2997269.0    arrayrun_+          1    176116K      3748K   00:08:49      0:0 
+
+Job 2997269 ("arrayscript_omp") completed on c9-10 at Fri Aug 30 13:37:49 CEST 2013

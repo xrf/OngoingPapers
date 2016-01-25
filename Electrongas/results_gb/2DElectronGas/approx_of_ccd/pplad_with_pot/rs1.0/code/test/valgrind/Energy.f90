@@ -1,0 +1,63 @@
+
+!
+!     Class for the energy equation.
+!
+MODULE EnergyMod
+  USE HamiltonianMod
+  USE CorrEnergyMod
+  USE RefEnergyMod
+  IMPLICIT NONE
+  
+  TYPE Energy
+     CLASS(Hamiltonian), POINTER :: hamilt        ! Hamiltonian operator
+     CHARACTER(30) :: approximation               ! Chosen approximation
+     TYPE(RefEnergy) :: eneRef                    ! Reference energy
+     CLASS(CorrEnergy), POINTER :: eneCorrel      ! Correlation energy
+   CONTAINS
+     PROCEDURE :: calculateEnergy
+  END TYPE Energy
+  
+CONTAINS
+  
+  !
+  !     Constructor for Energy object
+  !
+  FUNCTION Energy_(ham, approx, eneRef, eneCorr) RESULT(ene)
+    CLASS(Hamiltonian), TARGET, INTENT(IN) :: ham
+    CHARACTER(30), INTENT(IN) :: approx
+    TYPE(RefEnergy), INTENT(IN) :: eneRef
+    CLASS(CorrEnergy), OPTIONAL, TARGET, INTENT(IN) :: eneCorr
+    TYPE(Energy) :: ene
+    
+    ene%hamilt => ham
+    ene%approximation = approx
+    ene%eneRef = eneRef
+    IF (PRESENT(eneCorr)) THEN
+       ene%eneCorrel => eneCorr
+    ENDIF
+    
+    
+  END FUNCTION Energy_
+  
+  SUBROUTINE calculateEnergy(this)
+    CLASS(Energy) :: this
+    
+    !     Calculate the reference energy
+    !     (here the Hartree-Fock energy)
+    CALL this%eneRef%calcRefEnergy()
+    !     Print the energy values
+    CALL this%eneRef%printRefEnergy()
+    
+    IF (this%approximation /= 'ref') THEN
+       !     Calculate the correlation energy
+       CALL this%eneCorrel%calcCorrEnergy()
+       !     Print the energy values
+       CALL printCorrEnergy(this%eneCorrel, this%eneRef)
+    ENDIF
+    
+    
+  END SUBROUTINE calculateEnergy
+  
+  
+  
+END MODULE EnergyMod

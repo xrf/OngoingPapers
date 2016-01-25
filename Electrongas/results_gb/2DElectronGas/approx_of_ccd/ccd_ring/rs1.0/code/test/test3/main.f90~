@@ -1,0 +1,18 @@
+PROGRAM testSort
+  IMPLICIT NONE
+
+  
+END PROGRAM testSort
+
+!
+!     This routine is a modified version of a quicksort
+!     routine given in W. H. Press et al., Numerical Recipes
+!     in Fortran 90, Second Edition (1996).
+!
+SUBROUTINE sort(array)
+  USE nrtype
+  USE nrutil, ONLY :: swap, nrerror
+  
+  
+
+END SUBROUTINE sort

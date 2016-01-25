@@ -1,0 +1,632 @@
+  
+  Setting up single-particle basis...
+ Total number of orbitals:          294
+  
+ nx=           0 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            1 , orbitals:            2
+ nx=          -1 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            2 , orbitals:           14
+ nx=          -1 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           0 ,ms=           1
+ shell:            3 , orbitals:           38
+ nx=          -1 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           1 ,ms=           1
+ shell:            4 , orbitals:           54
+ nx=          -2 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            5 , orbitals:           66
+ nx=          -2 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=           0 ,ms=           1
+ shell:            6 , orbitals:          114
+ nx=          -2 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=           1 ,ms=           1
+ shell:            7 , orbitals:          162
+ shell:            8 , orbitals:          162
+ nx=          -2 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=           0 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=           0 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=           0 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=           0 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=           0 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=           0 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=           0 ,ms=           1
+ shell:            8 , orbitals:          186
+ nx=          -3 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=           0 ,ms=           1
+ nx=          -2 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=          -2 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=          -2 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=          -2 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=          -2 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=          -1 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=          -1 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=          -2 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=          -2 ,nz=           2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=          -2 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=          -2 ,ms=           1
+ nx=           1 ,ny=           2 ,nz=           2 ,ms=          -1
+ nx=           1 ,ny=           2 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=          -2 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=          -2 ,nz=           1 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=          -1 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=          -1 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=          -2 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=          -2 ,ms=           1
+ nx=           2 ,ny=           1 ,nz=           2 ,ms=          -1
+ nx=           2 ,ny=           1 ,nz=           2 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=          -1 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=          -1 ,ms=           1
+ nx=           2 ,ny=           2 ,nz=           1 ,ms=          -1
+ nx=           2 ,ny=           2 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=           0 ,ms=           1
+ shell:            9 , orbitals:          246
+ nx=          -3 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=          -3 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=          -3 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=          -3 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=          -3 ,ny=           1 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=          -1 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=          -1 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=          -1 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=          -1 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=          -3 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=          -3 ,nz=           1 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=          -1 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=          -1 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=          -3 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=          -3 ,ms=           1
+ nx=           0 ,ny=           1 ,nz=           3 ,ms=          -1
+ nx=           0 ,ny=           1 ,nz=           3 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=          -1 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=          -1 ,ms=           1
+ nx=           0 ,ny=           3 ,nz=           1 ,ms=          -1
+ nx=           0 ,ny=           3 ,nz=           1 ,ms=           1
+ nx=           1 ,ny=          -3 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=          -3 ,nz=           0 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=          -3 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=          -3 ,ms=           1
+ nx=           1 ,ny=           0 ,nz=           3 ,ms=          -1
+ nx=           1 ,ny=           0 ,nz=           3 ,ms=           1
+ nx=           1 ,ny=           3 ,nz=           0 ,ms=          -1
+ nx=           1 ,ny=           3 ,nz=           0 ,ms=           1
+ nx=           3 ,ny=          -1 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=          -1 ,nz=           0 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=          -1 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=          -1 ,ms=           1
+ nx=           3 ,ny=           0 ,nz=           1 ,ms=          -1
+ nx=           3 ,ny=           0 ,nz=           1 ,ms=           1
+ nx=           3 ,ny=           1 ,nz=           0 ,ms=          -1
+ nx=           3 ,ny=           1 ,nz=           0 ,ms=           1
+ shell:           10 , orbitals:          294
+  
+  
+  
+  Counting number of blocks...
+  
+  Number of hh pairs:         196
+  Number of pp pairs:       78400
+  Number of ph pairs:        3920
+  Numbers of blocks:         2991
+  Number of pphh blocks:           75
+  
+  Setting up (K_CM, M_S) blocks...
+  
+  
+ Setting up recoupled blocks...
+  
+  
+  Number of ph pairs:        3920
+  Number of hp pairs:        3920
+  
+ ||>> iam=           0
+  Setting up interaction matrix...
+ Memory of vPppp:      9499008  Bytes
+  Setting up reference energy object
+  Setting up Fock matrix...
+  Setting up correlation energy object
+  
+ Memory in use:               16739760  Bytes
+  
+  
+ ------  Setup is done  ------
+  
+  
+ eneKin/N =    2.24182573550869      , potRef/N =  -0.298460401856664     
+ eneRef/N =    1.94336533365203     
+  
+  
+ Self-consistency loop:
+  
+ Iteration number            1
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.712209325915924E-002
+  
+ Difference:    100000.659709306     
+  
+ Iteration number            2
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.017322863543159E-002
+  
+ Difference:   0.237284104732187     
+  
+ Iteration number            3
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.821381460445732E-002
+  
+ Difference:   0.112568203566360     
+  
+ Iteration number            4
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.431753790624072E-002
+  
+ Difference:   5.454787377503223E-002
+  
+ Iteration number            5
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.624183032432048E-002
+  
+ Difference:   2.694009385311646E-002
+  
+ Iteration number            6
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.529188938911777E-002
+  
+ Difference:   1.329917309283796E-002
+  
+ Iteration number            7
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.576208600657408E-002
+  
+ Difference:   6.582752644388401E-003
+  
+ Iteration number            8
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.552946809152883E-002
+  
+ Difference:   3.256650810633532E-003
+  
+ Iteration number            9
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.564461172444158E-002
+  
+ Difference:   1.612010860778557E-003
+  
+ Iteration number           10
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.558762538411039E-002
+  
+ Difference:   7.978087646366983E-004
+  
+ Iteration number           11
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.561583228533122E-002
+  
+ Difference:   3.948966170916890E-004
+  
+ Iteration number           12
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560187107046842E-002
+  
+ Difference:   1.954570080792695E-004
+  
+ Iteration number           13
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560878148749123E-002
+  
+ Difference:   9.674583831942307E-005
+  
+ Iteration number           14
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560536105215015E-002
+  
+ Difference:   4.788609477518468E-005
+  
+ Iteration number           15
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560705407156619E-002
+  
+ Difference:   2.370227182463269E-005
+  
+ Iteration number           16
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560621607607067E-002
+  
+ Difference:   1.173193693737584E-005
+  
+ Iteration number           17
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560663086043957E-002
+  
+ Difference:   5.806981164702130E-006
+  
+ Iteration number           18
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560642555381498E-002
+  
+ Difference:   2.874292744370344E-006
+  
+ Iteration number           19
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560652717490184E-002
+  
+ Difference:   1.422695216135583E-006
+  
+ Iteration number           20
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560647687527989E-002
+  
+ Difference:   7.041947073793686E-007
+  
+ Iteration number           21
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560650177220470E-002
+  
+ Difference:   3.485569474159789E-007
+  
+ Iteration number           22
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560648944891333E-002
+  
+ Difference:   1.725260792007077E-007
+  
+ Iteration number           23
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560649554860329E-002
+  
+ Difference:   8.539565943266325E-008
+  
+ Iteration number           24
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560649252942454E-002
+  
+ Difference:   4.226850253141734E-008
+  
+ Iteration number           25
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560649402383499E-002
+  
+ Difference:   2.092174633538946E-008
+  
+ Iteration number           26
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560649328414291E-002
+  
+ Difference:   1.035568908402951E-008
+  
+ Iteration number           27
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -3.560649365027015E-002
+  
+ Difference:   5.125781243897620E-009
+  
+ ------  Selfconsistency loop done ------
+  
+  
+ In Rydbergs:
+ eneCorrel/N =  -7.121298730054029E-002 , eneTot/N =    1.87215234635149     
+ In Hartree:
+ eneCorrel/N =  -0.498490911103782      , eneTot/N =    13.1050664244604     
+  
+ Time for setup:   0.185414075851440       seconds
+ Time for calculations:   0.416717052459717       seconds
+ Total time:   0.602131128311157       seconds
+  
+ Maximum memory used:               16771120  Bytes
+  

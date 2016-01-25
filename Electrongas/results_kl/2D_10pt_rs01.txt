@@ -1,0 +1,26 @@
+#
+# 10 pt results for the 2DHEG:
+# Wigner-Seitz radius rs = 0.1
+# The reference energy is 9.49442 Ry
+#
+# E_p and E_s is the projected and the generational estimator correlation energy
+#
+#sh. 	N_W 	E_proj  	err	E_gen   	err
+10 	400e3 	-0.27662	2e-5	0 	999
+10 	800e3 	-0.27661	1e-5	0 	999
+#
+20 	400e3 	-0.29605	3e-5	0 	999
+20 	800e3 	-0.29603	2e-5	0 	999
+#
+30 	400e3 	-0.30032	3e-5	0 	999
+30 	800e3 	-0.30035	2e-5	0 	999
+#
+40 	600e3 	-0.30245	4e-5	0 	999
+40 	800e3 	-0.30236	4e-5	0 	999
+#
+#
+50 	800e3 	-0.30340	8e-5	0 	999
+50 	1600e3 	-0.30335	8e-5	0 	999
+#
+60 	1600e3 	-0.3041	1e-4	0 	999
+60 	3200e3 	-0.3041	3e-4	0 	999

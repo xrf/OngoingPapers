@@ -1,0 +1,63 @@
+#
+# These results can be compared with the CCD results
+# in Fig. 5 (a) of J. J. Sheperd et al., Phys. Rev. B 86, 
+# 035111 (2012).
+#
+# Close inspection of Fig. 5 (a) using linear interpolation 
+# gives the correlation energy -0.502 Hartree with 342
+# single-particle orbits. We obtain -0.50195 Hartree, 
+# whereas A. Roggero et al. report the CCD result 
+# -0.50670 Hartree in arxiv:1304.1549v2. In the encolsed
+# figure fig5a_sheperd.eps, the result of Roggero et al.
+# is marked by a black dot. Our result is visually 
+# not distinguishable from that of Sheperd et al. 
+#
+# Coupled-cluster doubles approximation (CCD) for 
+# 3-dimensional homogeneous electron gas.
+#
+# 14 particles, rs = 1.0 
+#
+# nOrbits:     Number of single-particle orbits.
+# ene_corr:    Total correlation energy given in Hartrees.
+#
+# Time:        Total time in a serial calculation,
+#              given in seconds (= total cpu seconds).
+# Memory:      Approximate total memory usage in MBytes.
+#
+# nShells	nOrtbis		ene_corr (Ha)	     Time   Memory
+  5		66		-0.392696592145699 
+  6		114		-0.447910594079769
+  7		162		-0.480557256148887
+  8		186		-0.485522928800019
+  9		246		-0.492924570774712
+  10		294		-0.498490911103782
+  11		342		-0.501952677927664
+  12		358		-0.502519675395361	
+  13		406		-0.504142836865299
+  14		502		-0.506579954559593
+  15		514		-0.506781383312352
+  16		610		-0.508005752824864
+  17		682		-0.508790107439059   5      100		
+  20		874		-0.510190323798641   9      180
+  22		970		-0.510607491592802   11	    220
+  24		1174		-0.511232067087352   16	    300
+  26		1382		-0.511695826539883   24	    460	    
+  28		1502		-0.511914975613835   28     550
+  30		1694		-0.512155728797435   36     710
+  32		1850		-0.512326662099190   47     860
+  34		2042		-0.512493273669459   57     1050
+  36		2282		-0.512651877584070   70     1320
+  38		2426		-0.512738265821367   77     1500
+  40		2618		-0.512834969534499   89     1770
+  42		2730		-0.512886574417653   299    1940
+  44		3006		-0.512982152424798   364    2350    	
+  46		3150		-0.513026925074530   396    2590
+  50		3678		-0.513167730781468   549    3590
+  60		4938		-0.513368351458805   989    6620
+  70		6142		-0.513480591340086   1404   10430  
+  80 		7582		-0.513566082144553   1918   16130
+  90		9106		-0.513625159587898   4278   23510
+  100		10754		-0.513670353757141   3123   33170
+  120		14150		-0.513729072758825   4462   58440     
+  140		17850		-0.513766630608476   
+  160		22038		

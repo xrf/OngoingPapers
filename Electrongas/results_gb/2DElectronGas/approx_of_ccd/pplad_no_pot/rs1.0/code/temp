@@ -1,0 +1,26 @@
+ccd 
+laptop:
+ In Rydbergs:
+ eneCorrel/N =  -0.200418363981860      , eneTot/N =    2.04883416991588     
+ In Hartree:
+ eneCorrel/N =   -1.80376527583674      , eneTot/N =    18.4395075292429 
+
+fry:
+ In Rydbergs:
+ eneCorrel/N =  -2.139241593492617E-002 , eneTot/N =    2.22786011796281     
+ In Hartree:
+ eneCorrel/N =  -0.192531743414336      , eneTot/N =    20.0507410616653 
+
+
+pt2
+laptop:
+ In Rydbergs:
+ eneCorrel/N =    2.84264699255676      , eneTot/N =    5.09189952645449     
+ In Hartree:
+ eneCorrel/N =    25.5838229330108      , eneTot/N =    45.8270957380904 
+
+fry:
+ In Rydbergs:
+ eneCorrel/N =   0.148108516890759      , eneTot/N =    2.39736105078849     
+ In Hartree:
+ eneCorrel/N =    1.33297665201683      , eneTot/N =    21.5762494570964 

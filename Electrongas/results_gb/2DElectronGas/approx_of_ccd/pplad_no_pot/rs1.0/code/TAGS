@@ -1,0 +1,176 @@
+
+Block1.f90,57
+  FUNCTION Block1_(25,476
+  SUBROUTINE Block1_d(45,918
+
+BlockList.f90,359
+  FUNCTION BlockList_(59,1786
+  SUBROUTINE BlockList_d(82,2409
+  SUBROUTINE setupBlockList(114,3275
+  SUBROUTINE setupBlocks(151,4237
+  SUBROUTINE countBlocks(344,10512
+  SUBROUTINE setupPphhBlocksThis(445,13368
+  SUBROUTINE setupHhPairs(555,16746
+  SUBROUTINE setupPpPairs(635,19297
+  SUBROUTINE setupPhPairs(716,21946
+  FUNCTION getRank(798,24602
+
+BlockListRe.f90,466
+  FUNCTION BlockListRe_(60,1689
+  SUBROUTINE BlockListRe_d(84,2332
+  SUBROUTINE setupPhBlockList(138,3872
+  SUBROUTINE setupBlocksRe(180,5066
+  SUBROUTINE countBlocksRe(277,7977
+  SUBROUTINE setupBlocksReThis(359,10253
+  SUBROUTINE setupPhPairsRe(464,13449
+  SUBROUTINE setupHpPairsRe(547,16084
+  SUBROUTINE setupIabj2Index(630,18713
+  SUBROUTINE setupAbij2Index(682,20180
+  SUBROUTINE setupAbij2ReIabj(734,21727
+  SUBROUTINE setupHpphRe2Pphh(1153,36748
+
+CcdAmplitude.f90,392
+  FUNCTION CcdAmplitude_(43,1184
+  SUBROUTINE CcdAmplitude_d(100,3102
+  SUBROUTINE setupEnergyDenomMatrices(159,4707
+  SUBROUTINE updateIntermed1(216,6541
+  SUBROUTINE updateIntermed2(256,7691
+  SUBROUTINE updateIntermed3(398,12760
+  SUBROUTINE updateIntermed4(453,14400
+  SUBROUTINE setupT2MatrixRe(503,15872
+  SUBROUTINE updateT2Matrix(548,17181
+  FUNCTION calcT2Matrix(579,18177
+
+CcdCorrEnergy.f90,182
+  FUNCTION CcdCorrEnergy_(32,703
+  SUBROUTINE CcdCorrEnergy_d(61,1498
+  FUNCTION evaluateEnergy(97,2375
+  FUNCTION evaluateEnergyRe(138,3623
+  SUBROUTINE calcCcdEnergy(176,4804
+
+CorrEnergy.f90,151
+     SUBROUTINE calcCorrEne(36,934
+     SUBROUTINE CorrEne_d(41,1082
+  SUBROUTINE printCorrEnergy(49,1256
+  SUBROUTINE printCorrEnergyOnly(88,2475
+
+Energy.f90,96
+  FUNCTION Energy_(25,568
+  SUBROUTINE Energy_d(47,1132
+  SUBROUTINE calculateEnergy(71,1712
+
+FockMatrix.f90,180
+  FUNCTION FockMatrix_(34,738
+  SUBROUTINE FockMatrix_d(56,1297
+  FUNCTION calcFockPotential(80,1845
+  FUNCTION calcFockMatEleD(107,2542
+  SUBROUTINE setupFockVector(127,3065
+
+Hamiltonian1DMom.f90,250
+  FUNCTION Hamiltonian_(32,876
+  SUBROUTINE setupInteractionMatr(54,1479
+  FUNCTION getInteraction(111,3361
+  SUBROUTINE setRQuad(138,4151
+  FUNCTION gaussian(155,4573
+  FUNCTION gaussianRelMom(172,5077
+  FUNCTION gaussianRelMomDiscr(205,5964
+
+Hamiltonian.f90,161
+     FUNCTION getInteract(40,1147
+  SUBROUTINE setupInteractionMatrRe(57,1631
+  SUBROUTINE setupInteractionMatr(127,3862
+  SUBROUTINE Hamiltonian_d(287,9051
+
+IntMatList.f90,65
+  FUNCTION IntMatList_(20,300
+  SUBROUTINE IntMatList_d(33,561
+
+IntMatrix.f90,63
+  FUNCTION IntMatrix_(20,305
+  SUBROUTINE IntMatrix_d(37,649
+
+Library.f90,56
+SUBROUTINE elementMatmul(7,137
+SUBROUTINE wait(27,497
+
+MemoryCounter.f90,148
+  SUBROUTINE add2MemoryR8(36,651
+  SUBROUTINE add2MemoryInt(51,1005
+  SUBROUTINE printMemoryUse(65,1332
+  SUBROUTINE printMaxMemoryUsed(86,1826
+
+Mpi.f90,82
+  FUNCTION Mpi_(21,266
+  SUBROUTINE Mpi_d(47,924
+  SUBROUTINE writeMpi(58,1087
+
+OneDimMesh.f90,138
+  FUNCTION OneDimMesh_(22,494
+  FUNCTION initOneDimMesh(38,830
+  SUBROUTINE lagrInterpol1dim(54,1235
+  SUBROUTINE polint_1dim(87,2577
+
+PairList.f90,62
+  FUNCTION PairList_(22,427
+  SUBROUTINE PairList_d(47,1047
+
+Pt2CorrEnergy.f90,107
+  FUNCTION Pt2CorrEnergy_(22,428
+  SUBROUTINE Pt2CorrEnergy_d(42,924
+  SUBROUTINE calcPt2Energy(72,1652
+
+Quadrature.f90,139
+  FUNCTION Quadrature_(24,553
+  SUBROUTINE deallocateQuad(43,964
+  SUBROUTINE gauss_legendre(68,1975
+  FUNCTION gaussLegendre(106,2844
+
+RealMatrix.f90,65
+  FUNCTION RealMatrix_(20,307
+  SUBROUTINE RealMatrix_d(37,655
+
+RefEnergy.f90,138
+  FUNCTION RefEnergy_(35,842
+  SUBROUTINE RefEnergy_d(56,1342
+  SUBROUTINE calcRefEnergy(82,1954
+  SUBROUTINE printRefEnergy(121,2972
+
+Solver.f90,123
+  FUNCTION Solver_(23,302
+  SUBROUTINE calcEnergy(34,505
+  FUNCTION readAndSetup(44,715
+  SUBROUTINE Solver_d(234,6909
+
+SpBasis.f90,64
+     SUBROUTINE setupSp(32,894
+  SUBROUTINE SpBasis_d(43,1116
+
+SpBasisPW2d.f90,71
+  FUNCTION SpBasisPW2d_(31,665
+  SUBROUTINE setupSpBasisPW2d(54,1241
+
+SpBasisPW3d.f90,71
+  FUNCTION SpBasisPW3d_(31,653
+  SUBROUTINE setupSpBasisPW3d(53,1220
+
+Tests.f90,134
+  SUBROUTINE pt2Sheperd14,100
+  FUNCTION fockExact(139,4093
+  FUNCTION interaction3d(147,4263
+  SUBROUTINE testQuicksort2163,4663
+
+Yukawa2dHam.f90,64
+  FUNCTION Yukawa2dHam_(25,465
+  FUNCTION getYukawa2d(64,1654
+
+Yukawa3dHam.f90,64
+  FUNCTION Yukawa3dHam_(24,455
+  FUNCTION getYukawa3d(65,1706
+
+Matrix.f90,0
+
+MatList.f90,0
+
+Main.f90,0
+
+Constants.f90,0

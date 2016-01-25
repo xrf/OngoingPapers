@@ -1,0 +1,1000 @@
+  
+  Setting up single-particle basis...
+  Number of orbitals:        2010
+  
+  Sinlge-particle states:
+  
+ shell:            1 , orbitals:            2
+ shell:            2 , orbitals:           10
+ shell:            3 , orbitals:           18
+ shell:            4 , orbitals:           18
+ shell:            4 , orbitals:           26
+ shell:            5 , orbitals:           42
+ shell:            6 , orbitals:           42
+ shell:            6 , orbitals:           42
+ shell:            6 , orbitals:           50
+ shell:            7 , orbitals:           58
+ shell:            8 , orbitals:           74
+ shell:            9 , orbitals:           74
+ shell:            9 , orbitals:           74
+ shell:            9 , orbitals:           90
+ shell:           10 , orbitals:           90
+ shell:           10 , orbitals:           90
+ shell:           10 , orbitals:           98
+ shell:           11 , orbitals:          114
+ shell:           12 , orbitals:          122
+ shell:           13 , orbitals:          122
+ shell:           13 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          162
+ shell:           15 , orbitals:          178
+ shell:           16 , orbitals:          178
+ shell:           16 , orbitals:          178
+ shell:           16 , orbitals:          194
+ shell:           17 , orbitals:          194
+ shell:           17 , orbitals:          194
+ shell:           17 , orbitals:          202
+ shell:           18 , orbitals:          202
+ shell:           18 , orbitals:          218
+ shell:           19 , orbitals:          218
+ shell:           19 , orbitals:          226
+ shell:           20 , orbitals:          242
+ shell:           21 , orbitals:          242
+ shell:           21 , orbitals:          242
+ shell:           21 , orbitals:          258
+ shell:           22 , orbitals:          274
+ shell:           23 , orbitals:          274
+ shell:           23 , orbitals:          274
+ shell:           23 , orbitals:          274
+ shell:           23 , orbitals:          290
+ shell:           24 , orbitals:          290
+ shell:           24 , orbitals:          290
+ shell:           24 , orbitals:          290
+ shell:           24 , orbitals:          298
+ shell:           25 , orbitals:          322
+ shell:           26 , orbitals:          322
+ shell:           26 , orbitals:          338
+ shell:           27 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          370
+ shell:           29 , orbitals:          370
+ shell:           29 , orbitals:          370
+ shell:           29 , orbitals:          386
+ shell:           30 , orbitals:          386
+ shell:           30 , orbitals:          386
+ shell:           30 , orbitals:          394
+ shell:           31 , orbitals:          426
+ shell:           32 , orbitals:          426
+ shell:           32 , orbitals:          426
+ shell:           32 , orbitals:          442
+ shell:           33 , orbitals:          442
+ shell:           33 , orbitals:          442
+ shell:           33 , orbitals:          442
+ shell:           33 , orbitals:          450
+ shell:           34 , orbitals:          466
+ shell:           35 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          498
+ shell:           37 , orbitals:          506
+ shell:           38 , orbitals:          522
+ shell:           39 , orbitals:          522
+ shell:           39 , orbitals:          522
+ shell:           39 , orbitals:          554
+ shell:           40 , orbitals:          554
+ shell:           40 , orbitals:          554
+ shell:           40 , orbitals:          554
+ shell:           40 , orbitals:          570
+ shell:           41 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          602
+ shell:           43 , orbitals:          610
+ shell:           44 , orbitals:          610
+ shell:           44 , orbitals:          634
+ shell:           45 , orbitals:          650
+ shell:           46 , orbitals:          650
+ shell:           46 , orbitals:          650
+ shell:           46 , orbitals:          666
+ shell:           47 , orbitals:          666
+ shell:           47 , orbitals:          682
+ shell:           48 , orbitals:          682
+ shell:           48 , orbitals:          682
+ shell:           48 , orbitals:          698
+ shell:           49 , orbitals:          698
+ shell:           49 , orbitals:          698
+ shell:           49 , orbitals:          698
+ shell:           49 , orbitals:          714
+ shell:           50 , orbitals:          714
+ shell:           50 , orbitals:          714
+ shell:           50 , orbitals:          730
+ shell:           51 , orbitals:          746
+ shell:           52 , orbitals:          746
+ shell:           52 , orbitals:          746
+ shell:           52 , orbitals:          746
+ shell:           52 , orbitals:          754
+ shell:           53 , orbitals:          770
+ shell:           54 , orbitals:          770
+ shell:           54 , orbitals:          770
+ shell:           54 , orbitals:          802
+ shell:           55 , orbitals:          802
+ shell:           55 , orbitals:          802
+ shell:           55 , orbitals:          810
+ shell:           56 , orbitals:          810
+ shell:           56 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          858
+ shell:           58 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          882
+ shell:           60 , orbitals:          914
+ shell:           61 , orbitals:          930
+ shell:           62 , orbitals:          930
+ shell:           62 , orbitals:          946
+ shell:           63 , orbitals:          962
+ shell:           64 , orbitals:          962
+ shell:           64 , orbitals:          962
+ shell:           64 , orbitals:          962
+ shell:           64 , orbitals:          978
+ shell:           65 , orbitals:          978
+ shell:           65 , orbitals:          978
+ shell:           65 , orbitals:          978
+ shell:           65 , orbitals:          994
+ shell:           66 , orbitals:          994
+ shell:           66 , orbitals:          994
+ shell:           66 , orbitals:         1010
+ shell:           67 , orbitals:         1010
+ shell:           67 , orbitals:         1018
+ shell:           68 , orbitals:         1018
+ shell:           68 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1058
+ shell:           70 , orbitals:         1090
+ shell:           71 , orbitals:         1090
+ shell:           71 , orbitals:         1090
+ shell:           71 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1122
+ shell:           73 , orbitals:         1122
+ shell:           73 , orbitals:         1138
+ shell:           74 , orbitals:         1154
+ shell:           75 , orbitals:         1154
+ shell:           75 , orbitals:         1154
+ shell:           75 , orbitals:         1154
+ shell:           75 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1202
+ shell:           77 , orbitals:         1218
+ shell:           78 , orbitals:         1218
+ shell:           78 , orbitals:         1226
+ shell:           79 , orbitals:         1242
+ shell:           80 , orbitals:         1242
+ shell:           80 , orbitals:         1242
+ shell:           80 , orbitals:         1266
+ shell:           81 , orbitals:         1266
+ shell:           81 , orbitals:         1282
+ shell:           82 , orbitals:         1282
+ shell:           82 , orbitals:         1282
+ shell:           82 , orbitals:         1314
+ shell:           83 , orbitals:         1314
+ shell:           83 , orbitals:         1314
+ shell:           83 , orbitals:         1330
+ shell:           84 , orbitals:         1330
+ shell:           84 , orbitals:         1330
+ shell:           84 , orbitals:         1330
+ shell:           84 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1362
+ shell:           86 , orbitals:         1362
+ shell:           86 , orbitals:         1362
+ shell:           86 , orbitals:         1394
+ shell:           87 , orbitals:         1394
+ shell:           87 , orbitals:         1394
+ shell:           87 , orbitals:         1394
+ shell:           87 , orbitals:         1418
+ shell:           88 , orbitals:         1434
+ shell:           89 , orbitals:         1434
+ shell:           89 , orbitals:         1434
+ shell:           89 , orbitals:         1450
+ shell:           90 , orbitals:         1450
+ shell:           90 , orbitals:         1450
+ shell:           90 , orbitals:         1466
+ shell:           91 , orbitals:         1482
+ shell:           92 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1514
+ shell:           94 , orbitals:         1522
+ shell:           95 , orbitals:         1522
+ shell:           95 , orbitals:         1538
+ shell:           96 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1594
+ shell:           99 , orbitals:         1610
+ shell:          100 , orbitals:         1610
+ shell:          100 , orbitals:         1610
+ shell:          100 , orbitals:         1642
+ shell:          101 , orbitals:         1658
+ shell:          102 , orbitals:         1658
+ shell:          102 , orbitals:         1658
+ shell:          102 , orbitals:         1658
+ shell:          102 , orbitals:         1690
+ shell:          103 , orbitals:         1690
+ shell:          103 , orbitals:         1690
+ shell:          103 , orbitals:         1690
+ shell:          103 , orbitals:         1706
+ shell:          104 , orbitals:         1706
+ shell:          104 , orbitals:         1706
+ shell:          104 , orbitals:         1722
+ shell:          105 , orbitals:         1722
+ shell:          105 , orbitals:         1738
+ shell:          106 , orbitals:         1738
+ shell:          106 , orbitals:         1738
+ shell:          106 , orbitals:         1754
+ shell:          107 , orbitals:         1754
+ shell:          107 , orbitals:         1754
+ shell:          107 , orbitals:         1754
+ shell:          107 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1778
+ shell:          109 , orbitals:         1802
+ shell:          110 , orbitals:         1834
+ shell:          111 , orbitals:         1834
+ shell:          111 , orbitals:         1850
+ shell:          112 , orbitals:         1866
+ shell:          113 , orbitals:         1866
+ shell:          113 , orbitals:         1866
+ shell:          113 , orbitals:         1882
+ shell:          114 , orbitals:         1882
+ shell:          114 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1930
+ shell:          116 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1962
+ shell:          118 , orbitals:         1978
+ shell:          119 , orbitals:         1978
+ shell:          119 , orbitals:         1978
+ shell:          119 , orbitals:         1994
+ shell:          120 , orbitals:         1994
+ shell:          120 , orbitals:         1994
+ shell:          120 , orbitals:         2010
+  
+  
+  
+  Counting number of blocks...
+  
+  Number of hh pairs:         100
+  Number of pp pairs:     4000000
+  Number of ph pairs:       20000
+  Numbers of blocks:        11847
+  Number of pphh blocks:           39
+  
+  Setting up (K_CM, M_S) blocks...
+  
+  
+ Setting up recoupled blocks...
+  
+  
+  Number of ph pairs:       20000
+  Number of hp pairs:       20000
+  
+ ||>> iam=           0
+  Setting up interaction matrix...
+ Memory of vPppp:    562144512  Bytes
+  Setting up reference energy object
+  Setting up Fock matrix...
+  Setting up correlation energy object
+  
+ Memory in use:              726532372  Bytes
+  
+  
+ ------  Setup is done  ------
+  
+  
+ eneKin/N =   0.251327412287183      , potRef/N =  -0.279337712496083     
+ eneRef/N =  -2.801030020890001E-002
+  
+  
+ Self-consistency loop:
+  
+ Iteration number            1
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.190274209543696     
+  
+ Difference:    100001.902742095     
+  
+ Iteration number            2
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -4.154911919357312E-002
+  
+ Difference:    1.48725090350123     
+  
+ Iteration number            3
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -8.242292316264158E-002
+  
+ Difference:   0.408738039690685     
+  
+ Iteration number            4
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.855216565667723E-002
+  
+ Difference:   3.870757505964351E-002
+  
+ Iteration number            5
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.500477427869212E-002
+  
+ Difference:   3.547391377985110E-002
+  
+ Iteration number            6
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.338377110460419E-002
+  
+ Difference:   1.621003174087932E-002
+  
+ Iteration number            7
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.236445146965351E-002
+  
+ Difference:   1.019319634950677E-002
+  
+ Iteration number            8
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.177042529738908E-002
+  
+ Difference:   5.940261722644280E-003
+  
+ Iteration number            9
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.140802363388980E-002
+  
+ Difference:   3.624016634992788E-003
+  
+ Iteration number           10
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.118643939002177E-002
+  
+ Difference:   2.215842438680338E-003
+  
+ Iteration number           11
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.104965208198120E-002
+  
+ Difference:   1.367873080405646E-003
+  
+ Iteration number           12
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.096504830261845E-002
+  
+ Difference:   8.460377936275743E-004
+  
+ Iteration number           13
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.091280248071885E-002
+  
+ Difference:   5.224582189959914E-004
+  
+ Iteration number           14
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.088076464785144E-002
+  
+ Difference:   3.203783286741535E-004
+  
+ Iteration number           15
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.086138344626988E-002
+  
+ Difference:   1.938120158154755E-004
+  
+ Iteration number           16
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084992684652480E-002
+  
+ Difference:   1.145659974508551E-004
+  
+ Iteration number           17
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084341132169644E-002
+  
+ Difference:   6.515524828354380E-005
+  
+ Iteration number           18
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.083994975603294E-002
+  
+ Difference:   3.461565663498423E-005
+  
+ Iteration number           19
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.083834785639698E-002
+  
+ Difference:   1.601899635972348E-005
+  
+ Iteration number           20
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.083785154485958E-002
+  
+ Difference:   4.963115374012617E-006
+  
+ Iteration number           21
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.083798736713366E-002
+  
+ Difference:   1.358222740832637E-006
+  
+ Iteration number           22
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.083846096355438E-002
+  
+ Difference:   4.735964207247534E-006
+  
+ Iteration number           23
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.083909215252997E-002
+  
+ Difference:   6.311889755861166E-006
+  
+ Iteration number           24
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.083977328914312E-002
+  
+ Difference:   6.811366131564967E-006
+  
+ Iteration number           25
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084044251257114E-002
+  
+ Difference:   6.692234280181175E-006
+  
+ Iteration number           26
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084106656179597E-002
+  
+ Difference:   6.240492248177354E-006
+  
+ Iteration number           27
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084162975987511E-002
+  
+ Difference:   5.631980791509505E-006
+  
+ Iteration number           28
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084212698222274E-002
+  
+ Difference:   4.972223476285009E-006
+  
+ Iteration number           29
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084255919917737E-002
+  
+ Difference:   4.322169546266963E-006
+  
+ Iteration number           30
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084293068032750E-002
+  
+ Difference:   3.714811501298598E-006
+  
+ Iteration number           31
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084324726873334E-002
+  
+ Difference:   3.165884058353718E-006
+  
+ Iteration number           32
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084351534080081E-002
+  
+ Difference:   2.680720674774761E-006
+  
+ Iteration number           33
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084374120241529E-002
+  
+ Difference:   2.258616144779069E-006
+  
+ Iteration number           34
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084393075969064E-002
+  
+ Difference:   1.895572753540797E-006
+  
+ Iteration number           35
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084408935988760E-002
+  
+ Difference:   1.586001969644535E-006
+  
+ Iteration number           36
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084422173532781E-002
+  
+ Difference:   1.323754401982846E-006
+  
+ Iteration number           37
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084433200742203E-002
+  
+ Difference:   1.102720942225410E-006
+  
+ Iteration number           38
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084442372372463E-002
+  
+ Difference:   9.171630259707797E-007
+  
+ Iteration number           39
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084449991117016E-002
+  
+ Difference:   7.618744553017365E-007
+  
+ Iteration number           40
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084456313525034E-002
+  
+ Difference:   6.322408018233361E-007
+  
+ Iteration number           41
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084461555912262E-002
+  
+ Difference:   5.242387228765466E-007
+  
+ Iteration number           42
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084465899932287E-002
+  
+ Difference:   4.344020023694384E-007
+  
+ Iteration number           43
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084469497642809E-002
+  
+ Difference:   3.597710522829090E-007
+  
+ Iteration number           44
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084472476003875E-002
+  
+ Difference:   2.978361066663382E-007
+  
+ Iteration number           45
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084474940804585E-002
+  
+ Difference:   2.464800709089943E-007
+  
+ Iteration number           46
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084476980049650E-002
+  
+ Difference:   2.039245065033057E-007
+  
+ Iteration number           47
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084478666853115E-002
+  
+ Difference:   1.686803465794640E-007
+  
+ Iteration number           48
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084480061893554E-002
+  
+ Difference:   1.395040438723072E-007
+  
+ Iteration number           49
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084481215486307E-002
+  
+ Difference:   1.153592752434207E-007
+  
+ Iteration number           50
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084482169324725E-002
+  
+ Difference:   9.538384182494752E-008
+  
+ Iteration number           51
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084482957938559E-002
+  
+ Difference:   7.886138342350080E-008
+  
+ Iteration number           52
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084483609912087E-002
+  
+ Difference:   6.519735273879945E-008
+  
+ Iteration number           53
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084484148899395E-002
+  
+ Difference:   5.389873081185215E-008
+  
+ Iteration number           54
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084484594469323E-002
+  
+ Difference:   4.455699287309045E-008
+  
+ Iteration number           55
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084484962807305E-002
+  
+ Difference:   3.683379823371524E-008
+  
+ Iteration number           56
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084485267298062E-002
+  
+ Difference:   3.044907559424104E-008
+  
+ Iteration number           57
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084485519008726E-002
+  
+ Difference:   2.517106645338885E-008
+  
+ Iteration number           58
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084485727089182E-002
+  
+ Difference:   2.080804561988003E-008
+  
+ Iteration number           59
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084485899103649E-002
+  
+ Difference:   1.720144660044554E-008
+  
+ Iteration number           60
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084486041305063E-002
+  
+ Difference:   1.422014150875839E-008
+  
+ Iteration number           61
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084486158862333E-002
+  
+ Difference:   1.175572694744886E-008
+  
+ Iteration number           62
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -7.084486256047935E-002
+  
+ Difference:   9.718560178839653E-009
+  
+ ------  Selfconsistency loop done ------
+  
+  
+ In Rydbergs:
+ eneCorrel/N =  -0.141689725120959      , eneTot/N =  -0.169700025329859     
+ In Hartree:
+ eneCorrel/N =  -0.708448625604793      , eneTot/N =  -0.848500126649294     
+  
+ Time for setup:    9.48673796653748       seconds
+ Time for calculations:    16.5125789642334       seconds
+ Total time:    25.9993169307709       seconds
+  
+ Maximum memory used:              726692372  Bytes
+  

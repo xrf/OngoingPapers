@@ -1,0 +1,19 @@
+#
+# CC energies of two-dimensional electron gas
+#
+# rs = 0.5, N = 18, alpha = 0.5
+# nShells = Number of sp energy shells
+# ene_ref = Reference energy per particle in units
+#           of rydberg (e^2/(2*a_{0})) 
+# ene_corr = CCD correlation energy
+#
+# nShells nOrbits ene_ref ene_corr
+  120 2010   0.25995E+01  -0.26026E+00
+  140 2418   0.25995E+01  -0.26059E+00
+  160 2810   0.25995E+01  -0.26081E+00
+  180 3210   0.25995E+01  -0.26098E+00
+  200 3586   0.25995E+01  -0.26110E+00
+  220 4002   0.25995E+01  -0.26121E+00
+  240 4418   0.25995E+01  -0.26130E+00
+  260 4834   0.25995E+01  -0.26137E+00
+  280 5202   0.25995E+01  -0.26142E+00

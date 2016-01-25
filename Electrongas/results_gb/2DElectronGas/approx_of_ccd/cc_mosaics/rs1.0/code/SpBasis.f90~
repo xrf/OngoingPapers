@@ -1,0 +1,36 @@
+
+!
+!     Class for the single-particle basis.
+!
+MODULE SpBasisMod
+  USE ConstantsMod
+  IMPLICIT NONE
+  
+  TYPE, ABSTRACT :: SpBasis
+     !
+     !     nOccupied:         Number of occupied orbitals
+     !     nUnoccupied:       Number of unoccupied orbitals
+     !     nShells:           Total number of shells
+     !     spQuantNr(:,:):    Single-particle quantum numbers
+     !     spEnergies(:):     Sinlge-particle energies
+     !                        (diagonal matrix elements of h0)
+     !
+     INTEGER :: nOccupied               
+     INTEGER :: nUnoccupied            
+     INTEGER :: nShells                 
+     INTEGER, ALLOCATABLE :: spQuantNr(:,:) 
+     REAL(DP), ALLOCATABLE :: spEnergies(:)
+   CONTAINS
+     PROCEDURE(setupSp), &
+          DEFERRED :: setupSpBasis
+  END TYPE SpBasis
+  
+  ABSTRACT INTERFACE
+     SUBROUTINE setupSp(this)
+       IMPORT SpBasis
+       CLASS(SpBasis), TARGET, INTENT(INOUT) :: this
+     END SUBROUTINE setupSp
+  END INTERFACE
+  
+  
+END MODULE SpBasisMod

@@ -1,0 +1,568 @@
+\documentclass[aps,twocolumn,showpacs,floatfix,nofootinbib,preprintnumbers,superscriptaddress,amsmath,amssymb]{revtex4-1}
+
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{bm}
+\usepackage{color}
+\usepackage{float}
+\usepackage{dcolumn}
+\usepackage{multirow} 
+
+
+
+
+
+
+\newcommand{\Ho}{\hat{H}^{\rm od}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+
+
+
+\newcommand{\rv}{\mathbf{r}}
+
+
+
+
+%Jorgen commands
+\newcommand{\OP}[1]{{\hat{#1}}}
+\newcommand{\ket}[1]{\left| #1 \right>}
+\newcommand{\bra}[1]{\left< #1 \right|}
+\newcommand{\braket}[2]{\left\langle #1 | #2\right\rangle}
+
+\begin{document}
+
+\title{Many-body approaches to the homogeneous electron gas in two and three dimensions}
+\author{G.~Baardsen}\affiliation{Department of Physics
+  and Center of Mathematics for Applications, University of Oslo,
+  N-0316 Oslo, Norway} 
+\author{K.~Leikanger}
+\author{S.~Reimann}
+ \affiliation{Department of Chemistry and Center of Theoretical and Computational Chemistry, University of Oslo, N-0316 Oslo, Norway} 
+\author{M.~Hjorth-Jensen} \affiliation{Department of Physics
+  and Center of Mathematics for Applications, University of Oslo,
+  N-0316 Oslo, Norway} \affiliation{National Superconducting Cyclotron
+  Laboratory, Michigan State University, East Lansing, MI 48824,
+  USA} \affiliation{Department of Physics and Astronomy, Michigan
+  State University, East Lansing, MI 48824, USA} 
+  \author{S.K.~Bogner}\affiliation{National Superconducting Cyclotron
+  Laboratory, Michigan State University, East Lansing, MI 48824,
+  USA} \affiliation{Department of Physics and Astronomy, Michigan
+  State University, East Lansing, MI 48824, USA}
+
+
+\begin{abstract} 
+We present results for the two- and three-dimensional homogeneous electron gas using first principle methods  like coupled cluster theory, 
+the recently developed in-medium Similarity Renormalization Group  formalism  and the full configuration interaction quantum Monte Carlo method
+of Booth and co-workers \cite{booth2009,shepherd2012a,booth2013}. In particular, we present new results for the correlation energy for the two-dimensional electron gas. 
+Our results are also compared with many-body perturbation theory  to third order in the interaction. 
+The role of screened interactions with a finite range are also studied, with links to studies
+of infinite neutron star matter.  
+\end{abstract}
+
+\pacs{02.70.Ss, 31.15.A-, 31.15.bw, 31.15.V-, 71.10.Ca, 71.15.-m}
+
+\maketitle
+
+\section{Introduction}
+A proper understanding of the role of correlations beyond a mean-field description
+is of great importance for quantum many-particle theories. For all possible quantum-mechanical systems, either finite ones or infinite systems like 
+the homogeneous electron gas in two or three dimensions or nuclear or neutron star matter,  the concept of an independent  particle motion continues to play  a 
+fundamental role in studies of
+many-particle systems. 
+Deviations from such an independent particle, or mean-field,  picture have normally
+been interpreted as a possible measure of correlations.  The latter  are expected to reveal 
+important features of both the structure and the dynamics of a many-particle 
+system beyond a mean-field approximation. 
+
+The homogenoeus electron gas, defined by a rather simple model Hamiltonian,  is one of the few examples of a 
+system of many interacting particles that allows for a solution
+of the mean-field Hartree-Fock equations on a closed form. 
+To first order in the electron-electron interaction, this applies 
+to ground state properties like the energy and its pertinent equation of state as well. 
+The homogeneus electron gas is a system of electrons  that is 
+not influenced by external forces except by an attraction provided by a uniform background of ions. These ions give rise to a uniform background charge. 
+The ions are stationary and the system as a  whole is neutral.
+
+Irrespective of this simplicity, this system, in both two and three-dimensions, has eluded a proper description of correlations in terms of various
+first principle methods, except perhaps for quantum Monte Carlo methods. In particular, the diffusion Monte Carlo calculations of Ceperley {\em et al.}  
+\cite{ceperley1980,tanatar1989},  are presently still considered as teh best possible benchmarks for the two- and three-dimensional electron gas.
+More text to be added. 
+
+\section{Formalism}
+\label{sec:formalism}
+
+
+\subsection{The model Hamiltonian and definitions}
+\label{subsec:modelHamiltonian}
+The electron gas in two and three dimensions  is a homogeneous system and the one-particle wave functions are given by plane wave functions normalized to a volume 
+$\Omega$  for a quadratic box with length $L$\footnote{The limit $L\rightarrow \infty$ is to be taken after we have computed various expectation values. In our case we will however always deal with a fixed number of particles and finite size effects become important. }
+\[
+\psi_{{\bf k}m_s}({\bf r})= \frac{1}{\sqrt{\Omega}}\exp{(i{\bf kr})}\xi_{m_s}
+\]
+where ${\bf k}$ is the wave number and  $\xi_{m_s}$ is a spin function for either spin up or down
+\[ 
+\xi_{m_{s}=+1/2}=\left(\begin{array}{c} 1 \\ 0 \end{array}\right) \hspace{0.5cm}
+\xi_{m_{s}=-1/2}=\left(\begin{array}{c} 0 \\ 1 \end{array}\right).\]
+Applying periodic boundary conditions for the two-dimensional electron gas
+$\psi_{{\bf k}m_{s}}(x+L, y) =\psi_{{\bf k}m_{s}}(x,y)$ and $\psi_{{\bf k}m_{s}}(x, y+L) =\psi_{{\bf k}m_{s}}(x,y)$
+results in quantized wave numbers
+  \[ 
+\mathbf{k} = \frac{2\pi }{L}(n_{x}, n_{y}),
+\]
+with $n_{x}, n_{y}\in \{ 0, \pm 1, \pm 2, \dots \}$ and corresponding unperturbed single-particle energies
+\[
+    \varepsilon_{n_{x}, n_{y}} = \frac{\hbar^{2}k^{2}}{2m}=\frac{\hbar^{2}}{2m}\left( \frac{2\pi }{L}\right)^{2}(n_{x}^{2}+n_{y}^{2}),
+\]
+where $m$ is the mass of the electron.
+For the two-dimensional electron gas, the relevant single-particle quantum numbers are $(n_{x}, n_{y}, m_{s})$, with $m_s=\pm1/2$ being the 
+spin magnetic quantum numbers.
+Table \ref{tab:2dimspbasis} displays the various quantum numbers and their possible total particle occupancies. 
+\begin{table}
+\caption{Quantum numbers and magic numbers for the two-dimensional electron gas. Both spin-polarized and 
+spin-unpolarized total electron numbers, $N_{\uparrow \uparrow }$ and $N_{\uparrow \downarrow }$, respectively, are shown. \label{tab:2dimspbasis}}
+        \begin{tabular}{c|c|c|c|c}
+          $n_{x}^{2}+n_{y}^{2}$ & $n_{x}$ & $n_{y}$ & $N_{\uparrow \downarrow }$ & $N_{\uparrow \uparrow }$ \\
+          \hline
+           0 & 0 & 0 & 2 & 1 \\
+           \hline
+           1 & -1 &  0 & & \\
+             &  1 &  0 & & \\
+             &  0 & -1 & & \\
+             &  0 &  1 & 10 & 5 \\
+          \hline
+          2  & -1 & -1 & & \\
+             & -1 &  1 & & \\
+             &  1 & -1 & & \\
+             &  1 &  1 & 18 & 9 \\
+          \hline
+          4  & -2 & 0 & & \\
+             &  2 & 0 & & \\
+             &  0 & -2 & & \\
+             &  0 &  2 & 26 & 13 \\
+          \hline
+          5  & -2 & -1 & & \\
+             &  2 & -1 & & \\
+             & -2 &  1 & & \\
+             &  2 &  1 & & \\
+             & -1 & -2 & & \\
+             & -1 &  2 & & \\
+             &  1 & -2 & & \\
+             &  1 &  2 & 42 & 21 \\
+          \hline
+        \end{tabular}
+\end{table}   
+Depending on the possible degeneracies, we note from \ref{tab:2dimspbasis} that the possible magic numbers are $2$, $10$, $18$, $26$, $42$, $58$ etc. The corresponding 
+single-particle energies for the three-dimensional electron gas are 
+\[    
+\varepsilon_{n_{x}, n_{y}, n_{z}} = \frac{\hbar^{2}}{2m}\left( \frac{2\pi }{L}\right)^{2}(n_{x}^{2}+n_{y}^{2}+n_{z}^{2}),
+\]
+resulting in the magic numbers $2$, $14$, $38$, $54$, etc. 
+In this work we will mainly focus on ground state properties of the two- and three-dimensional electron gas, with an emphasis on the liquid phase.
+This means that we can define a reference Slater determinant which is determined by the set of plane waves with wave numbers smaller or equal 
+that the Fermi level wave number $k_F$.  In our equations below, we will represent any of the above single-particle quantum states
+with various indices. For states below the Fermi level, we employ indices $i,j,k,...$ (so-called hole states), while the 
+ indices $a,b,c,...$ refer to single-particles states above the Fermi level. Finally, the indices $ p,q,r,...$ can be used for both particle and hole states. As reference state $|\Phi_0\rangle$  we choose the ground state of the non-interacting system, 
+where all single-particle orbitals below the Fermi level are occupied.  The expectation value of the total Hamiltonian with respect to 
+this reference state is normally called the reference energy. 
+We assume furthermore that the electrons interact via a central, symmetric and translationally invariant
+Coulomb interaction  $V(r_{12})$ with
+$r_{12}=|{\bf r}_1-{\bf r}_2|$.  The interaction is spin independent.
+The total Hamiltonian consists then of kinetic and potential energy.
+The potential energy part contains both an interaction term for the background ions and an electron-background terms. These two terms are however canceled
+by contributions from the repulsive two-electron interaction \cite{fetter}. 
+
+In general terms, our Hamiltonian contains at most a  two-body interactions. In second quantization, we can write our Hamiltonian as
+\begin{equation}
+\hat{H}= \sum_{pq}\langle p | \hat{h}_0 | q \rangle a_p^{\dagger} a_q + \frac{1}{4}\sum_{pqrs}\langle pq |v| r s \rangle a_p^{\dagger} a_q^{\dagger} a_s a_r,
+\label{eq:ourHamiltonian}
+\end{equation} 
+where the operator $\hat{h}_0$ denotes the single-particle Hamiltonian, and the elements $\langle pq|v|rs\rangle$ 
+are the anti-symmetrized Coulomb interaction matrix elements.
+Normal-ordering with respect to a reference state $|\Phi_0\rangle$ yields 
+\begin{equation}
+\hat{H}=E_0 + \sum_{pq}f_{pq}\lbrace a_p^{\dagger} a_q\rbrace + \frac{1}{4}\sum_{pqrs}\langle pq |v| r s \rangle \lbrace a_p^{\dagger} a_q^{\dagger} a_s a_r \rbrace,
+\label{eq:normalorder}
+\end{equation}
+where $E_0=\langle\Phi_0| \hat{H}| \Phi_0\rangle$ is the reference energy
+and we have introduced the so-called  Fock matrix element defined as
+\begin{equation}
+f_{pq} = \langle p|\hat{h}_0| q \rangle + \sum\limits_{i} \langle pi |v| qi\rangle.
+\label{eq:fockelement}
+\end{equation}
+The curly brackets in Eq.~(\ref{eq:normalorder}) indicate that the creation and annihilation operators are normal ordered.
+
+For the electron gas in two and three dimensions, the unperturbed part of the Hamiltonian is defined as the sum over all 
+the single-particle operators $\hat{h}_0$, resulting in
+\[
+\hat{H}_{0}=\sum_i\langle i|\hat{h}_0|i \rangle= {\displaystyle\sum_{{\bf k}_{i}m_{s_i}}}
+\frac{\hbar^{2}k_i^{2}}{2m}a_{{\bf k}_{i}m_{s_i}}^{\dagger}
+a_{{\bf k}_{i}m_{s_i}}.
+\]
+We will throughout suppress, unless explicitely needed, all references to the explicit quantum numbers 
+${\bf k}_{i}m_{s_i}$. The summation index $i$ runs over all single-hole states up to the Fermi level.
+
+The general anti-symmetrized two-body interaction matrix element
+\[
+\langle pq |v| r s \rangle  = \langle \mathbf{k}_{p}m_{s_{p}}\mathbf{k}_{q}m_{s_{q}}|v|\mathbf{k}_{r}m_{s_{r}}\mathbf{k}_{s}m_{s_{s}}\rangle,
+\]
+is given by the following expressions 
+\begin{align}
+     & \langle \mathbf{k}_{p}m_{s_{p}}\mathbf{k}_{q}m_{s_{q}}|v|\mathbf{k}_{r}m_{s_{r}}\mathbf{k}_{s}m_{s_{s}}\rangle \nonumber \\
+     =& \frac{e^{2}}{\Omega}\delta_{\mathbf{k}_{p}+\mathbf{k}_{q}, \mathbf{k}_{r}+\mathbf{k}_{s}}\left\{ \delta_{m_{s_{p}}m_{s_{r}}}\delta_{m_{s_{q}}m_{s_{s}}}(1-\delta_{\mathbf{k}_{p}\mathbf{k}_{r}})\frac{2\pi }{\sqrt{\mu^{2} + |\mathbf{k}_{r}-\mathbf{k}_{p}|^{2}}} \right. \nonumber \\
+     & \left. - \delta_{m_{s_{p}}m_{s_{s}}}\delta_{m_{s_{q}}m_{s_{r}}}(1-\delta_{\mathbf{k}_{p}\mathbf{k}_{s}})\frac{2\pi }{\sqrt{\mu^{2} + |\mathbf{k}_{s}-\mathbf{k}_{p}|^{2}}} \right\}, \nonumber
+   \end{align}
+for the two-dimensional electron gas and
+  \begin{align}
+    & \langle \mathbf{k}_{p}m_{s_{p}}\mathbf{k}_{q}m_{s_{q}}|v|\mathbf{k}_{r}m_{s_{r}}\mathbf{k}_{s}m_{s_{s}}\rangle \nonumber \\
+    =& \frac{e^{2}}{\Omega}\delta_{\mathbf{k}_{p}+\mathbf{k}_{q}, \mathbf{k}_{r}+\mathbf{k}_{s}}\left\{ \delta_{m_{s_{p}}m_{s_{r}}}\delta_{m_{s_{q}}m_{s_{s}}}(1-\delta_{\mathbf{k}_{p}\mathbf{k}_{r}})\frac{4\pi }{\mu^{2} + (\mathbf{k}_{r}-\mathbf{k}_{p})^{2}} \right. \nonumber \\
+     & \left. - \delta_{m_{s_{p}}m_{s_{s}}}\delta_{m_{s_{q}}m_{s_{r}}}(1-\delta_{\mathbf{k}_{p}\mathbf{k}_{s}})\frac{4\pi }{\mu^{2} + (\mathbf{k}_{s}-\mathbf{k}_{p})^{2}} \right\}, \nonumber
+  \end{align}
+for the three-dimensional electron gas. To the final Hamiltonian we need also to add the so-called Madelung due to  the fact that we always deal with a finite number of particles. This term is proportional with the number operator 
+\[
+\hat{N}={\displaystyle\sum_{{\bf k}_im_{s_i}}}a_{{\bf k}_im_{s_i}}^{\dagger}a_{{\bf k}_im_{s_i}},
+\]
+where again the sums runs over all single-particle states below the Fermi level. 
+This correction affects only the single-particle energies below the Fermi level. The final expression for this term is
+$1/2\hat{N}v_M$
+where $v_M$ is the so-called Madelung term \cite{fetter}. 
+
+Finally, a useful benchmark for our calculations is the expression for the reference energy $E_0$ per particle.
+
+Defining the $T=0$ density $\rho_0$, we can in turn determine  in three dimensions the radius $r_0$ of a sphere representing the volume an electron occupies (the classical electron radius)
+as
+\[
+r_0= \left(\frac{3}{4\pi \rho}\right)^{1/3}.  
+\]
+In two dimensions the corresponding quantity is
+\[
+r_0= \left(\frac{1}{\pi \rho}\right)^{1/2}.  
+\]
+One can then express the reference energy per electron in terms of the dimensionless quantity
+$r_s=r_0/a_0$, where 
+we have introduced the  Bohr radius $a_0=\hbar^2/e^2m$. The energy per electron computed with the reference Slater determinant  can then be written as \cite{fetter} (using hereafter  only atomic units, meaning that $\hbar = m = e = 1$)
+\[
+E_0/N=\frac{1}{2}\left[\frac{2.21}{r_s^2}-\frac{0.916}{r_s}\right],
+\]
+for the three-dimensional electron gas.
+For the two-dimensional gas the corresponding expression is, see for example 
+Refs.~\cite{rajagopal1977,tanatar1989},
+\[
+E_0/N=\frac{1}{r_s^2}-\frac{8\sqrt{2}}{3\pi r_s}.
+\]
+
+
+
+\subsection{Many-body perturbation theory}
+For an infinite homogeneous system, there are some particular simplications due to the conservation of the total momentum of the particles.
+By symmetry considerations, the total momentum of the system has to be zero 
+zero. Both the kinetic energy operator and the total 
+Hamiltonian $\hat{H}$ are assumed to
+be diagonal in the total momentum $\mathbf{K}$. Hence, both the reference state
+$\Phi_{0}$ and the correlated ground state $\Psi$
+must be eigenfunctions of the operator $\mathbf{\hat{K}}$ with the
+corresponding eigenvalue $\mathbf{K} = \mathbf{0}$ \cite{day1967}.  
+This leads to important simplications to our different many-body methods. In coupled cluster theory for example, see the discussion in the next subsection,
+all terms that involve single particle-hole excitations vanish. In many-body perturbation theory for example, to second order in the interaction, the only contributtion 
+to the correlation energy $\Delta E$ is
+\begin{equation}
+\Delta E^{(2)} = \frac{1}{4} \sum_{ij,ab} \frac{|\langle ij |v| ab \rangle|^2}{\epsilon_i+\epsilon_j-\epsilon_a-\epsilon_b}.
+\end{equation}
+This term can be computed efficiently if one rewrites the sum over the indices $ijab$ in terms of two-body configurations, leading to simple matrix-matrix
+multiplication that can be easily be implemented in parallel. To third order, omitting Hartree-Fock insertions and obeying momentum conservation, there are only three additional terms, which all can be rephrased as matrix-matrix multiplications. These terms are the particle-particle ladder
+\begin{equation}
+\Delta E^{(3)}_a = \frac{1}{8} \sum_{ij,abcd} \frac{\langle ij |v| ab \rangle\langle ab |v| cd \rangle\langle cd |v| ij \rangle}{(\epsilon_i+\epsilon_j-\epsilon_a-\epsilon_b)(\epsilon_i+\epsilon_j-\epsilon_c-\epsilon_d)},
+\end{equation}
+the hole-hole ladder
+\begin{equation}
+\Delta E^{(3)}_b = \frac{1}{8} \sum_{ijkl,ab} \frac{\langle ab |v| ij \rangle\langle ij |v| kl \rangle\langle kl |v| ab \rangle}{(\epsilon_i+\epsilon_j-\epsilon_a-\epsilon_b)(\epsilon_k+\epsilon_l-\epsilon_a-\epsilon_b)},
+\end{equation}
+and finally the three-particle-three-hole contribution
+\begin{equation}
+\Delta E^{(3)}_c = \sum_{ijk,abc} \frac{\langle ij |v| ab \rangle\langle bk |v| jc \rangle\langle ac |v| ik \rangle}{(\epsilon_i+\epsilon_k-\epsilon_a-\epsilon_c)(\epsilon_i+\epsilon_j-\epsilon_a-\epsilon_b)}.
+\end{equation}
+In our comparison with the non-perturbative methods discussed below, we will compare our results with those from perturbation theory to third order in the interaction as well.
+
+\subsection{Coupled-cluster theory for the homogeneous electron gas}
+
+
+In this subsection we present the coupled-cluster equations needed to obtain the correlation energy 
+at the singles and doubles level. Due to  conservation of momentum, the coupled cluster equations simplify considerably.
+The so-called singles equa
+
+The foundation for most many-body methods is to express the correct wave function by an expansion in a set of basis functions. 
+One example is the Hartree-Fock~(HF) method which employs a unitary transformation of the single-particle wave functions, 
+\begin{equation}
+|\lambda \rangle = \sum_{\psi} C_{\lambda \psi} |\psi \rangle ,
+\end{equation}
+and approximates the ground state with a reference Slater determinant built up by these transformed wave functions.
+Another example is configuration interaction~(CI) where the reference determinant is set to a linear expansion of determinants, including the initial reference determinant, 1p-1h excitations, 2p-2h excitations and so on, i.e.
+\begin{equation}
+|\Psi_{0}^{CI} \rangle = C_0 |\Phi_0 \rangle + \sum_{ia} C_i^a |\Phi_i^a\rangle + \sum_{ijab} C_{ij}^{ab} |\Phi_{ij}^{ab} \rangle + \cdots \hspace{2mm}.
+\end{equation}
+In all these methods one needs to solve a set of coupled equations to find the coefficients.
+
+The coupled-cluster method also expands the exact solution in a set of Slater determinants, but employs a non-linear expansion through the exponential ansatz,
+\begin{equation}
+\label{eq:CC:expon}
+|\Psi_0^{CC} \rangle = e^{\hat{T}} |\Phi_0 \rangle ,
+\end{equation}
+where $\hat{T}$ is the cluster operator including \textit{all} possible excitations on the reference determinant.
+Sorting excitations by the number of excited electrons, we may generally express this general cluster operator as a sum of a 1p-1h operator, a 2p-2h operator, and so on,
+\begin{equation}
+\hat{T} = \hat{T_1} + \hat{T_2} + \hat{T_3} + \cdots \hspace{2mm}.
+\end{equation}
+In the form of second-quantized operators the 1p-1h cluster operator is defined as
+\begin{equation}
+\hat{T}_1 = \sum_{ia} t_i^a \hat{a}^{\dagger} \hat{i},
+\end{equation}
+the 2p-2h cluster operator as
+\begin{equation}
+\hat{T}_2 = \frac{1}{4} \sum_{ijab} t_{ij}^{ab} \hat{a}^{\dagger} \hat{b}^{\dagger} \hat{j} \hat{i},
+\end{equation}
+continuing up to 
+\begin{equation}
+\hat{T}_n = \left( \frac{1}{n!}\right)^2 \sum_{ij\cdots ab\cdots} t_{ij\cdots}^{ab\cdots} \hat{a}^{\dagger} \hat{b}^{\dagger} \cdots \hat{j} \hat{i} .
+\end{equation}
+As long as we have a complete single-particle basis and include all possible excitations up to $n$p-$n$h in a system with $n$ particles, we should find the exact solution for both CI, $|\Psi_0^{CI}\rangle$, and CC, $|\Psi_0^{CC}\rangle$.
+
+Adding all terms together we get the complete $\hat{T}_1$ amplitude equations;
+\begin{equation}
+\label{eq:CC:t1eq_raw}
+\begin{split}
+0 =& f_{ai}
++ \sum_d f_{ad} t_i^d - \sum_l f_{li} t_l^a
+ + \sum_{ld} \langle la||di \rangle t_l^d
+\\
+ &+ \sum_{ld} f_{ld} t_{il}^{ad}
+ + \frac{1}{2} \sum_{lde} \langle al||de \rangle t_{il}^{de} - \frac{1}{2} \sum_{lmd}
+\langle lm||di \rangle t_{lm}^{da}  
+- \sum_{ld} f_{ld} t_i^d t_l^a
+\\
+& + \sum_{lde} \langle al||de \rangle t_i^d t_l^e 
+- \sum_{lmd} \langle lm||di \rangle t_l^d t_m^a
++ \frac{1}{2} \sum_{lmde} \langle lm||de \rangle t_i^d t_{lm}^{ea} 
+\\
+&+ \frac{1}{2} \sum_{lmde} \langle lm||de \rangle t_m^a t_{il}^{de}
++ \sum_{lmde} \langle lm||de \rangle t_m^e t_{il}^{ad}
++ \sum_{lmde} \langle lm||de \rangle t_i^d t_l^e t_m^a .
+\end{split}
+\end{equation}
+\begin{equation}
+\label{eq:CC:t2eq_raw}
+\begin{split}
+0 =&
+\langle ab || ij \rangle
++\frac{1}{2} \langle ab||de \rangle t_{ij}^{de}
+\\
+&
+- \hat{P}_{ij} \left[
+f_{li} + f_{ld} t_{i}^d + \langle ml||di \rangle t_m^d + \langle ml||de \rangle t_m^d t_i^e 
++\frac{1}{2}\langle ml||de \rangle t_{mi}^{de}  
+\right] t_{lj}^{ab}
+\\
+&
++ \frac{1}{2} \left[
+\langle lm||ij \rangle + \hat{P}_{ij} \langle lm||dj \rangle t_i^d 
++\frac{1}{2} \langle lm||de \rangle t_{ij}^{de} +\hat{P}_{ij} \frac{1}{2} \langle lm||de \rangle t_i^d t_j^e 
+\right]  t_{lm}^{ab}
+\\
+&
++ \hat{P}_{ab} \left[
+f_{bd} - f_{ld} t_l^b + \langle bl||de \rangle t_l^e - \langle lm||de \rangle t_m^e t_l^b 
++ \frac{1}{2} \langle lm||de \rangle t_{lm}^{eb}
+\right] t_{ij}^{ad} 
+\\
+&
++\hat{P}_{ij} \hat{P}_{ab} \left[
+\langle lb||dj \rangle - \langle lm||dj \rangle t_{m}^b + \langle bl||ed \rangle t_{j}^e
+- \langle lm||de \rangle t_j^e t_m^b + \frac{1}{2} \langle lm||de \rangle t_{mj}^{eb}
+\right] t_{il}^{ad}
+\\
+&
+-\hat{P}_{ab} \left[
+\langle al||ij \rangle + \frac{1}{2} \langle al||de \rangle t_{ij}^{de} 
++ \hat{P}_{ij} \langle al||dj \rangle t_i^d 
++ \hat{P}_{ij} \frac{1}{2} \langle al||de \rangle t_i^d t_j^e \right.
+\\&
+\left. + \frac{1}{2} \langle lm||ij \rangle t_m^a
++ \frac{1}{4} \langle lm||de \rangle t_m^a t_{ij}^{de} 
++ \hat{P}_{ij} \frac{1}{2} \langle lm||dj \rangle t_i^d t_m^a
++ \hat{P}_{ij} \frac{1}{4} \langle lm||de \rangle t_i^d t_j^e t_m^a
+\right] t_l^b
+\\
+&
++ \hat{P}_{ij} \left[
+\langle ab || dj \rangle + \frac{1}{2} \langle ab||de \rangle t_j^e
+\right] t_i^d .
+\end{split}
+\end{equation}
+
+
+
+\subsection{The Similarity Renormalization Group flow equations}
+\label{subsec:SRG}
+\paragraph*{General aspects}
+The Similarity Renormalization Group~(SRG) method was introduced independently by Glazek and Wilson \cite{PhysRevD.48.5863,*PhysRevD.49.4214} and Wegner \cite{PhysRepWegner0,*PhysRepWegner} as a new way to implement the principle of energy scale separation.
+The method uses a continuous sequence of unitary transformations to decouple the high- and low-energy matrix elements of a given interaction, thus driving the Hamiltonian towards a band- or block-diagonal form. 
+
+Let us consider the initial Hamiltonian
+\[
+ \hat{H} = \hat{H}^{\rm d} + \Ho,
+\]
+where $\hat{H}^{\rm d}$ and $\Ho$ denote its  ``diagonal'' and ``off-diagonal'' parts, respectively.
+%namely
+%\[
+%\left\langle i \right| \hat{H}^{\rm d} \left| j \right\rangle \equiv 
+%\begin{cases}
+%\left\langle i \right| \hat{H} \left| i \right\rangle &\text{if}\; i = j,\\
+%0 & \text{otherwise}
+%\end{cases}
+%\]
+%and similarly
+%\[
+%\left\langle i \right| \Ho \left| j \right\rangle \equiv 
+%\begin{cases}
+%\left\langle i \right| \hat{H} \left| j \right\rangle &\text{if}\; i \neq j,\\
+%0 & \text{otherwise}.
+%\end{cases}
+%\]
+
+ Introducing a flow parameter $s$, there exits a unitary transformation $U_s$, such that
+\begin{equation}
+ \hat{H}_s = U_s^\dagger \hat{H} U_s \equiv \hat{H}^{\rm d}_s + \Ho_s,
+\end{equation}
+with the relations $U_{s=0} = \mathbf{1}$, and $\hat{H}_{s= 0} = \hat{H}$.
+The transformation $U_s$ is parametrized as
+\[
+U_s = T_s \exp \left(\int_0^s \! ds'\hat{\eta}_{s'} \right),
+\]
+where the anti-hermitian operator $\hat{\eta}_s$ serves as generator of the transformation. With $T_s$ we denote $s$-ordering, which is defined equivalently to usual time-ordering.
+Taking the derivative of $\hat{H}_s$ with respect to $s$ gives
+\begin{equation}
+ \frac{d \hat{H}_s}{ds} = \frac{d U_s}{ds}\hat{H} U_s^\dagger + U_s \hat{H} \frac{d U_s^\dagger}{ds}.
+\label{eq:flow_long}
+\end{equation}
+Utilizing that for our particular form of $U_s$, we have that
+\be 
+\hat{\eta}_s = \frac{d U_s}{ds} U_s^\dagger = - U_s \frac{d U_s^\dagger}{ds} = -\hat{\eta}_s,
+\label{eq:eta}
+\ee
+we obtain that
+\be
+\frac{d \hat{H}_s}{ds} = \hat{\eta}_s \hat{H}_s - \hat{H}_s \hat{\eta}_s = \left[\hat{\eta}_s, \hat{H}_s \right].
+\label{eq:flowEquations}
+\ee
+This is the key expression of the SRG method, describing the flow of the Hamiltonian.
+The specific unitary transformation is determined by the choice of $\hat{\eta}_s$. 
+Through different choices of $\hat{\eta}_s$, the SRG evolution can be adapted to the features of a particular problem.\\
+
+\paragraph*{In-medium SRG}
+
+One possibility to solve the flow equations is to choose a basis with respect to the physical vacuum state, set up the  Hamiltonian matrix in this basis and solve Eq.~(\ref{eq:flowEquations}) as a set of coupled first-order differential equations. However, since the size of the problem grows enormously with the number of particles and the size of the model space, the applicability of this free-space SRG method is restricted to comparatively small systems. 
+
+Instead of performing SRG in free space, the evolution can be done at finite density, i.e.~directly in the A-body system \cite{kehrein2006flow}. This approach has recently been applied very successfully in nuclear physics \cite{IMSRG,PhysRevLett.106.222502}
+and is called in-medium SRG (IM-SRG). The method allows the evolution of 
+ $3,...,A$-body operators using only two-body machinery, with the  simplifications arising from the use of normal-ordering with respect to a reference state.
+
+
+Integrating the flow equations~(\ref{eq:flowEquations}), we face one of the major challenges of the SRG method, namely the generation of higher and higher order interaction terms during the flow. With each evaluation of the commutator, the Hamiltonian gains terms of higher order,  and these induced contributions will in subsequent integration steps contribute to terms of lower order. In principle, this continues to infinity.\\
+To make the method computationally possible, we have to close the IM-SRG flow equations, suggesting that we are forced to truncate the equations to a certain order. We choose
+to truncate both $\hat{H}_s$ and $\hat{\eta}_s$ at the two-body level, an approach which is referred to as IM-SRG(2).
+This normal-ordered two-body approximation seems to be sufficient in many cases and has yielded excellent results for several nuclei \cite{PhysRevLett.106.222502,PhysRevLett.109.052501,IMSRG}.\\
+ The commutator in the flow equations (\ref{eq:flowEquations}) guarantees that the IM-SRG wave function $U_s^\dagger|\Phi\rangle$ can be expanded in terms of linked diagrams only \cite{shavitt2009many,ISI:A1981MN73700014}, which suggests that IM-SRG is size-extensive. Regarding the quality of the SRG results, it means that the error introduced by truncating the many-body expansions scales linearly with the number of particles~$N$.\\
+With this truncation, the generator $\hat{\eta}$ can be written as
+%\[
+%\hat{\eta} = \sum_{pq} \eta_{pq}^{(1)} \lbrace a_p^\lbrace\dagger\rbrace a_q\rbrace + \frac{1}{4}\sum%\limits_{pqrs}\eta_{pqrs}^{(2)} \lbrace a_p\dagger a_q\dagger a_s a_r \rrb,
+%\]
+where $\eta_{pq}^{(1)}$ and $ \eta_{pqrs}^{(2)}$  are the one- and two-body elements, respectively. Making use of the permutation operator 
+$ \hat{P}_{pq}f(p,q) = f(q,p)$, the IM-SRG(2) flow equations are given by 
+\begin{widetext}
+\begin{align}
+\frac{d E_0}{ds} &=  \sum_{ia}\left( \eta_{ia}^{(1)}f_{ai} - \eta_{ai}^{(1)}f_{ia}\right) + \frac{1}{2}\sum_{ijab}\eta_{ijab}^{(2)}v_{abij},
+\label{eq:flow1}\\
+\frac{d f_{pq}}{ds}&= \sum_r \left( \eta_{pr}^{(1)}f_{rq} + \eta_{qr}^{(1)}f_{rp}\right) 
++ \sum_{ia}\left( 1-\hat{P}_{ia}\right) \left( \eta_{ia}^{(1)}v_{apiq} - f_{ia}\eta_{apiq}^{(2)} \right) \notag \\
+& +\frac{1}{2} \sum_{aij} \left( 1+\hat{P}_{pq}\right) \eta_{apij}^{(2)}v_{ijaq} + \frac{1}{2}\sum_{abi}\left( 1+\hat{P}_{pq}\right) \eta_{ipab}^{(2)}v_{abiq},
+\label{eq:flow2}
+\end{align}
+
+
+\begin{align}
+\frac{d v_{pqrs}}{ds} &= \sum_t \left( 1-\hat{P}_{pq} \right) \left( \eta_{pt}^{(1)}v_{tqrs}-f_{pt}\eta_{tqrs}^{(2)}\right) 
+-\sum_t \left( 1-\hat{P}_{rs} \right) \left( \eta_{tr}^{(1)} v_{pqts} - f_{tr} \eta_{pqts}^{(2)}\right) \notag \\
+& +\frac{1}{2}\sum_{ab} \lb\eta_{pqab}^{(2)} v_{abrs} - v_{pqab}\eta_{abrs}^{(2)}\right) - 
+\frac{1}{2}\sum_{ij} \lb\eta_{pqij}^{(2)} v_{ijrs} - v_{pqij}\eta_{ijrs}^{(2)}\right) \notag \\
+& -\sum_{ia} \left( 1- \hat{P}_{ia} \right) \left( 1-\hat{P}_{pq}\right) \left( 1-\hat{P}_{rs} \right) \eta_{aqis}^{(2)}v_{ipar}.
+\label{eq:flow3}
+\end{align}
+\end{widetext}
+Note that for brevity, we skipped all $s$-dependence in the equations.
+
+\subsubsection*{Choice of generator}
+To determine the specific unitary transformation, one needs to specify the generator~$\hat{\eta}$. Through different choices, the SRG flow can be adapted to the features of a particular problem.\\
+
+Apart from this canonical generator, there exist several other ones in literature. One of them is White's choice \cite{White:cond-mat0201346}, which makes numerical approaches much more efficient. 
+The problem with Wegner's generator are the widely varying decaying speeds of the elements, removing first terms with large energy differences and then subsequently those ones with smaller energy separations.  That way the flow equations become a stiff set of coupled differential equations, which often gets numerically unstable.\\
+White takes an alternative approach, which is especially suited for problems where one is interested in the ground state of a system. Instead of driving all off-diagonal elements of the Hamiltonian to zero, he focuses solely on those ones that are connected to the reference state $|\Phi_0\rangle$, aiming to decouple the reference state from the remaining Hamiltonian. With a suitable transformation, the elements get similar decaying speeds, which solves the problem of stiffness of the flow equations.
+The generator is explicitly constructed the following way \cite{PhysRevLett.106.222502,White:cond-mat0201346}
+\begin{align}
+\hat{\eta} &= \sum_{ai} \frac{f_{ai}}{f_a-f_i-v_{aiai}}\lbrace a_a\dagger a_i\rbrace -\text{hc} \notag \\
+& + \sum_{abij} \frac{v_{abij}}{f_a+f_b-f_i-f_j+A_{abij}}\lbrace a_a\dagger a_b\dagger a_j a_i\rbrace - \text{hc},
+\label{eq:WhiteFull}
+\end{align}
+with $f_p \equiv f_{pp}$, 'hc' denoting the Hermitian conjugate, and 
+\[
+A_{abij} = v_{abab} + v_{ijij} - v_{aiai} - v_{ajaj} - v_{bibi} - v_{bjbj}.
+\label{eq:White7}
+\]
+Compared to Wegner's canonical generator, where the final flow equations involve third order powers of the $f$- and $v$-elements, these elements contribute only linearly with White's generator, which results in much better numerical properties.
+
+\subsection{Full configuration interaction quantum Monte Carlo}
+% rewrite equations for 
+
+
+
+
+\section{Results}
+\label{sec:results}
+
+\section{Conclusions}
+\label{sec:conclusions}
+%
+\begin{acknowledgments}
+  This work was supported by
+  the Research Council of Norway under contract ISP-Fysikk/216699. This research 
+  used computational resources
+  of the Notur project in Norway.
+\end{acknowledgments}
+
+
+\bibliography{heg}
+\bibliographystyle{apsrev4-1}
+
+\end{document}
+
+
+
+  \begin{itemize}
+  \item The first study of the 2D electron gas with SRG, FCIQMC, and CC  
+  \item How well can the methods describe correlations?
+  \item At what densities do SRG and CC break down?
+  \item Theoretical explanation of breakdown?
+  \item Ring and ladder approximations vs. CCD 
+  \item What are differences between finite and periodic systems?
+    (QD vs. 2DEG)
+  \item Compare 2D with finite thickness 2D+1D (or 3D?)
+  \item Virial theorem (J{\o}rgen's thesis)?
+  \item More ideas?
+  \end{itemize}
+
+  \begin{itemize}
+  \item Basics: Fetter and Walecka, Quantum theory of many-particle systems
+  \item E-book: G. Giuliani and G. Vignale, Quantum theory of the electron liquid (library will buy it)
+  \end{itemize}
+
+  
+}
+

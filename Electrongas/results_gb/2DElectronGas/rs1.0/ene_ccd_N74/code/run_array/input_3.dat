@@ -1,0 +1,47 @@
+# Mean distance between particles rs
+#
+1.0
+# Number of particles and total number of shells	  
+# (nOccupied, nShells)
+# 
+74, 180
+# Single-particle basis
+#
+#    pw2d: Plane wave basis for two-dimensional 
+#          periodic systems
+#    pw3d: Plane wave basis for three-dimensional
+#          periodic systems
+#
+pw2d
+# Spin state
+#
+#    normal: Spin fluid with total spin zero
+#    polarized: Spin polarized fluid 
+# 
+normal
+# Two-body interaction
+# 
+#    yukawa2d: Yukawa interaction for two-dimensional
+#              periodic systems with plane wave basis
+#    yukawa3d: Yukawa interaction for three-dimensional
+#              periodic systems with plane wave basis
+#
+yukawa2d
+# Screening factor mu in the Yukawa interaction
+#
+0.0
+# Approximation
+#         ref: Only the reference energy
+#         pt2: Second-order perturbation theory
+#         ccd: Coupled-cluster CCD approximation
+ccd
+# tolerance:   Tolerance in the CC selfconsistency
+#              loop (MeV)
+#
+0.00000001
+# maxIter:     Maximum number of iterations
+#              in the CC selfconsistency loop
+150
+# alpha:       t = alpha*t + (1-alpha)*t_old
+#              alpha \in [0.0, 1.0]
+0.4

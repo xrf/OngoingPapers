@@ -1,0 +1,51 @@
+#!/bin/bash
+# Submit the job with the command: sbatch jobscript_omp
+# Check job: squeue -u gba
+#
+# Job name:
+#SBATCH --job-name=heg_ccd
+#
+# Project:
+#SBATCH --account=nn2977k
+#
+# Wall clock limit:
+#SBATCH --time='00:10:00'
+#
+# Max memory usage per task:
+#SBATCH --mem-per-cpu=3900M
+#
+# Number of nodes:
+#SBATCH --nodes=1
+#
+# Number of threads per node:
+#SBATCH --ntasks-per-node=14
+#
+
+# Set up Abel work environment
+source /cluster/bin/jobsetup
+
+# Load modules
+module load openmpi.intel/1.6.3 
+
+INPUT=input_$TASK_ID.dat
+OUTPUT=outlist_$TASK_ID
+
+# The file is automatically copied 
+# back to submit directory when the
+# job is terminated
+chkfile $OUTPUT
+
+# Copy files to scratch
+cp $SUBMITDIR/$INPUT $SCRATCH
+cp $SUBMITDIR/ccd.exe $SCRATCH
+
+# Move to scratch
+cd $SCRATCH
+
+# Set number of threads
+export OMP_NUM_THREADS=$SLURM_NTASKS_PER_NODE
+
+# Start the MPI job
+cat $TMP/machines | uniq >  ./nodes.txt.$SLURM_JOBID
+NODES=`cat ./nodes.txt.$SLURM_JOBID|wc -l`
+mpirun -np $NODES -machinefile ./nodes.txt.$SLURM_JOBID ./ccd.exe $INPUT > $OUTPUT 

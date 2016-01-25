@@ -1,0 +1,31 @@
+
+!
+!     Class for an integer matrix list.
+!
+MODULE IntMatListMod
+  USE ConstantsMod
+  USE IntMatrixMod
+  USE MatListMod
+  IMPLICIT NONE
+  
+  TYPE, EXTENDS(MatList) :: IntMatList
+     TYPE(IntMatrix), ALLOCATABLE :: list(:)
+  END TYPE IntMatList
+  
+CONTAINS
+
+  !
+  !     Constructor for IntMatList object.
+  !
+  FUNCTION IntMatList_(nItems) RESULT(this)
+    INTEGER, INTENT(IN) :: nItems
+    TYPE(IntMatList), POINTER :: this
+    
+    this%nItems = nItems
+    ALLOCATE(this%list(nItems))
+    
+    
+  END FUNCTION IntMatList_
+
+  
+END MODULE IntMatListMod

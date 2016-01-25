@@ -1,0 +1,16 @@
+#Last update: 12.08.2013
+#Extrapolated with Morten's function a+ b*(x**(-c))
+#R - from which R have I started the interpolation (I have chosen R such that the exponent in #c becomes closest to 1)
+
+#r_s	N	a		  b 		   c			R
+0.5	14	-0.0901241175172  0.871233733566   1.20019506489	12
+1.0	14	-0.0832640539097  0.84914671098    1.22351481229	12
+2.0	14	-0.0723353919302  0.784247088467   1.25797305528	12
+5.0	14	-0.0519837047803  0.699858950861   1.35251657651	12
+
+
+
+
+
+
+

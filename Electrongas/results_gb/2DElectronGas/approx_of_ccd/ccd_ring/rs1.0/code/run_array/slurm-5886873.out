@@ -1,0 +1,62 @@
+Starting job 5886873 ("arrayscript_omp") on c4-17 at Tue Apr 22 15:18:34 CEST 2014
+TASK_IDs to submit: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+Command line: jobscript_omp
+Main job id: 5886873
+Start time: 2014-04-22
+Tue Apr 22 15:18:35 2014: Submitting jobs...
+20 more job(s) to submit
+0 job(s) are running, and 0 are waiting
+Submitting 5 job(s):
+ TASK_ID 1:
+  Result from submit: Submitted batch job 5886881 => job ID 5886881
+ TASK_ID 2:
+  Result from submit: Submitted batch job 5886882 => job ID 5886882
+ TASK_ID 3:
+  Result from submit: Submitted batch job 5886883 => job ID 5886883
+ TASK_ID 4:
+  Result from submit: Submitted batch job 5886884 => job ID 5886884
+ TASK_ID 5:
+  Result from submit: Submitted batch job 5886885 => job ID 5886885
+Sleeping...
+Tue Apr 22 15:20:38 2014: Checking queue...
+Number of jobs to check: 5
+ Job 5886881 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  5886881      2014-04-22T15:19:04 2014-04-22T15:19:08                        COMPLETED      0:0 
+  5886881.bat+ 2014-04-22T15:19:04 2014-04-22T15:19:08    209404K      7044K  COMPLETED      0:0 
+ Job 5886882 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  5886882      2014-04-22T15:19:04 2014-04-22T15:19:08                        COMPLETED      0:0 
+  5886882.bat+ 2014-04-22T15:19:04 2014-04-22T15:19:08    209404K      7048K  COMPLETED      0:0 
+ Job 5886883 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  5886883      2014-04-22T15:19:04 2014-04-22T15:19:08                        COMPLETED      0:0 
+  5886883.bat+ 2014-04-22T15:19:04 2014-04-22T15:19:08    209404K      7044K  COMPLETED      0:0 
+ Job 5886884 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  5886884      2014-04-22T15:19:34 2014-04-22T15:19:37                        COMPLETED      0:0 
+  5886884.bat+ 2014-04-22T15:19:34 2014-04-22T15:19:37    209404K      7048K  COMPLETED      0:0 
+ Job 5886885 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  5886885      2014-04-22T15:19:34 2014-04-22T15:19:37                        COMPLETED      0:0 
+  5886885.bat+ 2014-04-22T15:19:34 2014-04-22T15:19:37    209404K      7048K  COMPLETED      0:0 
+Tue Apr 22 15:20:49 2014: Submitting jobs...
+15 more job(s) to submit
+0 job(s) are running, and 0 are waiting
+Submitting 5 job(s):
+ TASK_ID 6:
+  Result from submit: Submitted batch job 5886901 => job ID 5886901
+ TASK_ID 7:
+  Result from submit: Submitted batch job 5886902 => job ID 5886902
+ TASK_ID 8:
+  Result from submit: Submitted batch job 5886904 => job ID 5886904
+ TASK_ID 9:
+  Result from submit: Submitted batch job 5886905 => job ID 5886905
+ TASK_ID 10:
+  Result from submit: Submitted batch job 5886906 => job ID 5886906
+Sleeping...

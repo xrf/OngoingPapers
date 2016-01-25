@@ -1,0 +1,9 @@
+# Density (number of particles divided by box width)
+1.27323950930405
+# Number of occupied and unoccupied orbitals	  
+# (nOccupied, nUnoccupied)
+41, 160      
+# Two-body interaction
+gaussian
+# Approximation
+ccd

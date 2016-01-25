@@ -1,0 +1,25 @@
+#
+# Energy per particle of two-dimensional electron gas
+#
+# * 10 electrons and four energy shells, mu = 0.0
+# * Normal spin fluid (not polarized)
+#
+# Energies in units of rydberg (e^2/(2*a_{0}))
+#
+# ene_ref = Reference energy per particle 
+# ene_corr = CCD correlation energy per particle
+# ene_tot = ene_ref + ene_corr
+#
+# rs	ene_ref	      ene_corr     ene_tot
+0.02  0.24853E+04  -0.17987E+00  0.24852E+04
+0.03  0.10984E+04  -0.17877E+00  0.10982E+04
+0.04  0.61435E+03  -0.17768E+00  0.61417E+03
+0.05  0.39095E+03  -0.17659E+00  0.39077E+03
+0.06  0.26994E+03  -0.17552E+00  0.26977E+03
+0.08  0.15010E+03  -0.17341E+00  0.14992E+03
+0.1  0.94944E+02  -0.17133E+00  0.94773E+02
+0.2  0.22339E+02  -0.16156E+00  0.22178E+02
+0.4  0.48865E+01  -0.14470E+00  0.47418E+01
+0.6  0.18614E+01  -0.13085E+00  0.17305E+01
+0.8  0.87245E+00  0.15837E+00  0.10308E+01
+1  0.44663E+00  NaN  NaN

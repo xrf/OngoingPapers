@@ -1,0 +1,33 @@
+
+!
+!     Class for (K_CM, M_S) blocks.
+!
+MODULE Block1Mod
+  USE IntMatrixMod
+  IMPLICIT NONE
+  
+  TYPE :: Block1
+     TYPE(IntMatrix) :: hhPairs 
+     TYPE(IntMatrix) :: ppPairs 
+     TYPE(IntMatrix) :: phPairs
+     INTEGER :: nQNumbers
+     INTEGER, ALLOCATABLE :: blockQNrs(:)
+  END TYPE Block1
+  
+CONTAINS
+  
+  !
+  !     Constructor for Block1 objects.
+  !
+  FUNCTION Block1_(nQNumbers) RESULT(this)
+    INTEGER, INTENT(IN) :: nQNumbers
+    TYPE(Block1) :: this
+    
+    this%nQNumbers = nQNumbers
+    ALLOCATE(this%blockQNrs(nQNumbers))
+    
+    
+  END FUNCTION Block1_
+  
+  
+END MODULE Block1Mod

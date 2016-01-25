@@ -1,0 +1,41 @@
+Starting job 2995887 ("2995886.1") on c15-[17,27] at Fri Aug 30 11:18:31 CEST 2013
+cp: cannot stat `/cluster/home/gba/koder/nuclearMatter/ccd_periodic/code2/run_array/input_1.dat': No such file or directory
+forrtl: severe (24): end-of-file during read, unit 5, file /work/jobs/2995887.d/input_1.dat
+Image              PC                Routine            Line        Source             
+ccd.exe            00000000004EE87E  Unknown               Unknown  Unknown
+ccd.exe            00000000004ED316  Unknown               Unknown  Unknown
+ccd.exe            00000000004ADC52  Unknown               Unknown  Unknown
+ccd.exe            000000000047D8FC  Unknown               Unknown  Unknown
+ccd.exe            000000000047CE1C  Unknown               Unknown  Unknown
+ccd.exe            0000000000492FC0  Unknown               Unknown  Unknown
+ccd.exe            000000000046C5DB  Unknown               Unknown  Unknown
+ccd.exe            0000000000470E3D  Unknown               Unknown  Unknown
+ccd.exe            000000000040AB3C  Unknown               Unknown  Unknown
+libc.so.6          00007FE9A12F7CDD  Unknown               Unknown  Unknown
+ccd.exe            000000000040AA39  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 5, file /work/jobs/2995887.d/input_1.dat
+Image              PC                Routine            Line        Source             
+ccd.exe            00000000004EE87E  Unknown               Unknown  Unknown
+ccd.exe            00000000004ED316  Unknown               Unknown  Unknown
+ccd.exe            00000000004ADC52  Unknown               Unknown  Unknown
+ccd.exe            000000000047D8FC  Unknown               Unknown  Unknown
+ccd.exe            000000000047CE1C  Unknown               Unknown  Unknown
+ccd.exe            0000000000492FC0  Unknown               Unknown  Unknown
+ccd.exe            000000000046C5DB  Unknown               Unknown  Unknown
+ccd.exe            0000000000470E3D  Unknown               Unknown  Unknown
+ccd.exe            000000000040AB3C  Unknown               Unknown  Unknown
+libc.so.6          00007F3D21640CDD  Unknown               Unknown  Unknown
+ccd.exe            000000000040AA39  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+2995887       2995886.1         28                         00:00:08      0:0 
+2995887.0          true          2    176116K      1088K   00:00:00      0:0 
+2995887.1         orted          1    176116K      2612K   00:00:01      0:0 
+
+Job 2995887 ("2995886.1") completed on c15-[17,27] at Fri Aug 30 11:18:37 CEST 2013

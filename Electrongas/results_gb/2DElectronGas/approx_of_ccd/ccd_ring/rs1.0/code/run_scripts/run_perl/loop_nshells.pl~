@@ -1,0 +1,11 @@
+
+#
+#     This script loops over different values for the
+#     number of energy shells. The script writes an input
+#     file and runs a calculation for every given
+#     particle number and number of shells
+#
+#     Run in background:      perl loop_nparticles.pl &
+#
+use strict;
+use warnings;

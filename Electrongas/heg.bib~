@@ -1,0 +1,129 @@
+@article{bernu2011,
+  title = {Hartree-Fock phase diagram of the two-dimensional electron gas},
+  author = {Bernu, B. and Delyon, F. and Holzmann, M. and Baguet, L.},
+  journal = {Phys. Rev. B},
+  volume = {84},
+  pages = {115115},
+  year = {2011}
+}
+
+
+@article{booth2009,
+author = {George H. Booth and Alex J. W. Thom and Ali Alavi},
+title = {Fermion Monte Carlo without fixed nodes: A game of life, death, and annihilation in Slater determinant space},
+year = {2009},
+journal = {J. Chem. Phys.},
+volume = {131},
+eid = {054106},
+pages = {054106}
+}
+@ARTICLE{booth2013,
+  author = {Booth, G. H. and Gr\"uneis, A. and Kresse, G.  and Alavi, A.},
+  title = {Towards an exact description of electronic wavefunctions in real
+	solids},
+  journal = {Nature},
+  year = {2013},
+  volume = {493},
+  pages = {365}
+}
+
+
+@article{ceperley1980,
+  title = {Ground State of the Electron Gas by a Stochastic Method},
+  author = {Ceperley, D. M. and Alder, B. J.},
+  journal = {Phys. Rev. Lett.},
+  volume = {45},
+  pages = {566},
+  year = {1980}
+}
+@article{cleland2010,
+author = {Deidre Cleland and George H. Booth and Ali Alavi},
+title = {Communications: Survival of the fittest: Accelerating convergence in full configuration-interaction quantum Monte Carlo},
+year = {2010},
+journal = {J. Chem. Phys.},
+volume = {132},
+eid = {041103},
+pages = {041103}
+}
+
+@ARTICLE{day1967,
+  author = {Day, B. D.},
+  title = {{Elements of the Brueckner-Goldstone Theory of Nuclear Matter}},
+  journal = {Rev. Mod. Phys.},
+  year = {1967},
+  volume = {39},
+  pages = {719}
+}
+
+
+
+
+@article{rajagopal1977,
+  title = {Correlations in a two-dimensional electron system},
+  author = {Rajagopal, A. K. and Kimball, John C.},
+  journal = {Phys. Rev. B},
+  volume = {15},
+   pages = {2819},
+  year = {1977}
+}
+
+
+@ARTICLE{shepherd2012a,
+  author = {Shepherd, James J. and Booth, George and Gr\"uneis, Andreas and Alavi,
+	Ali},
+  title = {Full configuration interaction perspective on the homogeneous electron
+	gas},
+  journal = {Phys. Rev. B},
+  year = {2012},
+  volume = {85},
+  pages = {081103}
+}
+
+
+
+@ARTICLE{shepherd2012b,
+  author = {Shepherd, James J. and Gr\"uneis, Andreas and Booth, George H. and
+	Kresse, Georg and Alavi, Ali},
+  title = {Convergence of many-body wave-function expansions using a plane-wave
+	basis: From homogeneous electron gas to solid state systems},
+  journal = {Phys. Rev. B},
+  year = {2012},
+  volume = {86},
+  pages = {035111}
+}
+@ARTICLE{tanatar1989,
+  author = {Tanatar, B. and Ceperley, D. M.},
+  title = {Ground state of the two-dimensional electron gas},
+  journal = {Phys. Rev. B},
+  year = {1989},
+  volume = {39},
+  pages = {5005}
+}
+
+
+@ARTICLE{freeman1977,
+  author = {Freeman, D. L.},
+  title = {Coupled-cluster expansion applied to the electron gas: Inclusion of ring and exchange effects},
+  journal = {Phys. Rev. B},
+  year = {1977},
+  volume = {15},
+  pages = {5512}
+}
+
+
+@ARTICLE{freeman1983,
+  author = {Freeman, D. L.},
+  title = {Coupled-cluster summation of the particle-particle ladder diagrams for the two-dimensional electron gas},
+  journal = {J. Phys. C: Solid State Phys.},
+  year = {1983},
+  volume = {16},
+  pages = {711}
+}
+
+
+@BOOK{fetter,
+  title = {Quantum Theory of Many-Particle Systems},
+  publisher = {McGraw-Hill},
+  year = {1971},
+  author = {Fetter, A. L. and J. D. Walecka}
+}

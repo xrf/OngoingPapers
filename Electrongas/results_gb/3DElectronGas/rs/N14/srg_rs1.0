@@ -1,0 +1,29 @@
+#
+# Energy per particle of three-dimensional electron gas
+#
+# * 14 electrons, r_s=1.0 and mu = 0.0
+# * Normal spin fluid (not polarized)
+#
+# Energies in units of rydberg (e^2/(2*a_{0}))
+#
+# ene_ref = Reference energy per particle 
+# ene_corr = IM-SRG(2) correlation energy per particle
+# ene_tot = ene_ref + ene_corr
+#
+#R  nOrbits	 ene_ref	  ene_corr       ene_tot	
+#4		 1.9433653	-0.0506489	1.8927164
+6   114		 1.9433653	-0.07225919     1.8711061
+8   186		 1.9433653	-0.078011502    1.8653538
+#10	1.9433653	-0.080181865    1.8631835
+12  358		 1.9433653	-0.080881079    1.8624843
+#14	1.9433653	-0.081611934    1.8617534
+#16	1.9433653	-0.081871257    1.8614941
+#18	1.9433653	-0.08209098     1.8612744
+20  874		 1.9433653	-0.082276671    1.8610887
+22  970		 1.9433653	-0.082355509    1.8610098
+24  1174	 1.9433653	-0.082473683    1.8608917
+
+
+
+
+

@@ -1,0 +1,116 @@
+
+!
+!     Class for the single-particle energy
+!
+MODULE SpEnergyMod
+  USE HamiltonianMod
+  USE ConstantsMod
+  USE SpBasisMod
+  IMPLICIT NONE
+  
+  TYPE SpEnergy
+     SEQUENCE
+     TYPE(Hamiltonian) :: hamilt        ! Hamiltonian operator
+     TYPE(SpBasis) :: basis             ! Single-particle basis
+     REAL(DP), ALLOCATABLE :: energies(:) ! Single-particle energy array
+  END TYPE SpEnergy
+  
+  
+CONTAINS
+  
+  !
+  !     Constructor for SpPotential object     
+  !
+  FUNCTION SpEnergy_(ham, basis) RESULT(spEne)
+    TYPE(Hamiltonian), INTENT(IN) :: ham
+    TYPE(SpBasis), INTENT(IN) :: basis
+    TYPE(SpEnergy) :: spEne
+    INTEGER :: nTot
+    
+    nTot = basis%nOccupied + basis%nUnoccupied
+    ALLOCATE(spEne%energies(nTot))
+    spEne%energies = 0.d0
+    spEne%hamilt = ham
+    spEne%basis = basis
+    
+    
+  END FUNCTION SpEnergy_
+  
+  !
+  !      Routine to calculate the single-particle
+  !      potential u(k) = \sum_i <k,ki|v|k,ki>_AS. 
+  !      k = lab momentum
+  !
+  FUNCTION calcSpPotential(k1, spEne) RESULT(potential)
+    REAL(DP), INTENT(IN) :: k1
+    TYPE(SpEnergy), INTENT(IN) :: spEne
+    REAL(DP) :: potential
+    REAL(DP) :: temp, krel, interaction, k2
+    INTEGER :: orbit 
+    
+    temp = 0.d0
+    DO orbit=1, spEne%basis%nOccupied
+       !     Lab frame momentum of state 2
+       k2 = spPot%basis%spStates(orbit)
+       !     Relative momentum
+       krel = 0.5d0*(k1-k2)
+       
+       !     Get antisymmetrized two-particle
+       !     interaction
+       !interaction = REAL(gaussianRelMomDiscr(krel,krel,&
+       !     spPot%hamilt),DP)
+       interaction = getInteraction(krel,krel,&
+            spPot%hamilt)
+       
+       temp = temp + interaction
+    ENDDO
+    potential = temp
+    
+    
+  END FUNCTION calcSpPotential
+  
+  !
+  !     Calculate the single-particle energy for 
+  !     a given state.
+  !
+  FUNCTION calcSpEnergy(state, spEne) RESULT(energy)
+    INTEGER, INTENT(IN) :: state
+    TYPE(SpEnergy), INTENT(IN) :: spEne
+    
+    !     Laboratory momentum     
+    k_lab = spEne%basis%spStates(state)
+    
+    !     Kinetic single-particle energy
+    kinetic = 0.5d0*k_lab/mass
+    !     Single-particle potential energy
+    potential = calcSpPotential(k_lab, spEne)
+    
+    !     Single-particle energy
+    energy = kinetic + potential
+    
+    
+  END FUNCTION calcSpEnergy
+  
+  !
+  !     Set up single-particle potential mesh
+  !     evaluated at the lab momenta of the 
+  !     single-particle basis.
+  !
+  SUBROUTINE setupSpPotMesh(spEne)
+    TYPE(SpEnergy), INTENT(INOUT) :: spEne
+    REAL(DP) :: potential, k
+    INTEGER :: nTot, i
+    
+    nSpStates = spEne%basis%nOccupied &
+         + spEne%basis%nUnoccupied
+    
+    DO spState=1, nSpStates   
+       spEne%energies(spState) = &
+            calcSpEnergy(spState, spEne) 
+    ENDDO
+    
+    
+  END SUBROUTINE setupSpPotMesh
+  
+  
+END MODULE SpEnergyMod

@@ -1,0 +1,13 @@
+# FCIQMC results
+#
+# 10 pt results for the 2DHEG:
+# Wigner-Seitz radius rs = 1
+# The reference energy is 0.446634 Ry
+#
+# nShells	nOrbits		eneProj	 err
+  10		98		-0.19895 3e-5
+  20		242		0.20819	 6e-5
+  30		394		-0.2100	 10e-5
+  40		570		-0.2109	 13e-5
+  50		730		-0.2114	 12e-5
+  60		914		-0.2114  10e-5

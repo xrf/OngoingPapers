@@ -1,0 +1,17 @@
+#
+# 10 pt results for the 2DHEG:
+# Wigner-Seitz radius rs = 2.0
+# The reference energy is -0.0280103 Ry
+#
+#sh. 	N_W 	E_corr(Ry) 	error	
+10 	1000e3 	-0.1534 	1e-4
+
+#
+# Including the simulations with 20,30,40,50,60 shells, the extrapolated energy is 
+# E: -0.2554 (+/-) 0.0002 Ry (based on the simulations with the highest N_W) assumed 
+# that E propto 1/M where M is the number of spin orbitals in the basis.
+#
+# x = np.array([10,20,30,40,50,60])
+# y = np.array([-0.2346, -0.2486, -0.2509, -0.2523, -0.2532, -0.2533])
+# err = np.array([.0003, .0002, .0002, .0005 , .0001, .0003])
+

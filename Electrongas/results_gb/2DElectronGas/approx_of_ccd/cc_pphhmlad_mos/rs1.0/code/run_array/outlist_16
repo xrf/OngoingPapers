@@ -1,0 +1,930 @@
+  
+  Setting up single-particle basis...
+  Number of orbitals:        4418
+  
+  Sinlge-particle states:
+  
+ shell:            1 , orbitals:            2
+ shell:            2 , orbitals:           10
+ shell:            3 , orbitals:           18
+ shell:            4 , orbitals:           18
+ shell:            4 , orbitals:           26
+ shell:            5 , orbitals:           42
+ shell:            6 , orbitals:           42
+ shell:            6 , orbitals:           42
+ shell:            6 , orbitals:           50
+ shell:            7 , orbitals:           58
+ shell:            8 , orbitals:           74
+ shell:            9 , orbitals:           74
+ shell:            9 , orbitals:           74
+ shell:            9 , orbitals:           90
+ shell:           10 , orbitals:           90
+ shell:           10 , orbitals:           90
+ shell:           10 , orbitals:           98
+ shell:           11 , orbitals:          114
+ shell:           12 , orbitals:          122
+ shell:           13 , orbitals:          122
+ shell:           13 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          138
+ shell:           14 , orbitals:          162
+ shell:           15 , orbitals:          178
+ shell:           16 , orbitals:          178
+ shell:           16 , orbitals:          178
+ shell:           16 , orbitals:          194
+ shell:           17 , orbitals:          194
+ shell:           17 , orbitals:          194
+ shell:           17 , orbitals:          202
+ shell:           18 , orbitals:          202
+ shell:           18 , orbitals:          218
+ shell:           19 , orbitals:          218
+ shell:           19 , orbitals:          226
+ shell:           20 , orbitals:          242
+ shell:           21 , orbitals:          242
+ shell:           21 , orbitals:          242
+ shell:           21 , orbitals:          258
+ shell:           22 , orbitals:          274
+ shell:           23 , orbitals:          274
+ shell:           23 , orbitals:          274
+ shell:           23 , orbitals:          274
+ shell:           23 , orbitals:          290
+ shell:           24 , orbitals:          290
+ shell:           24 , orbitals:          290
+ shell:           24 , orbitals:          290
+ shell:           24 , orbitals:          298
+ shell:           25 , orbitals:          322
+ shell:           26 , orbitals:          322
+ shell:           26 , orbitals:          338
+ shell:           27 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          354
+ shell:           28 , orbitals:          370
+ shell:           29 , orbitals:          370
+ shell:           29 , orbitals:          370
+ shell:           29 , orbitals:          386
+ shell:           30 , orbitals:          386
+ shell:           30 , orbitals:          386
+ shell:           30 , orbitals:          394
+ shell:           31 , orbitals:          426
+ shell:           32 , orbitals:          426
+ shell:           32 , orbitals:          426
+ shell:           32 , orbitals:          442
+ shell:           33 , orbitals:          442
+ shell:           33 , orbitals:          442
+ shell:           33 , orbitals:          442
+ shell:           33 , orbitals:          450
+ shell:           34 , orbitals:          466
+ shell:           35 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          482
+ shell:           36 , orbitals:          498
+ shell:           37 , orbitals:          506
+ shell:           38 , orbitals:          522
+ shell:           39 , orbitals:          522
+ shell:           39 , orbitals:          522
+ shell:           39 , orbitals:          554
+ shell:           40 , orbitals:          554
+ shell:           40 , orbitals:          554
+ shell:           40 , orbitals:          554
+ shell:           40 , orbitals:          570
+ shell:           41 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          586
+ shell:           42 , orbitals:          602
+ shell:           43 , orbitals:          610
+ shell:           44 , orbitals:          610
+ shell:           44 , orbitals:          634
+ shell:           45 , orbitals:          650
+ shell:           46 , orbitals:          650
+ shell:           46 , orbitals:          650
+ shell:           46 , orbitals:          666
+ shell:           47 , orbitals:          666
+ shell:           47 , orbitals:          682
+ shell:           48 , orbitals:          682
+ shell:           48 , orbitals:          682
+ shell:           48 , orbitals:          698
+ shell:           49 , orbitals:          698
+ shell:           49 , orbitals:          698
+ shell:           49 , orbitals:          698
+ shell:           49 , orbitals:          714
+ shell:           50 , orbitals:          714
+ shell:           50 , orbitals:          714
+ shell:           50 , orbitals:          730
+ shell:           51 , orbitals:          746
+ shell:           52 , orbitals:          746
+ shell:           52 , orbitals:          746
+ shell:           52 , orbitals:          746
+ shell:           52 , orbitals:          754
+ shell:           53 , orbitals:          770
+ shell:           54 , orbitals:          770
+ shell:           54 , orbitals:          770
+ shell:           54 , orbitals:          802
+ shell:           55 , orbitals:          802
+ shell:           55 , orbitals:          802
+ shell:           55 , orbitals:          810
+ shell:           56 , orbitals:          810
+ shell:           56 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          842
+ shell:           57 , orbitals:          858
+ shell:           58 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          874
+ shell:           59 , orbitals:          882
+ shell:           60 , orbitals:          914
+ shell:           61 , orbitals:          930
+ shell:           62 , orbitals:          930
+ shell:           62 , orbitals:          946
+ shell:           63 , orbitals:          962
+ shell:           64 , orbitals:          962
+ shell:           64 , orbitals:          962
+ shell:           64 , orbitals:          962
+ shell:           64 , orbitals:          978
+ shell:           65 , orbitals:          978
+ shell:           65 , orbitals:          978
+ shell:           65 , orbitals:          978
+ shell:           65 , orbitals:          994
+ shell:           66 , orbitals:          994
+ shell:           66 , orbitals:          994
+ shell:           66 , orbitals:         1010
+ shell:           67 , orbitals:         1010
+ shell:           67 , orbitals:         1018
+ shell:           68 , orbitals:         1018
+ shell:           68 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1034
+ shell:           69 , orbitals:         1058
+ shell:           70 , orbitals:         1090
+ shell:           71 , orbitals:         1090
+ shell:           71 , orbitals:         1090
+ shell:           71 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1106
+ shell:           72 , orbitals:         1122
+ shell:           73 , orbitals:         1122
+ shell:           73 , orbitals:         1138
+ shell:           74 , orbitals:         1154
+ shell:           75 , orbitals:         1154
+ shell:           75 , orbitals:         1154
+ shell:           75 , orbitals:         1154
+ shell:           75 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1186
+ shell:           76 , orbitals:         1202
+ shell:           77 , orbitals:         1218
+ shell:           78 , orbitals:         1218
+ shell:           78 , orbitals:         1226
+ shell:           79 , orbitals:         1242
+ shell:           80 , orbitals:         1242
+ shell:           80 , orbitals:         1242
+ shell:           80 , orbitals:         1266
+ shell:           81 , orbitals:         1266
+ shell:           81 , orbitals:         1282
+ shell:           82 , orbitals:         1282
+ shell:           82 , orbitals:         1282
+ shell:           82 , orbitals:         1314
+ shell:           83 , orbitals:         1314
+ shell:           83 , orbitals:         1314
+ shell:           83 , orbitals:         1330
+ shell:           84 , orbitals:         1330
+ shell:           84 , orbitals:         1330
+ shell:           84 , orbitals:         1330
+ shell:           84 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1346
+ shell:           85 , orbitals:         1362
+ shell:           86 , orbitals:         1362
+ shell:           86 , orbitals:         1362
+ shell:           86 , orbitals:         1394
+ shell:           87 , orbitals:         1394
+ shell:           87 , orbitals:         1394
+ shell:           87 , orbitals:         1394
+ shell:           87 , orbitals:         1418
+ shell:           88 , orbitals:         1434
+ shell:           89 , orbitals:         1434
+ shell:           89 , orbitals:         1434
+ shell:           89 , orbitals:         1450
+ shell:           90 , orbitals:         1450
+ shell:           90 , orbitals:         1450
+ shell:           90 , orbitals:         1466
+ shell:           91 , orbitals:         1482
+ shell:           92 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1498
+ shell:           93 , orbitals:         1514
+ shell:           94 , orbitals:         1522
+ shell:           95 , orbitals:         1522
+ shell:           95 , orbitals:         1538
+ shell:           96 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1554
+ shell:           97 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1586
+ shell:           98 , orbitals:         1594
+ shell:           99 , orbitals:         1610
+ shell:          100 , orbitals:         1610
+ shell:          100 , orbitals:         1610
+ shell:          100 , orbitals:         1642
+ shell:          101 , orbitals:         1658
+ shell:          102 , orbitals:         1658
+ shell:          102 , orbitals:         1658
+ shell:          102 , orbitals:         1658
+ shell:          102 , orbitals:         1690
+ shell:          103 , orbitals:         1690
+ shell:          103 , orbitals:         1690
+ shell:          103 , orbitals:         1690
+ shell:          103 , orbitals:         1706
+ shell:          104 , orbitals:         1706
+ shell:          104 , orbitals:         1706
+ shell:          104 , orbitals:         1722
+ shell:          105 , orbitals:         1722
+ shell:          105 , orbitals:         1738
+ shell:          106 , orbitals:         1738
+ shell:          106 , orbitals:         1738
+ shell:          106 , orbitals:         1754
+ shell:          107 , orbitals:         1754
+ shell:          107 , orbitals:         1754
+ shell:          107 , orbitals:         1754
+ shell:          107 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1770
+ shell:          108 , orbitals:         1778
+ shell:          109 , orbitals:         1802
+ shell:          110 , orbitals:         1834
+ shell:          111 , orbitals:         1834
+ shell:          111 , orbitals:         1850
+ shell:          112 , orbitals:         1866
+ shell:          113 , orbitals:         1866
+ shell:          113 , orbitals:         1866
+ shell:          113 , orbitals:         1882
+ shell:          114 , orbitals:         1882
+ shell:          114 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1898
+ shell:          115 , orbitals:         1930
+ shell:          116 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1946
+ shell:          117 , orbitals:         1962
+ shell:          118 , orbitals:         1978
+ shell:          119 , orbitals:         1978
+ shell:          119 , orbitals:         1978
+ shell:          119 , orbitals:         1994
+ shell:          120 , orbitals:         1994
+ shell:          120 , orbitals:         1994
+ shell:          120 , orbitals:         2010
+ shell:          121 , orbitals:         2010
+ shell:          121 , orbitals:         2010
+ shell:          121 , orbitals:         2010
+ shell:          121 , orbitals:         2018
+ shell:          122 , orbitals:         2066
+ shell:          123 , orbitals:         2066
+ shell:          123 , orbitals:         2066
+ shell:          123 , orbitals:         2082
+ shell:          124 , orbitals:         2082
+ shell:          124 , orbitals:         2082
+ shell:          124 , orbitals:         2082
+ shell:          124 , orbitals:         2082
+ shell:          124 , orbitals:         2098
+ shell:          125 , orbitals:         2098
+ shell:          125 , orbitals:         2098
+ shell:          125 , orbitals:         2098
+ shell:          125 , orbitals:         2114
+ shell:          126 , orbitals:         2138
+ shell:          127 , orbitals:         2138
+ shell:          127 , orbitals:         2170
+ shell:          128 , orbitals:         2170
+ shell:          128 , orbitals:         2170
+ shell:          128 , orbitals:         2170
+ shell:          128 , orbitals:         2170
+ shell:          128 , orbitals:         2170
+ shell:          128 , orbitals:         2186
+ shell:          129 , orbitals:         2186
+ shell:          129 , orbitals:         2186
+ shell:          129 , orbitals:         2202
+ shell:          130 , orbitals:         2202
+ shell:          130 , orbitals:         2202
+ shell:          130 , orbitals:         2202
+ shell:          130 , orbitals:         2218
+ shell:          131 , orbitals:         2218
+ shell:          131 , orbitals:         2218
+ shell:          131 , orbitals:         2234
+ shell:          132 , orbitals:         2234
+ shell:          132 , orbitals:         2234
+ shell:          132 , orbitals:         2234
+ shell:          132 , orbitals:         2250
+ shell:          133 , orbitals:         2258
+ shell:          134 , orbitals:         2274
+ shell:          135 , orbitals:         2274
+ shell:          135 , orbitals:         2274
+ shell:          135 , orbitals:         2306
+ shell:          136 , orbitals:         2306
+ shell:          136 , orbitals:         2306
+ shell:          136 , orbitals:         2306
+ shell:          136 , orbitals:         2322
+ shell:          137 , orbitals:         2354
+ shell:          138 , orbitals:         2354
+ shell:          138 , orbitals:         2354
+ shell:          138 , orbitals:         2370
+ shell:          139 , orbitals:         2370
+ shell:          139 , orbitals:         2370
+ shell:          139 , orbitals:         2370
+ shell:          139 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2402
+ shell:          140 , orbitals:         2418
+ shell:          141 , orbitals:         2418
+ shell:          141 , orbitals:         2434
+ shell:          142 , orbitals:         2450
+ shell:          143 , orbitals:         2450
+ shell:          143 , orbitals:         2450
+ shell:          143 , orbitals:         2458
+ shell:          144 , orbitals:         2458
+ shell:          144 , orbitals:         2474
+ shell:          145 , orbitals:         2474
+ shell:          145 , orbitals:         2474
+ shell:          145 , orbitals:         2490
+ shell:          146 , orbitals:         2490
+ shell:          146 , orbitals:         2490
+ shell:          146 , orbitals:         2514
+ shell:          147 , orbitals:         2530
+ shell:          148 , orbitals:         2530
+ shell:          148 , orbitals:         2530
+ shell:          148 , orbitals:         2546
+ shell:          149 , orbitals:         2562
+ shell:          150 , orbitals:         2562
+ shell:          150 , orbitals:         2562
+ shell:          150 , orbitals:         2562
+ shell:          150 , orbitals:         2578
+ shell:          151 , orbitals:         2610
+ shell:          152 , orbitals:         2610
+ shell:          152 , orbitals:         2610
+ shell:          152 , orbitals:         2610
+ shell:          152 , orbitals:         2610
+ shell:          152 , orbitals:         2610
+ shell:          152 , orbitals:         2626
+ shell:          153 , orbitals:         2626
+ shell:          153 , orbitals:         2626
+ shell:          153 , orbitals:         2626
+ shell:          153 , orbitals:         2626
+ shell:          153 , orbitals:         2642
+ shell:          154 , orbitals:         2642
+ shell:          154 , orbitals:         2642
+ shell:          154 , orbitals:         2658
+ shell:          155 , orbitals:         2706
+ shell:          156 , orbitals:         2706
+ shell:          156 , orbitals:         2706
+ shell:          156 , orbitals:         2706
+ shell:          156 , orbitals:         2706
+ shell:          156 , orbitals:         2706
+ shell:          156 , orbitals:         2706
+ shell:          156 , orbitals:         2706
+ shell:          156 , orbitals:         2722
+ shell:          157 , orbitals:         2722
+ shell:          157 , orbitals:         2722
+ shell:          157 , orbitals:         2738
+ shell:          158 , orbitals:         2738
+ shell:          158 , orbitals:         2738
+ shell:          158 , orbitals:         2738
+ shell:          158 , orbitals:         2738
+ shell:          158 , orbitals:         2746
+ shell:          159 , orbitals:         2778
+ shell:          160 , orbitals:         2778
+ shell:          160 , orbitals:         2778
+ shell:          160 , orbitals:         2810
+ shell:          161 , orbitals:         2810
+ shell:          161 , orbitals:         2810
+ shell:          161 , orbitals:         2810
+ shell:          161 , orbitals:         2826
+ shell:          162 , orbitals:         2850
+ shell:          163 , orbitals:         2850
+ shell:          163 , orbitals:         2866
+ shell:          164 , orbitals:         2866
+ shell:          164 , orbitals:         2866
+ shell:          164 , orbitals:         2866
+ shell:          164 , orbitals:         2866
+ shell:          164 , orbitals:         2882
+ shell:          165 , orbitals:         2898
+ shell:          166 , orbitals:         2898
+ shell:          166 , orbitals:         2898
+ shell:          166 , orbitals:         2914
+ shell:          167 , orbitals:         2914
+ shell:          167 , orbitals:         2914
+ shell:          167 , orbitals:         2930
+ shell:          168 , orbitals:         2930
+ shell:          168 , orbitals:         2946
+ shell:          169 , orbitals:         2946
+ shell:          169 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2962
+ shell:          170 , orbitals:         2978
+ shell:          171 , orbitals:         2978
+ shell:          171 , orbitals:         2978
+ shell:          171 , orbitals:         2978
+ shell:          171 , orbitals:         3010
+ shell:          172 , orbitals:         3026
+ shell:          173 , orbitals:         3026
+ shell:          173 , orbitals:         3034
+ shell:          174 , orbitals:         3066
+ shell:          175 , orbitals:         3066
+ shell:          175 , orbitals:         3066
+ shell:          175 , orbitals:         3082
+ shell:          176 , orbitals:         3082
+ shell:          176 , orbitals:         3098
+ shell:          177 , orbitals:         3098
+ shell:          177 , orbitals:         3098
+ shell:          177 , orbitals:         3130
+ shell:          178 , orbitals:         3130
+ shell:          178 , orbitals:         3130
+ shell:          178 , orbitals:         3130
+ shell:          178 , orbitals:         3130
+ shell:          178 , orbitals:         3130
+ shell:          178 , orbitals:         3130
+ shell:          178 , orbitals:         3162
+ shell:          179 , orbitals:         3162
+ shell:          179 , orbitals:         3162
+ shell:          179 , orbitals:         3162
+ shell:          179 , orbitals:         3162
+ shell:          179 , orbitals:         3194
+ shell:          180 , orbitals:         3194
+ shell:          180 , orbitals:         3194
+ shell:          180 , orbitals:         3194
+ shell:          180 , orbitals:         3210
+ shell:          181 , orbitals:         3210
+ shell:          181 , orbitals:         3210
+ shell:          181 , orbitals:         3218
+ shell:          182 , orbitals:         3218
+ shell:          182 , orbitals:         3234
+ shell:          183 , orbitals:         3234
+ shell:          183 , orbitals:         3234
+ shell:          183 , orbitals:         3234
+ shell:          183 , orbitals:         3234
+ shell:          183 , orbitals:         3234
+ shell:          183 , orbitals:         3266
+ shell:          184 , orbitals:         3282
+ shell:          185 , orbitals:         3298
+ shell:          186 , orbitals:         3298
+ shell:          186 , orbitals:         3298
+ shell:          186 , orbitals:         3298
+ shell:          186 , orbitals:         3298
+ shell:          186 , orbitals:         3298
+ shell:          186 , orbitals:         3298
+ shell:          186 , orbitals:         3306
+ shell:          187 , orbitals:         3338
+ shell:          188 , orbitals:         3338
+ shell:          188 , orbitals:         3338
+ shell:          188 , orbitals:         3370
+ shell:          189 , orbitals:         3370
+ shell:          189 , orbitals:         3370
+ shell:          189 , orbitals:         3370
+ shell:          189 , orbitals:         3370
+ shell:          189 , orbitals:         3386
+ shell:          190 , orbitals:         3386
+ shell:          190 , orbitals:         3386
+ shell:          190 , orbitals:         3402
+ shell:          191 , orbitals:         3402
+ shell:          191 , orbitals:         3402
+ shell:          191 , orbitals:         3418
+ shell:          192 , orbitals:         3450
+ shell:          193 , orbitals:         3450
+ shell:          193 , orbitals:         3450
+ shell:          193 , orbitals:         3466
+ shell:          194 , orbitals:         3482
+ shell:          195 , orbitals:         3482
+ shell:          195 , orbitals:         3482
+ shell:          195 , orbitals:         3482
+ shell:          195 , orbitals:         3482
+ shell:          195 , orbitals:         3498
+ shell:          196 , orbitals:         3498
+ shell:          196 , orbitals:         3498
+ shell:          196 , orbitals:         3514
+ shell:          197 , orbitals:         3514
+ shell:          197 , orbitals:         3514
+ shell:          197 , orbitals:         3514
+ shell:          197 , orbitals:         3514
+ shell:          197 , orbitals:         3530
+ shell:          198 , orbitals:         3530
+ shell:          198 , orbitals:         3530
+ shell:          198 , orbitals:         3562
+ shell:          199 , orbitals:         3562
+ shell:          199 , orbitals:         3562
+ shell:          199 , orbitals:         3562
+ shell:          199 , orbitals:         3578
+ shell:          200 , orbitals:         3578
+ shell:          200 , orbitals:         3578
+ shell:          200 , orbitals:         3578
+ shell:          200 , orbitals:         3578
+ shell:          200 , orbitals:         3578
+ shell:          200 , orbitals:         3578
+ shell:          200 , orbitals:         3586
+ shell:          201 , orbitals:         3602
+ shell:          202 , orbitals:         3626
+ shell:          203 , orbitals:         3626
+ shell:          203 , orbitals:         3658
+ shell:          204 , orbitals:         3658
+ shell:          204 , orbitals:         3658
+ shell:          204 , orbitals:         3658
+ shell:          204 , orbitals:         3674
+ shell:          205 , orbitals:         3706
+ shell:          206 , orbitals:         3722
+ shell:          207 , orbitals:         3722
+ shell:          207 , orbitals:         3722
+ shell:          207 , orbitals:         3722
+ shell:          207 , orbitals:         3722
+ shell:          207 , orbitals:         3722
+ shell:          207 , orbitals:         3738
+ shell:          208 , orbitals:         3754
+ shell:          209 , orbitals:         3754
+ shell:          209 , orbitals:         3754
+ shell:          209 , orbitals:         3770
+ shell:          210 , orbitals:         3770
+ shell:          210 , orbitals:         3770
+ shell:          210 , orbitals:         3770
+ shell:          210 , orbitals:         3770
+ shell:          210 , orbitals:         3786
+ shell:          211 , orbitals:         3786
+ shell:          211 , orbitals:         3786
+ shell:          211 , orbitals:         3786
+ shell:          211 , orbitals:         3802
+ shell:          212 , orbitals:         3802
+ shell:          212 , orbitals:         3802
+ shell:          212 , orbitals:         3802
+ shell:          212 , orbitals:         3802
+ shell:          212 , orbitals:         3834
+ shell:          213 , orbitals:         3834
+ shell:          213 , orbitals:         3850
+ shell:          214 , orbitals:         3866
+ shell:          215 , orbitals:         3866
+ shell:          215 , orbitals:         3866
+ shell:          215 , orbitals:         3866
+ shell:          215 , orbitals:         3882
+ shell:          216 , orbitals:         3882
+ shell:          216 , orbitals:         3882
+ shell:          216 , orbitals:         3882
+ shell:          216 , orbitals:         3882
+ shell:          216 , orbitals:         3882
+ shell:          216 , orbitals:         3882
+ shell:          216 , orbitals:         3882
+ shell:          216 , orbitals:         3922
+ shell:          217 , orbitals:         3938
+ shell:          218 , orbitals:         3938
+ shell:          218 , orbitals:         3954
+ shell:          219 , orbitals:         3986
+ shell:          220 , orbitals:         3986
+ shell:          220 , orbitals:         3986
+ shell:          220 , orbitals:         3986
+ shell:          220 , orbitals:         3986
+ shell:          220 , orbitals:         4002
+ shell:          221 , orbitals:         4002
+ shell:          221 , orbitals:         4002
+ shell:          221 , orbitals:         4018
+ shell:          222 , orbitals:         4018
+ shell:          222 , orbitals:         4018
+ shell:          222 , orbitals:         4034
+ shell:          223 , orbitals:         4050
+ shell:          224 , orbitals:         4050
+ shell:          224 , orbitals:         4050
+ shell:          224 , orbitals:         4050
+ shell:          224 , orbitals:         4050
+ shell:          224 , orbitals:         4050
+ shell:          224 , orbitals:         4050
+ shell:          224 , orbitals:         4058
+ shell:          225 , orbitals:         4058
+ shell:          225 , orbitals:         4106
+ shell:          226 , orbitals:         4106
+ shell:          226 , orbitals:         4106
+ shell:          226 , orbitals:         4122
+ shell:          227 , orbitals:         4122
+ shell:          227 , orbitals:         4122
+ shell:          227 , orbitals:         4138
+ shell:          228 , orbitals:         4154
+ shell:          229 , orbitals:         4154
+ shell:          229 , orbitals:         4154
+ shell:          229 , orbitals:         4154
+ shell:          229 , orbitals:         4170
+ shell:          230 , orbitals:         4170
+ shell:          230 , orbitals:         4170
+ shell:          230 , orbitals:         4170
+ shell:          230 , orbitals:         4170
+ shell:          230 , orbitals:         4186
+ shell:          231 , orbitals:         4186
+ shell:          231 , orbitals:         4186
+ shell:          231 , orbitals:         4186
+ shell:          231 , orbitals:         4186
+ shell:          231 , orbitals:         4186
+ shell:          231 , orbitals:         4186
+ shell:          231 , orbitals:         4202
+ shell:          232 , orbitals:         4218
+ shell:          233 , orbitals:         4218
+ shell:          233 , orbitals:         4242
+ shell:          234 , orbitals:         4258
+ shell:          235 , orbitals:         4258
+ shell:          235 , orbitals:         4258
+ shell:          235 , orbitals:         4290
+ shell:          236 , orbitals:         4290
+ shell:          236 , orbitals:         4290
+ shell:          236 , orbitals:         4290
+ shell:          236 , orbitals:         4290
+ shell:          236 , orbitals:         4322
+ shell:          237 , orbitals:         4322
+ shell:          237 , orbitals:         4322
+ shell:          237 , orbitals:         4322
+ shell:          237 , orbitals:         4354
+ shell:          238 , orbitals:         4354
+ shell:          238 , orbitals:         4354
+ shell:          238 , orbitals:         4370
+ shell:          239 , orbitals:         4370
+ shell:          239 , orbitals:         4370
+ shell:          239 , orbitals:         4370
+ shell:          239 , orbitals:         4370
+ shell:          239 , orbitals:         4402
+ shell:          240 , orbitals:         4418
+  
+  
+  
+  Counting number of blocks...
+  
+  Number of hh pairs:         100
+  Number of pp pairs:    19430464
+  Number of ph pairs:       44080
+  Numbers of blocks:        26247
+  Number of pphh blocks:           39
+  
+  Setting up (K_CM, M_S) blocks...
+  
+  
+ Setting up recoupled blocks...
+  
+  
+  Number of ph pairs:       44080
+  Number of hp pairs:       44080
+  
+  Setting up interaction matrix...
+ Memory of vPppp:  -1466227456  Bytes
+  Setting up reference energy object
+  Setting up Fock matrix...
+  Setting up correlation energy object
+  
+ Memory in use:             3573733780  Bytes
+  
+  
+ ------  Setup is done  ------
+  
+ >> t2-t1 =   0.194050073623657     
+ >> t2-t12 =   0.193265199661255     
+ >> t3-t2 =    37.4316499233246     
+  
+ eneKin/N =    1.00530964914873      , potRef/N =  -0.558675424992167     
+ eneRef/N =   0.446634224156567     
+  
+  
+ Self-consistency loop:
+  
+ Iteration number            1
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.172013695207034     
+  
+ Difference:    100001.720136952     
+  
+ Iteration number            2
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -9.104376048754219E-002
+  
+ Difference:   0.809699347194921     
+  
+ Iteration number            3
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.104832818514446     
+  
+ Difference:   0.137890580269036     
+  
+ Iteration number            4
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102191772888518     
+  
+ Difference:   2.641045625927907E-002
+  
+ Iteration number            5
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102350621587534     
+  
+ Difference:   1.588486990165228E-003
+  
+ Iteration number            6
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102232732528574     
+  
+ Difference:   1.178890589607517E-003
+  
+ Iteration number            7
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102224779966635     
+  
+ Difference:   7.952561938262548E-005
+  
+ Iteration number            8
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102217350418658     
+  
+ Difference:   7.429547977455542E-005
+  
+ Iteration number            9
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102215726097377     
+  
+ Difference:   1.624321280746521E-005
+  
+ Iteration number           10
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102215020461857     
+  
+ Difference:   7.056355201484621E-006
+  
+ Iteration number           11
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102214795371441     
+  
+ Difference:   2.250904163503264E-006
+  
+ Iteration number           12
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102214709183631     
+  
+ Difference:   8.618781011104915E-007
+  
+ Iteration number           13
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102214677913229     
+  
+ Difference:   3.127040182349106E-007
+  
+ Iteration number           14
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102214665964737     
+  
+ Difference:   1.194849172936330E-007
+  
+ Iteration number           15
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102214661401453     
+  
+ Difference:   4.563283972913723E-008
+  
+ Iteration number           16
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102214659624646     
+  
+ Difference:   1.776807168063499E-008
+  
+ Iteration number           17
+ Updating intermediate diagrams...
+ Updating the t2-amplitude matrix...
+ Updating the cross-coupled t2-amplitude matrix...
+ Calculating the correlation energy...
+  
+ eneCorrel/N =  -0.102214658927522     
+  
+ Difference:   6.971242250131127E-009
+  
+ ------  Selfconsistency loop done ------
+  
+  
+ In Rydbergs:
+ eneCorrel/N =  -0.204429317855043      , eneTot/N =   0.242204906301524     
+ In Hartree:
+ eneCorrel/N =   -1.02214658927522      , eneTot/N =    1.21102453150762     
+  
+ Time for setup:    37.6257212162018       seconds
+ Time for calculations:    25.6495637893677       seconds
+ Total time:    63.2752850055695       seconds
+  
+ Maximum memory used:             3590556036  Bytes
+  

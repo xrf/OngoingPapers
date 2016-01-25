@@ -1,0 +1,16 @@
+#!/bin/bash
+# Submit the job: sbatch arrayscript_omp
+#
+# Project:
+#SBATCH --account=nn2977k
+#
+# Wall clock limit:
+#SBATCH --time='00:20:00'
+#
+# Max memory usage per task:
+#SBATCH --mem-per-cpu=3900M
+#
+# Set up Abel work environment
+source /cluster/bin/jobsetup
+
+arrayrun 1-20 jobscript_omp

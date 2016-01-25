@@ -1,0 +1,116 @@
+\documentclass[a4paper,9pt,twocolumn]{revtex4} %{{{1
+%\documentclass[a4paper,10pt]{thesis} 
+%\documentclass[a4paper,9pt]{article} 
+%\documentclass[a4paper,9pt]{article} 
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{epsfig} %for å lime inn filer
+
+
+\newcommand{\ts}[1]{\textbf{#1}}
+\newcommand{\bra}[1]{\langle{#1}|}
+\newcommand{\ket}[1]{|#1\rangle{}}
+\newcommand{\abs}[1]{\left|{#1}\right|}
+\newcommand{\expec}[1]{\langle{}{#1}\rangle{}}
+
+\begin{document}
+
+
+%\title{ Verification of the FCIQMC code}
+%\author{Karl R. Leikanger}
+%\affiliation{University of Oslo, Physics department}
+%\maketitle
+%\tableofcontents
+
+\section{Verification of the FCIQMC code}
+
+{%\squeezetable
+\begin{table*}[ht]
+\begin{center}
+\begin{ruledtabular}
+\begin{tabular}{ccccccc}
+%\hline
+%\hline
+	Wigner-Seitz radius&$N_{orbitals}$ & $N_W$ & $E_P$ (Our results) & Error & $E_P$ (Shepherd \it{Et. Al.}) & Error\\
+	\hline
+	\\
+	%
+	$r_s=0.5$ 
+&114 &		100e3 &	-0.07399 &	$\pm$3e-5 &	         &	\\
+&    &		400e3 &	-0.07386 &	$\pm$1e-5 &	         &	\\
+&    &		800e3 &	-0.073845& 	$\pm$6e-6 &	         &	\\ 
+&    &		1600e3&	-0.073842& 	$\pm$4e-6 &	 			&	\\ 
+&&-&&& -0.07384 &	$\pm$1.4e-5 \\ 
+\\
+%
+&186 &		100e3 &	-0.07996 &	$\pm$3e-5 	&         	& \\
+&    &		400e3 &	-0.07990 &	$\pm$1e-5 	&         	& \\
+&    &		800e3 &	-0.07989 &	$\pm$1e-5 	&         	& \\
+&    &		1600e3& -0.07986 &	$\pm$1e-5 	&& \\
+&&-&&& -0.07984 	&$\pm$1.4e-5 \\
+\\
+%#converged ?
+%
+&358 &		100e3 &	-0.08300 &$\pm$5e-5 	&         	& \\
+&    &		400e3 &	-0.08290	&$\pm$7e-5 	&         	& \\
+&    &		800e3 &	-0.08285	&$\pm$2e-5 	&         	& \\
+&    &		1600e3& -0.08284	&$\pm$1e-5 	&&\\
+&&-&&& -0.08281 	&$\pm$5.7e-5 \\
+\\
+%
+$r_s=1.0$
+%
+&114 	&	 200e3 &	-0.06590 &	$\pm$4e-5 &	         &	 \\ 
+&    	&	 400e3 &	-0.06585 &	$\pm$2e-5 &	         &	 \\ 
+&    	&	 800e3 &	-0.06582 &	$\pm$2e-5 &	         &	 \\ 
+&    	&	1600e3 &	-0.06583 &	$\pm$1e-5 &	& \\
+&&-&&&-0.06587 &	$\pm$1.3e-5 \\ 
+\\
+%                                                          
+&186 	&	 400e3 &	-0.07160 &	$\pm$3e-5 &	         &	 \\ 
+&    	&	 800e3 &	-0.07154 &	$\pm$2e-5 &	         &	 \\ 
+&    	&	1600e3 &	-0.07153 &	$\pm$2e-5 &	         &	 \\ 
+&    	&	3200e3 &  -0.07152& 	$\pm$1e-5 &	& \\
+&&-&&&-0.07156 &	$\pm$1.2e-5 \\ 
+\\
+%
+&358 	&	 800e3 &  -0.07419& 	$\pm$3e-5& 	        & 	 \\
+&    	&	1600e3 &  -0.07420& 	$\pm$2e-5& 	        & 	 \\
+&    	&	3200e3 &  -0.07413& 	$\pm$2e-5& 	        & 	 \\
+&    	&	6400e3 &  -0.07413& 	$\pm$1e-5& 	& \\
+&&-&&&-0.07412& 	$\pm$1.4e-5 \\
+\\
+%
+$r_s=2.0$
+&114 &	 200e3 &		-0.05471 	&$\pm$6e-5 	&         	& \\
+&    &	 600e3 &		-0.05460 	&$\pm$3e-5 	&         	& \\
+&    &	1200e3 & 	-0.05470 &	 $\pm$3e-5 	&         	& \\
+&    &	2400e3 & 	-0.05480 &	 $\pm$2e-5 	&         	& \\
+&    &	4800e3 & 	-0.05486 &	 $\pm$1e-5 	&         	& \\
+&    &	9600e3 & 	-0.05487 &	 $\pm$1e-5 	&&\\
+&&-&&&-0.05489 	&$\pm$3e-5 \\
+\\
+%#properly converged? 
+%
+%#186 	2.0 	1200000 	-0.05978 	3e-5 	-0.06010 	4e-5
+%#186 	2.0 	2400000 	-0.05986 	3e-5 	-0.06010 	4e-5
+%#186 	2.0 	4800000 	-0.05992 	3e-5 	-0.06010 	4e-5
+%#not converged
+	&&&&&&\\
+	&&&&&&\\
+\end{tabular}
+\end{ruledtabular}
+\end{center}
+\caption{
+%
+	FCIQMC results for 3D systems with 14 particles. My simulations are performed with an initiator threshold $N_I=3$ and all energies are calculated using the projected estimator. The results are compared to FCIQMC results by Shepherd {\it Et. Al.}  [J. Chem. Phys. 136 (2012)]. 
+	%
+	All energies are the correlation energy per particle in units of Rydberg.
+}
+\end{table*}
+
+\end{document}
+

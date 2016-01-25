@@ -1,0 +1,21 @@
+#
+# 10 pt results for the 2DHEG:
+# Wigner-Seitz radius rs = 1.0
+# The reference energy is 0.446634 Ry
+#
+# E_p and E_s is the projected and the generational estimator correlation energy
+#
+#sh. 	N_W 	E_proj  	err	E_gen   	err
+
+30 	800e3	-0.1847 	16e-5	-0.1853 	37e-5
+30 	1600e3	-0.1856 	15e-5	-0.1853		37e-5
+30 	3200e3	-0.1862 	19e-5	-0.1849		50e-5
+30	6400e3	-0.1864 	16e-5	-0.1851 	38e-5
+
+# E: ,,, Ry based on the simulations with 20,30,40,50 shells and the simulations with the highest 
+# N_W assumed that E propto 1/M where M is the number of spin orbitals in the basis.
+#
+# x = np.array([10,20,30,40,50])
+# y = np.array([])
+# err = np.array([])
+

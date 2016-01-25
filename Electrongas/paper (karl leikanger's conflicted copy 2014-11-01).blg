@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: paperNotes.bib
+Database file #2: heg.bib
+Warning--I didn't find a database entry for "kummel1978"
+Warning--I didn't find a database entry for "bishop1"
+Warning--I didn't find a database entry for "crawford"
+Warning--I didn't find a database entry for "mackenzie"
+Warning--I didn't find a database entry for "PhysRevD.48.5863"
+Warning--I didn't find a database entry for "PhysRevD.49.4214"
+Warning--I didn't find a database entry for "PhysRepWegner0"
+Warning--I didn't find a database entry for "PhysRepWegner"
+Warning--I didn't find a database entry for "kehrein2006flow"
+Warning--I didn't find a database entry for "IMSRG"
+Warning--I didn't find a database entry for "PhysRevLett.106.222502"
+Warning--I didn't find a database entry for "PhysRevLett.109.052501"
+Warning--I didn't find a database entry for "shavitt2009many"
+Warning--I didn't find a database entry for "ISI:A1981MN73700014"
+Warning--I didn't find a database entry for "White:cond-mat0201346"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+You've used 8 entries,
+            5847 wiz_defined-function locations,
+            1668 strings with 15961 characters,
+and the built_in function-call counts, 7646 in all, are:
+= -- 495
+> -- 180
+< -- 51
++ -- 58
+- -- 40
+* -- 1164
+:= -- 768
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 32
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 716
+empty$ -- 564
+format.name$ -- 110
+if$ -- 1488
+int.to.chr$ -- 1
+int.to.str$ -- 16
+missing$ -- 89
+newline$ -- 76
+num.names$ -- 24
+pop$ -- 308
+preamble$ -- 1
+purify$ -- 40
+quote$ -- 0
+skip$ -- 284
+stack$ -- 0
+substring$ -- 179
+swap$ -- 658
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 107
+warning$ -- 0
+while$ -- 22
+width$ -- 0
+write$ -- 115
+(There were 15 warnings)

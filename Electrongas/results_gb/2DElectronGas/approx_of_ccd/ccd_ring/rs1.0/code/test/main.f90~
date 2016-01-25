@@ -1,0 +1,76 @@
+
+PROGRAM tests
+  USE IFPORT
+  IMPLICIT NONE
+  INTEGER, ALLOCATABLE :: array(:)
+  INTEGER(2), EXTERNAL :: compare
+  INTEGER :: i
+  INTEGER(SIZEOF_SIZE_T) :: array_size, int_size
+  
+  array_size = 3
+  int_size = 4
+  ALLOCATE(array(array_size))
+  
+  array(1) = 2223244
+  array(2) = 33435
+  array(3) = -12
+  
+  DO i=1, array_size
+     WRITE(*,*) array(i) 
+  ENDDO
+  
+  CALL qsort(array, array_size, int_size, compare)
+  
+  WRITE(*,*) '--------------'
+  DO i=1, array_size
+     WRITE(*,*) array(i) 
+  ENDDO
+  
+  DEALLOCATE(array)
+  
+  
+END PROGRAM tests
+
+INTEGER(2) FUNCTION compare(i1, i2) 
+  INTEGER, INTENT(IN) :: i1, i2
+  
+  compare = INT(i1 - i2, 2)
+  write(*,*) 'i1=',i1,',i2=',i2,',c=',compare
+
+  
+END FUNCTION compare
+
+
+
+! PROGRAM SORTQ
+!   USE IFPORT
+!   integer(2), external :: cmp_function
+!   integer(2) insort(26), i
+!   integer (SIZEOF_SIZE_T) array_len, array_size
+
+!   array_len = 26
+!   array_size = 2
+  
+!   do i=90,65,-1
+!      insort(i-64)=91 - i
+!   end do
+  
+!   print *, "Before: "
+  
+!   print *,insort
+  
+!   CALL qsort(insort,array_len,array_size,cmp_function)
+  
+!   print *, 'After: '
+!   print *, insort
+
+  
+! END PROGRAM SORTQ
+
+! !
+! integer(2) function cmp_function(a1, a2) 
+!   integer(2) a1, a2
+  
+!   cmp_function=a1-a2
+  
+! end function cmp_function

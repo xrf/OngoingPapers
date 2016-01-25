@@ -1,0 +1,17 @@
+#
+# 26 pt results for the 2DHEG:
+# Wigner-Seitz radius rs = 1
+# The reference energy is  0.258753 Ry
+#sh.	N_W	E_proj  	err	E_gen   	err	
+10 	200e3 	-0.1432 	20e-5	-0.1432 	28e-5
+10 	400e3 	-0.1461 	17e-5	-0.1456 	24e-5
+10 	800e3 	-0.1478 	14e-5	-0.1469 	18e-5
+10 	1600e3 	-0.1482		11e-5	-0.1487 	13e-5
+10 	3200e3 	-0.1495		11e-5	-0.1492 	13e-5
+10 	6400e3 	-0.15035	8e-5	-0.14040 	8e-5
+#
+60 	4.8e6	-0.208	1e-3 #properly converged? do one more similar run and add res. (2500CPUH)
+60	9.2e6	-0.2096	4e-4 # ca 5000 CPUH
+60	18.4e6	-0.2105	3e-4 # ca 10000 CPUH (6*10**5 cycles)
+60	36.8e6	-0.2117	3e-4 # ca 30000 CPUH (8*10**5 cycles)
+#extrapolated energy:

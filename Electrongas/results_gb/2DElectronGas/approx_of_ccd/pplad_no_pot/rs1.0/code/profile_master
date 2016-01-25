@@ -1,0 +1,789 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 52.61     49.22    49.22     2025     0.02     0.02  ccdamplitudemod_mp_calct2matrix_
+ 11.41     59.89    10.67 71374894     0.00     0.00  yukawa3dhammod_mp_getyukawa3d_
+  7.73     67.12     7.23        4     1.81     1.82  blocklistremod_mp_setuphpphre2pphh_
+  7.17     73.83     6.71                             mkl_blas_avx_dgemm_kernel_0
+  4.76     78.28     4.45                             mkl_blas_avx_dgemm_mscale
+  3.98     82.00     3.72       27     0.14     0.14  ccdamplitudemod_mp_updateintermed2_
+  3.80     85.55     3.55                             mkl_blas_avx_dgemm_copyan
+  1.40     86.86     1.31        1     1.31    12.00  hamiltonianmod_mp_setupinteractionmatr_
+  1.10     87.89     1.03        1     1.03     1.24  blocklistmod_mp_setuppppairs_
+  1.02     88.84     0.95       27     0.04     0.04  ccdamplitudemod_mp_setupt2matrixre_
+  0.77     89.56     0.72        5     0.14     0.14  qsorti_
+  0.76     90.27     0.71       27     0.03     0.03  ccdamplitudemod_mp_updateintermed3_
+  0.65     90.87     0.61       27     0.02     1.85  ccdamplitudemod_mp_updatet2matrix_
+  0.52     91.36     0.49                             mkl_blas_avx_dgemm_pst
+  0.42     91.75     0.39    17896     0.00     0.00  realmatrixmod_mp_realmatrix__
+  0.35     92.08     0.33       27     0.01     0.01  ccdcorrenergymod_mp_evaluateenergy_
+  0.31     92.37     0.29       27     0.01     0.01  ccdamplitudemod_mp_updateintermed4_
+  0.20     92.56     0.19       27     0.01     0.01  ccdamplitudemod_mp_updateintermed1_
+  0.12     92.68     0.12  5180452     0.00     0.00  blocklistmod_mp_getrank_
+  0.12     92.79     0.11        5     0.02     0.02  pairlistmod_mp_pairlist__
+  0.12     92.90     0.11        1     0.11     0.12  blocklistremod_mp_setupabij2reiabj_
+  0.10     92.99     0.09     2025     0.00     0.00  elementmatmul_
+  0.10     93.08     0.09                             mkl_blas_avx_dgemm_copybn
+  0.05     93.13     0.05        1     0.05     0.09  blocklistmod_mp_setupblocks_
+  0.04     93.17     0.04    49229     0.00     0.00  intmatrixmod_mp_intmatrix__
+  0.04     93.21     0.04                             __powi4i4
+  0.03     93.24     0.03                             __intel_memset
+  0.02     93.26     0.02    22539     0.00     0.00  block1mod_mp_block1__
+  0.02     93.28     0.02                             for__free_vm
+  0.02     93.30     0.02                             mkl_blas_avx_xdgemm_par
+  0.02     93.31     0.02        1     0.02     0.16  blocklistmod_mp_setupphpairs_
+  0.02     93.33     0.02                             dgemm_
+  0.01     93.34     0.01   158435     0.00     0.00  intmatrixmod_mp_intmatrix_d_
+  0.01     93.35     0.01        2     0.01     0.01  blocklistremod_mp_blocklistre_d_
+  0.01     93.36     0.01        1     0.01     0.01  blocklistmod_mp_countblocks_
+  0.01     93.37     0.01        1     0.01     0.01  blocklistremod_mp_setupiabj2index_
+  0.01     93.38     0.01        1     0.01     0.01  ccdamplitudemod_mp_setupenergydenommatrices_
+  0.01     93.39     0.01        1     0.01     0.24  hamiltonianmod_mp_setupinteractionmatrre_
+  0.01     93.40     0.01        1     0.01     0.01  yukawa3dhammod_mp_yukawa3dham__
+  0.01     93.41     0.01                             for_alloc_allocatable
+  0.01     93.42     0.01                             for_check_mult_overflow64
+  0.01     93.43     0.01                             for_dealloc_allocatable
+  0.01     93.44     0.01                             mkl_blas_avx_dgemm_get_blks_size
+  0.01     93.45     0.01                             mkl_blas_avx_dgemm_get_bufs_size
+  0.01     93.46     0.01                             mkl_blas_avx_dgemm_ker0
+  0.01     93.47     0.01                             mkl_blas_avx_dgemm_ker0_pst
+  0.01     93.48     0.01                             mkl_blas_avx_xdgemm
+  0.01     93.49     0.01                             mkl_blas_dgemm
+  0.01     93.50     0.01                             mkl_blas_xdgemm
+  0.01     93.51     0.01                             mkl_serv_l2cache
+  0.01     93.52     0.01                             mkl_serv_lsame
+  0.01     93.53     0.01                             mkl_serv_mkl_get_dynamic
+  0.01     93.54     0.01                             mkl_serv_mkl_malloc
+  0.01     93.54     0.01                             mkl_blas_errchk_dgemm
+  0.00     93.54     0.00   238234     0.00     0.00  memorycountermod_mp_add2memoryint_
+  0.00     93.54     0.00   215965     0.00     0.00  memorycountermod_mp_add2memoryr8_
+  0.00     93.54     0.00   117226     0.00     0.00  realmatrixmod_mp_realmatrix_d_
+  0.00     93.54     0.00    22539     0.00     0.00  block1mod_mp_block1_d_
+  0.00     93.54     0.00     1694     0.00     0.00  fockmatrixmod_mp_calcfockmateled_
+  0.00     93.54     0.00     1694     0.00     0.00  fockmatrixmod_mp_calcfockpotential_
+  0.00     93.54     0.00       27     0.00     0.00  correnergymod_mp_printcorrenergyonly_
+  0.00     93.54     0.00       19     0.00     0.00  pairlistmod_mp_pairlist_d_
+  0.00     93.54     0.00       14     0.00     0.00  intmatlistmod_mp_intmatlist_d_
+  0.00     93.54     0.00        7     0.00     0.00  intmatlistmod_mp_intmatlist__
+  0.00     93.54     0.00        7     0.00     0.00  spbasismod_mp_spbasis_d_
+  0.00     93.54     0.00        5     0.00     0.00  blocklistmod_mp_blocklist_d_
+  0.00     93.54     0.00        4     0.00     0.00  hamiltonianmod_mp_hamiltonian_d_
+  0.00     93.54     0.00        2     0.00     0.00  memorycountermod_mp_printmemoryuse_
+  0.00     93.54     0.00        1     0.00    77.98  MAIN__
+  0.00     93.54     0.00        1     0.00     0.07  blocklistmod_mp_blocklist__
+  0.00     93.54     0.00        1     0.00     1.64  blocklistmod_mp_setupblocklist_
+  0.00     93.54     0.00        1     0.00     0.14  blocklistmod_mp_setuphhpairs_
+  0.00     93.54     0.00        1     0.00     0.04  blocklistremod_mp_blocklistre__
+  0.00     93.54     0.00        1     0.00     0.00  blocklistremod_mp_countblocksre_
+  0.00     93.54     0.00        1     0.00     0.00  blocklistremod_mp_setupabij2index_
+  0.00     93.54     0.00        1     0.00     0.01  blocklistremod_mp_setupblocksre_
+  0.00     93.54     0.00        1     0.00     0.14  blocklistremod_mp_setuphppairsre_
+  0.00     93.54     0.00        1     0.00     7.72  blocklistremod_mp_setupphblocklist_
+  0.00     93.54     0.00        1     0.00     0.14  blocklistremod_mp_setupphpairsre_
+  0.00     93.54     0.00        1     0.00     0.09  ccdamplitudemod_mp_ccdamplitude__
+  0.00     93.54     0.00        1     0.00     0.01  ccdamplitudemod_mp_ccdamplitude_d_
+  0.00     93.54     0.00        1     0.00    56.16  ccdcorrenergymod_mp_calcccdenergy_
+  0.00     93.54     0.00        1     0.00     0.09  ccdcorrenergymod_mp_ccdcorrenergy__
+  0.00     93.54     0.00        1     0.00     0.01  ccdcorrenergymod_mp_ccdcorrenergy_d_
+  0.00     93.54     0.00        1     0.00     0.00  correnergymod_mp_printcorrenergy_
+  0.00     93.54     0.00        1     0.00    56.16  energymod_mp_calculateenergy_
+  0.00     93.54     0.00        1     0.00     0.00  energymod_mp_energy__
+  0.00     93.54     0.00        1     0.00     0.02  energymod_mp_energy_d_
+  0.00     93.54     0.00        1     0.00     0.00  fockmatrixmod_mp_fockmatrix__
+  0.00     93.54     0.00        1     0.00     0.00  fockmatrixmod_mp_fockmatrix_d_
+  0.00     93.54     0.00        1     0.00     0.00  fockmatrixmod_mp_setupfockvector_
+  0.00     93.54     0.00        1     0.00     0.00  memorycountermod_mp_printmaxmemoryused_
+  0.00     93.54     0.00        1     0.00     0.00  refenergymod_mp_calcrefenergy_
+  0.00     93.54     0.00        1     0.00     0.00  refenergymod_mp_printrefenergy_
+  0.00     93.54     0.00        1     0.00     0.00  refenergymod_mp_refenergy__
+  0.00     93.54     0.00        1     0.00     0.00  refenergymod_mp_refenergy_d_
+  0.00     93.54     0.00        1     0.00    56.16  solvermod_mp_calcenergy_
+  0.00     93.54     0.00        1     0.00    21.81  solvermod_mp_readandsetup_
+  0.00     93.54     0.00        1     0.00     0.00  solvermod_mp_solver__
+  0.00     93.54     0.00        1     0.00     0.02  solvermod_mp_solver_d_
+  0.00     93.54     0.00        1     0.00     0.00  spbasispw3dmod_mp_setupspbasispw3d_
+  0.00     93.54     0.00        1     0.00     0.00  spbasispw3dmod_mp_spbasispw3d__
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.01% of 93.54 seconds
+
+index % time    self  children    called     name
+                0.00   77.98       1/1           main [2]
+[1]     83.4    0.00   77.98       1         MAIN__ [1]
+                0.00   56.16       1/1           solvermod_mp_calcenergy_ [5]
+                0.00   21.81       1/1           solvermod_mp_readandsetup_ [8]
+                0.00    0.02       1/1           solvermod_mp_solver_d_ [49]
+                0.00    0.00       2/2           memorycountermod_mp_printmemoryuse_ [92]
+                0.00    0.00       1/1           memorycountermod_mp_printmaxmemoryused_ [97]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     83.4    0.00   77.98                 main [2]
+                0.00   77.98       1/1           MAIN__ [1]
+-----------------------------------------------
+                0.00   56.16       1/1           energymod_mp_calculateenergy_ [4]
+[3]     60.0    0.00   56.16       1         ccdcorrenergymod_mp_calcccdenergy_ [3]
+                0.61   49.35      27/27          ccdamplitudemod_mp_updatet2matrix_ [6]
+                3.72    0.00      27/27          ccdamplitudemod_mp_updateintermed2_ [15]
+                0.95    0.00      27/27          ccdamplitudemod_mp_setupt2matrixre_ [19]
+                0.71    0.00      27/27          ccdamplitudemod_mp_updateintermed3_ [21]
+                0.33    0.00      27/27          ccdcorrenergymod_mp_evaluateenergy_ [24]
+                0.29    0.00      27/27          ccdamplitudemod_mp_updateintermed4_ [25]
+                0.19    0.00      27/27          ccdamplitudemod_mp_updateintermed1_ [27]
+                0.01    0.00       1/1           ccdamplitudemod_mp_setupenergydenommatrices_ [54]
+                0.00    0.00      27/27          correnergymod_mp_printcorrenergyonly_ [88]
+-----------------------------------------------
+                0.00   56.16       1/1           solvermod_mp_calcenergy_ [5]
+[4]     60.0    0.00   56.16       1         energymod_mp_calculateenergy_ [4]
+                0.00   56.16       1/1           ccdcorrenergymod_mp_calcccdenergy_ [3]
+                0.00    0.00       1/1           refenergymod_mp_calcrefenergy_ [98]
+                0.00    0.00       1/1           refenergymod_mp_printrefenergy_ [99]
+                0.00    0.00       1/1           correnergymod_mp_printcorrenergy_ [94]
+-----------------------------------------------
+                0.00   56.16       1/1           MAIN__ [1]
+[5]     60.0    0.00   56.16       1         solvermod_mp_calcenergy_ [5]
+                0.00   56.16       1/1           energymod_mp_calculateenergy_ [4]
+-----------------------------------------------
+                0.61   49.35      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[6]     53.4    0.61   49.35      27         ccdamplitudemod_mp_updatet2matrix_ [6]
+               49.22    0.13    2025/2025        ccdamplitudemod_mp_calct2matrix_ [7]
+-----------------------------------------------
+               49.22    0.13    2025/2025        ccdamplitudemod_mp_updatet2matrix_ [6]
+[7]     52.8   49.22    0.13    2025         ccdamplitudemod_mp_calct2matrix_ [7]
+                0.09    0.00    2025/2025        elementmatmul_ [37]
+                0.04    0.00    2025/17896       realmatrixmod_mp_realmatrix__ [23]
+                0.00    0.00    2025/215965      memorycountermod_mp_add2memoryr8_ [86]
+-----------------------------------------------
+                0.00   21.81       1/1           MAIN__ [1]
+[8]     23.3    0.00   21.81       1         solvermod_mp_readandsetup_ [8]
+                1.31   10.69       1/1           hamiltonianmod_mp_setupinteractionmatr_ [9]
+                0.00    7.72       1/1           blocklistremod_mp_setupphblocklist_ [11]
+                0.00    1.64       1/1           blocklistmod_mp_setupblocklist_ [17]
+                0.01    0.23       1/1           hamiltonianmod_mp_setupinteractionmatrre_ [26]
+                0.00    0.09       1/1           ccdcorrenergymod_mp_ccdcorrenergy__ [36]
+                0.00    0.07       1/1           blocklistmod_mp_blocklist__ [40]
+                0.00    0.04       1/1           blocklistremod_mp_blocklistre__ [41]
+                0.01    0.00       1/1           yukawa3dhammod_mp_yukawa3dham__ [57]
+                0.00    0.00       1/1           fockmatrixmod_mp_setupfockvector_ [80]
+                0.00    0.00       1/1           spbasispw3dmod_mp_spbasispw3d__ [103]
+                0.00    0.00       1/1           spbasispw3dmod_mp_setupspbasispw3d_ [102]
+                0.00    0.00       1/1           refenergymod_mp_refenergy__ [100]
+                0.00    0.00       1/1           fockmatrixmod_mp_fockmatrix__ [96]
+                0.00    0.00       1/1           energymod_mp_energy__ [95]
+                0.00    0.00       1/1           solvermod_mp_solver__ [101]
+-----------------------------------------------
+                1.31   10.69       1/1           solvermod_mp_readandsetup_ [8]
+[9]     12.8    1.31   10.69       1         hamiltonianmod_mp_setupinteractionmatr_ [9]
+               10.60    0.00 70935306/71374894     yukawa3dhammod_mp_getyukawa3d_ [10]
+                0.09    0.00    4081/17896       realmatrixmod_mp_realmatrix__ [23]
+                0.00    0.00   75036/215965      memorycountermod_mp_add2memoryr8_ [86]
+                0.00    0.00    4081/117226      realmatrixmod_mp_realmatrix_d_ [87]
+-----------------------------------------------
+                0.00    0.00   23716/71374894     fockmatrixmod_mp_calcfockpotential_ [79]
+                0.06    0.00  415872/71374894     hamiltonianmod_mp_setupinteractionmatrre_ [26]
+               10.60    0.00 70935306/71374894     hamiltonianmod_mp_setupinteractionmatr_ [9]
+[10]    11.4   10.67    0.00 71374894         yukawa3dhammod_mp_getyukawa3d_ [10]
+-----------------------------------------------
+                0.00    7.72       1/1           solvermod_mp_readandsetup_ [8]
+[11]     8.2    0.00    7.72       1         blocklistremod_mp_setupphblocklist_ [11]
+                7.23    0.05       4/4           blocklistremod_mp_setuphpphre2pphh_ [12]
+                0.00    0.14       1/1           blocklistremod_mp_setupphpairsre_ [30]
+                0.00    0.14       1/1           blocklistremod_mp_setuphppairsre_ [29]
+                0.11    0.01       1/1           blocklistremod_mp_setupabij2reiabj_ [32]
+                0.01    0.00       1/1           blocklistremod_mp_setupiabj2index_ [51]
+                0.00    0.01       1/1           blocklistremod_mp_setupblocksre_ [72]
+                0.00    0.00       1/1           blocklistremod_mp_setupabij2index_ [84]
+                0.00    0.00       1/1           blocklistremod_mp_countblocksre_ [93]
+-----------------------------------------------
+                7.23    0.05       4/4           blocklistremod_mp_setupphblocklist_ [11]
+[12]     7.8    7.23    0.05       4         blocklistremod_mp_setuphpphre2pphh_ [12]
+                0.04    0.00 1663488/5180452     blocklistmod_mp_getrank_ [33]
+                0.01    0.00   15124/49229       intmatrixmod_mp_intmatrix__ [42]
+                0.00    0.00   15124/158435      intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00   15120/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[13]     7.2    6.71    0.00                 mkl_blas_avx_dgemm_kernel_0 [13]
+-----------------------------------------------
+                                                 <spontaneous>
+[14]     4.8    4.45    0.00                 mkl_blas_avx_dgemm_mscale [14]
+-----------------------------------------------
+                3.72    0.00      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[15]     4.0    3.72    0.00      27         ccdamplitudemod_mp_updateintermed2_ [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[16]     3.8    3.55    0.00                 mkl_blas_avx_dgemm_copyan [16]
+-----------------------------------------------
+                0.00    1.64       1/1           solvermod_mp_readandsetup_ [8]
+[17]     1.7    0.00    1.64       1         blocklistmod_mp_setupblocklist_ [17]
+                1.03    0.21       1/1           blocklistmod_mp_setuppppairs_ [18]
+                0.02    0.14       1/1           blocklistmod_mp_setupphpairs_ [28]
+                0.00    0.14       1/1           blocklistmod_mp_setuphhpairs_ [31]
+                0.05    0.04       1/1           blocklistmod_mp_setupblocks_ [39]
+                0.01    0.00       1/1           blocklistmod_mp_countblocks_ [56]
+-----------------------------------------------
+                1.03    0.21       1/1           blocklistmod_mp_setupblocklist_ [17]
+[18]     1.3    1.03    0.21       1         blocklistmod_mp_setuppppairs_ [18]
+                0.14    0.00       1/5           qsorti_ [20]
+                0.06    0.00 2822400/5180452     blocklistmod_mp_getrank_ [33]
+-----------------------------------------------
+                0.95    0.00      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[19]     1.0    0.95    0.00      27         ccdamplitudemod_mp_setupt2matrixre_ [19]
+-----------------------------------------------
+                0.14    0.00       1/5           blocklistmod_mp_setuphhpairs_ [31]
+                0.14    0.00       1/5           blocklistmod_mp_setuppppairs_ [18]
+                0.14    0.00       1/5           blocklistmod_mp_setupphpairs_ [28]
+                0.14    0.00       1/5           blocklistremod_mp_setupphpairsre_ [30]
+                0.14    0.00       1/5           blocklistremod_mp_setuphppairsre_ [29]
+[20]     0.8    0.72    0.00       5         qsorti_ [20]
+-----------------------------------------------
+                0.71    0.00      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[21]     0.8    0.71    0.00      27         ccdamplitudemod_mp_updateintermed3_ [21]
+-----------------------------------------------
+                                                 <spontaneous>
+[22]     0.5    0.49    0.00                 mkl_blas_avx_dgemm_pst [22]
+-----------------------------------------------
+                0.00    0.00      75/17896       ccdamplitudemod_mp_setupenergydenommatrices_ [54]
+                0.04    0.00    2025/17896       ccdamplitudemod_mp_calct2matrix_ [7]
+                0.09    0.00    4081/17896       hamiltonianmod_mp_setupinteractionmatr_ [9]
+                0.09    0.00    4155/17896       ccdamplitudemod_mp_ccdamplitude__ [35]
+                0.16    0.00    7560/17896       hamiltonianmod_mp_setupinteractionmatrre_ [26]
+[23]     0.4    0.39    0.00   17896         realmatrixmod_mp_realmatrix__ [23]
+                0.00    0.00   17896/215965      memorycountermod_mp_add2memoryr8_ [86]
+-----------------------------------------------
+                0.33    0.00      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[24]     0.4    0.33    0.00      27         ccdcorrenergymod_mp_evaluateenergy_ [24]
+-----------------------------------------------
+                0.29    0.00      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[25]     0.3    0.29    0.00      27         ccdamplitudemod_mp_updateintermed4_ [25]
+-----------------------------------------------
+                0.01    0.23       1/1           solvermod_mp_readandsetup_ [8]
+[26]     0.3    0.01    0.23       1         hamiltonianmod_mp_setupinteractionmatrre_ [26]
+                0.16    0.00    7560/17896       realmatrixmod_mp_realmatrix__ [23]
+                0.06    0.00  415872/71374894     yukawa3dhammod_mp_getyukawa3d_ [10]
+                0.00    0.00    7560/117226      realmatrixmod_mp_realmatrix_d_ [87]
+                0.00    0.00    3780/215965      memorycountermod_mp_add2memoryr8_ [86]
+-----------------------------------------------
+                0.19    0.00      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[27]     0.2    0.19    0.00      27         ccdamplitudemod_mp_updateintermed1_ [27]
+-----------------------------------------------
+                0.02    0.14       1/1           blocklistmod_mp_setupblocklist_ [17]
+[28]     0.2    0.02    0.14       1         blocklistmod_mp_setupphpairs_ [28]
+                0.14    0.00       1/5           qsorti_ [20]
+                0.00    0.00   23520/5180452     blocklistmod_mp_getrank_ [33]
+-----------------------------------------------
+                0.00    0.14       1/1           blocklistremod_mp_setupphblocklist_ [11]
+[29]     0.2    0.00    0.14       1         blocklistremod_mp_setuphppairsre_ [29]
+                0.14    0.00       1/5           qsorti_ [20]
+                0.00    0.00   23520/5180452     blocklistmod_mp_getrank_ [33]
+-----------------------------------------------
+                0.00    0.14       1/1           blocklistremod_mp_setupphblocklist_ [11]
+[30]     0.2    0.00    0.14       1         blocklistremod_mp_setupphpairsre_ [30]
+                0.14    0.00       1/5           qsorti_ [20]
+                0.00    0.00   23520/5180452     blocklistmod_mp_getrank_ [33]
+-----------------------------------------------
+                0.00    0.14       1/1           blocklistmod_mp_setupblocklist_ [17]
+[31]     0.2    0.00    0.14       1         blocklistmod_mp_setuphhpairs_ [31]
+                0.14    0.00       1/5           qsorti_ [20]
+                0.00    0.00     196/5180452     blocklistmod_mp_getrank_ [33]
+-----------------------------------------------
+                0.11    0.01       1/1           blocklistremod_mp_setupphblocklist_ [11]
+[32]     0.1    0.11    0.01       1         blocklistremod_mp_setupabij2reiabj_ [32]
+                0.01    0.00  623808/5180452     blocklistmod_mp_getrank_ [33]
+                0.00    0.00      76/49229       intmatrixmod_mp_intmatrix__ [42]
+                0.00    0.00      76/158435      intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00      75/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.00    0.00     196/5180452     blocklistmod_mp_setuphhpairs_ [31]
+                0.00    0.00   23520/5180452     blocklistmod_mp_setupphpairs_ [28]
+                0.00    0.00   23520/5180452     blocklistremod_mp_setupphpairsre_ [30]
+                0.00    0.00   23520/5180452     blocklistremod_mp_setuphppairsre_ [29]
+                0.01    0.00  623808/5180452     blocklistremod_mp_setupabij2reiabj_ [32]
+                0.04    0.00 1663488/5180452     blocklistremod_mp_setuphpphre2pphh_ [12]
+                0.06    0.00 2822400/5180452     blocklistmod_mp_setuppppairs_ [18]
+[33]     0.1    0.12    0.00 5180452         blocklistmod_mp_getrank_ [33]
+-----------------------------------------------
+                0.04    0.00       2/5           blocklistremod_mp_blocklistre__ [41]
+                0.07    0.00       3/5           blocklistmod_mp_blocklist__ [40]
+[34]     0.1    0.11    0.00       5         pairlistmod_mp_pairlist__ [34]
+                0.00    0.00       5/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.00    0.09       1/1           ccdcorrenergymod_mp_ccdcorrenergy__ [36]
+[35]     0.1    0.00    0.09       1         ccdamplitudemod_mp_ccdamplitude__ [35]
+                0.09    0.00    4155/17896       realmatrixmod_mp_realmatrix__ [23]
+                0.00    0.00       1/215965      memorycountermod_mp_add2memoryr8_ [86]
+-----------------------------------------------
+                0.00    0.09       1/1           solvermod_mp_readandsetup_ [8]
+[36]     0.1    0.00    0.09       1         ccdcorrenergymod_mp_ccdcorrenergy__ [36]
+                0.00    0.09       1/1           ccdamplitudemod_mp_ccdamplitude__ [35]
+-----------------------------------------------
+                0.09    0.00    2025/2025        ccdamplitudemod_mp_calct2matrix_ [7]
+[37]     0.1    0.09    0.00    2025         elementmatmul_ [37]
+-----------------------------------------------
+                                                 <spontaneous>
+[38]     0.1    0.09    0.00                 mkl_blas_avx_dgemm_copybn [38]
+-----------------------------------------------
+                0.05    0.04       1/1           blocklistmod_mp_setupblocklist_ [17]
+[39]     0.1    0.05    0.04       1         blocklistmod_mp_setupblocks_ [39]
+                0.02    0.00   22614/49229       intmatrixmod_mp_intmatrix__ [42]
+                0.02    0.00   18759/22539       block1mod_mp_block1__ [45]
+                0.00    0.00   22614/158435      intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00   22614/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.00    0.07       1/1           solvermod_mp_readandsetup_ [8]
+[40]     0.1    0.00    0.07       1         blocklistmod_mp_blocklist__ [40]
+                0.07    0.00       3/5           pairlistmod_mp_pairlist__ [34]
+-----------------------------------------------
+                0.00    0.04       1/1           solvermod_mp_readandsetup_ [8]
+[41]     0.0    0.00    0.04       1         blocklistremod_mp_blocklistre__ [41]
+                0.04    0.00       2/5           pairlistmod_mp_pairlist__ [34]
+-----------------------------------------------
+                0.00    0.00      75/49229       blocklistremod_mp_setupabij2index_ [84]
+                0.00    0.00      76/49229       blocklistremod_mp_setupabij2reiabj_ [32]
+                0.00    0.00    3780/49229       blocklistremod_mp_setupiabj2index_ [51]
+                0.01    0.00    7560/49229       blocklistremod_mp_setupblocksre_ [72]
+                0.01    0.00   15124/49229       blocklistremod_mp_setuphpphre2pphh_ [12]
+                0.02    0.00   22614/49229       blocklistmod_mp_setupblocks_ [39]
+[42]     0.0    0.04    0.00   49229         intmatrixmod_mp_intmatrix__ [42]
+                0.00    0.00   49229/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[43]     0.0    0.04    0.00                 __powi4i4 [43]
+-----------------------------------------------
+                                                 <spontaneous>
+[44]     0.0    0.03    0.00                 __intel_memset [44]
+-----------------------------------------------
+                0.00    0.00    3780/22539       blocklistremod_mp_setupblocksre_ [72]
+                0.02    0.00   18759/22539       blocklistmod_mp_setupblocks_ [39]
+[45]     0.0    0.02    0.00   22539         block1mod_mp_block1__ [45]
+                0.00    0.00   22539/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[46]     0.0    0.02    0.00                 for__free_vm [46]
+-----------------------------------------------
+                                                 <spontaneous>
+[47]     0.0    0.02    0.00                 mkl_blas_avx_xdgemm_par [47]
+-----------------------------------------------
+                0.00    0.02       1/1           solvermod_mp_solver_d_ [49]
+[48]     0.0    0.00    0.02       1         energymod_mp_energy_d_ [48]
+                0.00    0.01       1/1           ccdcorrenergymod_mp_ccdcorrenergy_d_ [53]
+                0.00    0.00       1/1           refenergymod_mp_refenergy_d_ [81]
+                0.00    0.00       1/4           hamiltonianmod_mp_hamiltonian_d_ [73]
+-----------------------------------------------
+                0.00    0.02       1/1           MAIN__ [1]
+[49]     0.0    0.00    0.02       1         solvermod_mp_solver_d_ [49]
+                0.00    0.02       1/1           energymod_mp_energy_d_ [48]
+-----------------------------------------------
+                                                 <spontaneous>
+[50]     0.0    0.02    0.00                 dgemm_ [50]
+-----------------------------------------------
+                0.01    0.00       1/1           blocklistremod_mp_setupphblocklist_ [11]
+[51]     0.0    0.01    0.00       1         blocklistremod_mp_setupiabj2index_ [51]
+                0.00    0.00    3780/49229       intmatrixmod_mp_intmatrix__ [42]
+                0.00    0.00    3780/158435      intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00    3781/238234      memorycountermod_mp_add2memoryint_ [85]
+                0.00    0.00       1/7           intmatlistmod_mp_intmatlist__ [90]
+-----------------------------------------------
+                0.01    0.00       1/2           hamiltonianmod_mp_hamiltonian_d_ [73]
+                0.01    0.00       1/2           ccdamplitudemod_mp_ccdamplitude_d_ [74]
+[52]     0.0    0.01    0.00       2         blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00      14/14          intmatlistmod_mp_intmatlist_d_ [83]
+                0.00    0.00    3780/22539       block1mod_mp_block1_d_ [75]
+                0.00    0.00       1/5           blocklistmod_mp_blocklist_d_ [77]
+                0.00    0.00       4/19          pairlistmod_mp_pairlist_d_ [89]
+                0.00    0.00       3/238234      memorycountermod_mp_add2memoryint_ [85]
+                0.00    0.00       1/7           spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.00    0.01       1/1           energymod_mp_energy_d_ [48]
+[53]     0.0    0.00    0.01       1         ccdcorrenergymod_mp_ccdcorrenergy_d_ [53]
+                0.00    0.01       1/1           ccdamplitudemod_mp_ccdamplitude_d_ [74]
+                0.00    0.00       1/4           hamiltonianmod_mp_hamiltonian_d_ [73]
+                0.00    0.00       1/1           fockmatrixmod_mp_fockmatrix_d_ [82]
+                0.00    0.00       1/5           blocklistmod_mp_blocklist_d_ [77]
+                0.00    0.00       1/7           spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.01    0.00       1/1           ccdcorrenergymod_mp_calcccdenergy_ [3]
+[54]     0.0    0.01    0.00       1         ccdamplitudemod_mp_setupenergydenommatrices_ [54]
+                0.00    0.00      75/17896       realmatrixmod_mp_realmatrix__ [23]
+                0.00    0.00      75/117226      realmatrixmod_mp_realmatrix_d_ [87]
+-----------------------------------------------
+                0.00    0.00      75/158435      blocklistremod_mp_setupabij2index_ [84]
+                0.00    0.00      76/158435      blocklistremod_mp_setupabij2reiabj_ [32]
+                0.00    0.00    3780/158435      blocklistremod_mp_setupiabj2index_ [51]
+                0.00    0.00    7560/158435      blocklistremod_mp_setupblocksre_ [72]
+                0.00    0.00   15124/158435      blocklistremod_mp_setuphpphre2pphh_ [12]
+                0.00    0.00   19050/158435      intmatlistmod_mp_intmatlist_d_ [83]
+                0.00    0.00   22614/158435      blocklistmod_mp_setupblocks_ [39]
+                0.01    0.00   90156/158435      block1mod_mp_block1_d_ [75]
+[55]     0.0    0.01    0.00  158435         intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00   98453/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.01    0.00       1/1           blocklistmod_mp_setupblocklist_ [17]
+[56]     0.0    0.01    0.00       1         blocklistmod_mp_countblocks_ [56]
+-----------------------------------------------
+                0.01    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[57]     0.0    0.01    0.00       1         yukawa3dhammod_mp_yukawa3dham__ [57]
+-----------------------------------------------
+                                                 <spontaneous>
+[58]     0.0    0.01    0.00                 for_alloc_allocatable [58]
+-----------------------------------------------
+                                                 <spontaneous>
+[59]     0.0    0.01    0.00                 for_check_mult_overflow64 [59]
+-----------------------------------------------
+                                                 <spontaneous>
+[60]     0.0    0.01    0.00                 for_dealloc_allocatable [60]
+-----------------------------------------------
+                                                 <spontaneous>
+[61]     0.0    0.01    0.00                 mkl_blas_avx_dgemm_get_blks_size [61]
+-----------------------------------------------
+                                                 <spontaneous>
+[62]     0.0    0.01    0.00                 mkl_blas_avx_dgemm_get_bufs_size [62]
+-----------------------------------------------
+                                                 <spontaneous>
+[63]     0.0    0.01    0.00                 mkl_blas_avx_dgemm_ker0 [63]
+-----------------------------------------------
+                                                 <spontaneous>
+[64]     0.0    0.01    0.00                 mkl_blas_avx_dgemm_ker0_pst [64]
+-----------------------------------------------
+                                                 <spontaneous>
+[65]     0.0    0.01    0.00                 mkl_blas_avx_xdgemm [65]
+-----------------------------------------------
+                                                 <spontaneous>
+[66]     0.0    0.01    0.00                 mkl_blas_dgemm [66]
+-----------------------------------------------
+                                                 <spontaneous>
+[67]     0.0    0.01    0.00                 mkl_blas_xdgemm [67]
+-----------------------------------------------
+                                                 <spontaneous>
+[68]     0.0    0.01    0.00                 mkl_serv_l2cache [68]
+-----------------------------------------------
+                                                 <spontaneous>
+[69]     0.0    0.01    0.00                 mkl_serv_lsame [69]
+-----------------------------------------------
+                                                 <spontaneous>
+[70]     0.0    0.01    0.00                 mkl_serv_mkl_get_dynamic [70]
+-----------------------------------------------
+                                                 <spontaneous>
+[71]     0.0    0.01    0.00                 mkl_serv_mkl_malloc [71]
+-----------------------------------------------
+                0.00    0.01       1/1           blocklistremod_mp_setupphblocklist_ [11]
+[72]     0.0    0.00    0.01       1         blocklistremod_mp_setupblocksre_ [72]
+                0.01    0.00    7560/49229       intmatrixmod_mp_intmatrix__ [42]
+                0.00    0.00    3780/22539       block1mod_mp_block1__ [45]
+                0.00    0.00    7560/158435      intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00    3780/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.00    0.00       1/4           fockmatrixmod_mp_fockmatrix_d_ [82]
+                0.00    0.00       1/4           refenergymod_mp_refenergy_d_ [81]
+                0.00    0.00       1/4           ccdcorrenergymod_mp_ccdcorrenergy_d_ [53]
+                0.00    0.00       1/4           energymod_mp_energy_d_ [48]
+[73]     0.0    0.00    0.01       4         hamiltonianmod_mp_hamiltonian_d_ [73]
+                0.01    0.00       1/2           blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00       1/5           blocklistmod_mp_blocklist_d_ [77]
+                0.00    0.00  101355/117226      realmatrixmod_mp_realmatrix_d_ [87]
+                0.00    0.00       1/7           spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.00    0.01       1/1           ccdcorrenergymod_mp_ccdcorrenergy_d_ [53]
+[74]     0.0    0.00    0.01       1         ccdamplitudemod_mp_ccdamplitude_d_ [74]
+                0.01    0.00       1/2           blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00       1/5           blocklistmod_mp_blocklist_d_ [77]
+                0.00    0.00    4155/117226      realmatrixmod_mp_realmatrix_d_ [87]
+                0.00    0.00       1/215965      memorycountermod_mp_add2memoryr8_ [86]
+                0.00    0.00       1/7           spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.00    0.00    3780/22539       blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00   18759/22539       blocklistmod_mp_blocklist_d_ [77]
+[75]     0.0    0.00    0.01   22539         block1mod_mp_block1_d_ [75]
+                0.01    0.00   90156/158435      intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00   22539/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[76]     0.0    0.01    0.00                 mkl_blas_errchk_dgemm [76]
+-----------------------------------------------
+                0.00    0.00       1/5           blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00       1/5           hamiltonianmod_mp_hamiltonian_d_ [73]
+                0.00    0.00       1/5           refenergymod_mp_refenergy_d_ [81]
+                0.00    0.00       1/5           ccdamplitudemod_mp_ccdamplitude_d_ [74]
+                0.00    0.00       1/5           ccdcorrenergymod_mp_ccdcorrenergy_d_ [53]
+[77]     0.0    0.00    0.00       5         blocklistmod_mp_blocklist_d_ [77]
+                0.00    0.00   18759/22539       block1mod_mp_block1_d_ [75]
+                0.00    0.00      15/19          pairlistmod_mp_pairlist_d_ [89]
+                0.00    0.00       1/7           spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.00    0.00    1694/1694        fockmatrixmod_mp_setupfockvector_ [80]
+[78]     0.0    0.00    0.00    1694         fockmatrixmod_mp_calcfockmateled_ [78]
+                0.00    0.00    1694/1694        fockmatrixmod_mp_calcfockpotential_ [79]
+-----------------------------------------------
+                0.00    0.00    1694/1694        fockmatrixmod_mp_calcfockmateled_ [78]
+[79]     0.0    0.00    0.00    1694         fockmatrixmod_mp_calcfockpotential_ [79]
+                0.00    0.00   23716/71374894     yukawa3dhammod_mp_getyukawa3d_ [10]
+-----------------------------------------------
+                0.00    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[80]     0.0    0.00    0.00       1         fockmatrixmod_mp_setupfockvector_ [80]
+                0.00    0.00    1694/1694        fockmatrixmod_mp_calcfockmateled_ [78]
+-----------------------------------------------
+                0.00    0.00       1/1           energymod_mp_energy_d_ [48]
+[81]     0.0    0.00    0.00       1         refenergymod_mp_refenergy_d_ [81]
+                0.00    0.00       1/4           hamiltonianmod_mp_hamiltonian_d_ [73]
+                0.00    0.00       1/5           blocklistmod_mp_blocklist_d_ [77]
+                0.00    0.00       1/7           spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.00    0.00       1/1           ccdcorrenergymod_mp_ccdcorrenergy_d_ [53]
+[82]     0.0    0.00    0.00       1         fockmatrixmod_mp_fockmatrix_d_ [82]
+                0.00    0.00       1/4           hamiltonianmod_mp_hamiltonian_d_ [73]
+                0.00    0.00       1/7           spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.00    0.00      14/14          blocklistremod_mp_blocklistre_d_ [52]
+[83]     0.0    0.00    0.00      14         intmatlistmod_mp_intmatlist_d_ [83]
+                0.00    0.00   19050/158435      intmatrixmod_mp_intmatrix_d_ [55]
+-----------------------------------------------
+                0.00    0.00       1/1           blocklistremod_mp_setupphblocklist_ [11]
+[84]     0.0    0.00    0.00       1         blocklistremod_mp_setupabij2index_ [84]
+                0.00    0.00      75/49229       intmatrixmod_mp_intmatrix__ [42]
+                0.00    0.00      75/158435      intmatrixmod_mp_intmatrix_d_ [55]
+                0.00    0.00      76/238234      memorycountermod_mp_add2memoryint_ [85]
+                0.00    0.00       1/7           intmatlistmod_mp_intmatlist__ [90]
+-----------------------------------------------
+                0.00    0.00       1/238234      blocklistremod_mp_countblocksre_ [93]
+                0.00    0.00       3/238234      blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00       5/238234      pairlistmod_mp_pairlist__ [34]
+                0.00    0.00      19/238234      pairlistmod_mp_pairlist_d_ [89]
+                0.00    0.00      75/238234      blocklistremod_mp_setupabij2reiabj_ [32]
+                0.00    0.00      76/238234      blocklistremod_mp_setupabij2index_ [84]
+                0.00    0.00    3780/238234      blocklistremod_mp_setupblocksre_ [72]
+                0.00    0.00    3781/238234      blocklistremod_mp_setupiabj2index_ [51]
+                0.00    0.00   15120/238234      blocklistremod_mp_setuphpphre2pphh_ [12]
+                0.00    0.00   22539/238234      block1mod_mp_block1__ [45]
+                0.00    0.00   22539/238234      block1mod_mp_block1_d_ [75]
+                0.00    0.00   22614/238234      blocklistmod_mp_setupblocks_ [39]
+                0.00    0.00   49229/238234      intmatrixmod_mp_intmatrix__ [42]
+                0.00    0.00   98453/238234      intmatrixmod_mp_intmatrix_d_ [55]
+[85]     0.0    0.00    0.00  238234         memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.00    0.00       1/215965      ccdamplitudemod_mp_ccdamplitude__ [35]
+                0.00    0.00       1/215965      ccdamplitudemod_mp_ccdamplitude_d_ [74]
+                0.00    0.00    2025/215965      ccdamplitudemod_mp_calct2matrix_ [7]
+                0.00    0.00    3780/215965      hamiltonianmod_mp_setupinteractionmatrre_ [26]
+                0.00    0.00   17896/215965      realmatrixmod_mp_realmatrix__ [23]
+                0.00    0.00   75036/215965      hamiltonianmod_mp_setupinteractionmatr_ [9]
+                0.00    0.00  117226/215965      realmatrixmod_mp_realmatrix_d_ [87]
+[86]     0.0    0.00    0.00  215965         memorycountermod_mp_add2memoryr8_ [86]
+-----------------------------------------------
+                0.00    0.00      75/117226      ccdamplitudemod_mp_setupenergydenommatrices_ [54]
+                0.00    0.00    4081/117226      hamiltonianmod_mp_setupinteractionmatr_ [9]
+                0.00    0.00    4155/117226      ccdamplitudemod_mp_ccdamplitude_d_ [74]
+                0.00    0.00    7560/117226      hamiltonianmod_mp_setupinteractionmatrre_ [26]
+                0.00    0.00  101355/117226      hamiltonianmod_mp_hamiltonian_d_ [73]
+[87]     0.0    0.00    0.00  117226         realmatrixmod_mp_realmatrix_d_ [87]
+                0.00    0.00  117226/215965      memorycountermod_mp_add2memoryr8_ [86]
+-----------------------------------------------
+                0.00    0.00      27/27          ccdcorrenergymod_mp_calcccdenergy_ [3]
+[88]     0.0    0.00    0.00      27         correnergymod_mp_printcorrenergyonly_ [88]
+-----------------------------------------------
+                0.00    0.00       4/19          blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00      15/19          blocklistmod_mp_blocklist_d_ [77]
+[89]     0.0    0.00    0.00      19         pairlistmod_mp_pairlist_d_ [89]
+                0.00    0.00      19/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.00    0.00       1/7           blocklistremod_mp_setupiabj2index_ [51]
+                0.00    0.00       1/7           blocklistremod_mp_setupabij2index_ [84]
+                0.00    0.00       5/7           blocklistremod_mp_countblocksre_ [93]
+[90]     0.0    0.00    0.00       7         intmatlistmod_mp_intmatlist__ [90]
+-----------------------------------------------
+                0.00    0.00       1/7           blocklistmod_mp_blocklist_d_ [77]
+                0.00    0.00       1/7           blocklistremod_mp_blocklistre_d_ [52]
+                0.00    0.00       1/7           hamiltonianmod_mp_hamiltonian_d_ [73]
+                0.00    0.00       1/7           fockmatrixmod_mp_fockmatrix_d_ [82]
+                0.00    0.00       1/7           refenergymod_mp_refenergy_d_ [81]
+                0.00    0.00       1/7           ccdamplitudemod_mp_ccdamplitude_d_ [74]
+                0.00    0.00       1/7           ccdcorrenergymod_mp_ccdcorrenergy_d_ [53]
+[91]     0.0    0.00    0.00       7         spbasismod_mp_spbasis_d_ [91]
+-----------------------------------------------
+                0.00    0.00       2/2           MAIN__ [1]
+[92]     0.0    0.00    0.00       2         memorycountermod_mp_printmemoryuse_ [92]
+-----------------------------------------------
+                0.00    0.00       1/1           blocklistremod_mp_setupphblocklist_ [11]
+[93]     0.0    0.00    0.00       1         blocklistremod_mp_countblocksre_ [93]
+                0.00    0.00       5/7           intmatlistmod_mp_intmatlist__ [90]
+                0.00    0.00       1/238234      memorycountermod_mp_add2memoryint_ [85]
+-----------------------------------------------
+                0.00    0.00       1/1           energymod_mp_calculateenergy_ [4]
+[94]     0.0    0.00    0.00       1         correnergymod_mp_printcorrenergy_ [94]
+-----------------------------------------------
+                0.00    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[95]     0.0    0.00    0.00       1         energymod_mp_energy__ [95]
+-----------------------------------------------
+                0.00    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[96]     0.0    0.00    0.00       1         fockmatrixmod_mp_fockmatrix__ [96]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[97]     0.0    0.00    0.00       1         memorycountermod_mp_printmaxmemoryused_ [97]
+-----------------------------------------------
+                0.00    0.00       1/1           energymod_mp_calculateenergy_ [4]
+[98]     0.0    0.00    0.00       1         refenergymod_mp_calcrefenergy_ [98]
+-----------------------------------------------
+                0.00    0.00       1/1           energymod_mp_calculateenergy_ [4]
+[99]     0.0    0.00    0.00       1         refenergymod_mp_printrefenergy_ [99]
+-----------------------------------------------
+                0.00    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[100]    0.0    0.00    0.00       1         refenergymod_mp_refenergy__ [100]
+-----------------------------------------------
+                0.00    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[101]    0.0    0.00    0.00       1         solvermod_mp_solver__ [101]
+-----------------------------------------------
+                0.00    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[102]    0.0    0.00    0.00       1         spbasispw3dmod_mp_setupspbasispw3d_ [102]
+-----------------------------------------------
+                0.00    0.00       1/1           solvermod_mp_readandsetup_ [8]
+[103]    0.0    0.00    0.00       1         spbasispw3dmod_mp_spbasispw3d__ [103]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+   [1] MAIN__                  [6] ccdamplitudemod_mp_updatet2matrix_ [61] mkl_blas_avx_dgemm_get_blks_size
+  [44] __intel_memset          [3] ccdcorrenergymod_mp_calcccdenergy_ [62] mkl_blas_avx_dgemm_get_bufs_size
+  [43] __powi4i4              [36] ccdcorrenergymod_mp_ccdcorrenergy__ [63] mkl_blas_avx_dgemm_ker0
+  [45] block1mod_mp_block1__  [53] ccdcorrenergymod_mp_ccdcorrenergy_d_ [64] mkl_blas_avx_dgemm_ker0_pst
+  [75] block1mod_mp_block1_d_ [24] ccdcorrenergymod_mp_evaluateenergy_ [13] mkl_blas_avx_dgemm_kernel_0
+  [40] blocklistmod_mp_blocklist__ [94] correnergymod_mp_printcorrenergy_ [14] mkl_blas_avx_dgemm_mscale
+  [77] blocklistmod_mp_blocklist_d_ [88] correnergymod_mp_printcorrenergyonly_ [22] mkl_blas_avx_dgemm_pst
+  [56] blocklistmod_mp_countblocks_ [50] dgemm_           [65] mkl_blas_avx_xdgemm
+  [33] blocklistmod_mp_getrank_ [37] elementmatmul_       [47] mkl_blas_avx_xdgemm_par
+  [17] blocklistmod_mp_setupblocklist_ [4] energymod_mp_calculateenergy_ [66] mkl_blas_dgemm
+  [39] blocklistmod_mp_setupblocks_ [95] energymod_mp_energy__ [76] mkl_blas_errchk_dgemm
+  [31] blocklistmod_mp_setuphhpairs_ [48] energymod_mp_energy_d_ [67] mkl_blas_xdgemm
+  [28] blocklistmod_mp_setupphpairs_ [78] fockmatrixmod_mp_calcfockmateled_ [68] mkl_serv_l2cache
+  [18] blocklistmod_mp_setuppppairs_ [79] fockmatrixmod_mp_calcfockpotential_ [69] mkl_serv_lsame
+  [41] blocklistremod_mp_blocklistre__ [96] fockmatrixmod_mp_fockmatrix__ [70] mkl_serv_mkl_get_dynamic
+  [52] blocklistremod_mp_blocklistre_d_ [82] fockmatrixmod_mp_fockmatrix_d_ [71] mkl_serv_mkl_malloc
+  [93] blocklistremod_mp_countblocksre_ [80] fockmatrixmod_mp_setupfockvector_ [34] pairlistmod_mp_pairlist__
+  [84] blocklistremod_mp_setupabij2index_ [46] for__free_vm [89] pairlistmod_mp_pairlist_d_
+  [32] blocklistremod_mp_setupabij2reiabj_ [58] for_alloc_allocatable [20] qsorti_
+  [72] blocklistremod_mp_setupblocksre_ [59] for_check_mult_overflow64 [23] realmatrixmod_mp_realmatrix__
+  [29] blocklistremod_mp_setuphppairsre_ [60] for_dealloc_allocatable [87] realmatrixmod_mp_realmatrix_d_
+  [12] blocklistremod_mp_setuphpphre2pphh_ [73] hamiltonianmod_mp_hamiltonian_d_ [98] refenergymod_mp_calcrefenergy_
+  [51] blocklistremod_mp_setupiabj2index_ [9] hamiltonianmod_mp_setupinteractionmatr_ [99] refenergymod_mp_printrefenergy_
+  [11] blocklistremod_mp_setupphblocklist_ [26] hamiltonianmod_mp_setupinteractionmatrre_ [100] refenergymod_mp_refenergy__
+  [30] blocklistremod_mp_setupphpairsre_ [90] intmatlistmod_mp_intmatlist__ [81] refenergymod_mp_refenergy_d_
+   [7] ccdamplitudemod_mp_calct2matrix_ [83] intmatlistmod_mp_intmatlist_d_ [5] solvermod_mp_calcenergy_
+  [35] ccdamplitudemod_mp_ccdamplitude__ [42] intmatrixmod_mp_intmatrix__ [8] solvermod_mp_readandsetup_
+  [74] ccdamplitudemod_mp_ccdamplitude_d_ [55] intmatrixmod_mp_intmatrix_d_ [101] solvermod_mp_solver__
+  [54] ccdamplitudemod_mp_setupenergydenommatrices_ [85] memorycountermod_mp_add2memoryint_ [49] solvermod_mp_solver_d_
+  [19] ccdamplitudemod_mp_setupt2matrixre_ [86] memorycountermod_mp_add2memoryr8_ [91] spbasismod_mp_spbasis_d_
+  [27] ccdamplitudemod_mp_updateintermed1_ [97] memorycountermod_mp_printmaxmemoryused_ [102] spbasispw3dmod_mp_setupspbasispw3d_
+  [15] ccdamplitudemod_mp_updateintermed2_ [92] memorycountermod_mp_printmemoryuse_ [103] spbasispw3dmod_mp_spbasispw3d__
+  [21] ccdamplitudemod_mp_updateintermed3_ [16] mkl_blas_avx_dgemm_copyan [10] yukawa3dhammod_mp_getyukawa3d_
+  [25] ccdamplitudemod_mp_updateintermed4_ [38] mkl_blas_avx_dgemm_copybn [57] yukawa3dhammod_mp_yukawa3dham__

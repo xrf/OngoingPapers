@@ -1,0 +1,18 @@
+#
+# CC energies of three-dimensional electron gas
+#
+# rs = 0.1, N = 178, alpha = 1.0
+# nShells = Number of sp energy shells
+# ene_ref = Reference energy per particle in units
+#           of rydberg (e^2/(2*a_{0})) 
+# ene_corr = CCD correlation energy
+#
+# nShells nOrbits ene_ref ene_corr
+   20  242   0.89550E+02  -0.58766E-01
+   30  394   0.89550E+02  -0.15443E+00
+   40  570   0.89550E+02  -0.21036E+00
+   50  730   0.89550E+02  -0.23972E+00
+   60  914   0.89550E+02  -0.26108E+00
+  100 1642   0.89550E+02  -0.29665E+00
+  200 3586   0.89550E+02  -0.31599E+00
+  300 5642   0.89550E+02  -0.32111E+00

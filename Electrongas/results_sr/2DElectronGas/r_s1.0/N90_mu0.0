@@ -1,0 +1,37 @@
+#
+# Energy per particle of two-dimensional electron gas
+#
+# * 90 electrons, r_s=1.0 and mu = 0.0
+# * Normal spin fluid (not polarized)
+#
+# Energies in units of rydberg (e^2/(2*a_{0}))
+#
+# ene_ref = Reference energy per particle 
+# ene_corr = IM-SRG(2) correlation energy per particle
+# ene_tot = ene_ref + ene_corr
+#
+#R	 ene_ref	  ene_corr       ene_tot	
+14	0.012647038     -0.066583903    -0.053936865
+16	0.012647038     -0.091203383    -0.078556345
+18	0.012647038     -0.1059202	-0.093273163
+20	0.012647038     -0.11769255     -0.10504551
+22	0.012647038     -0.13218014     -0.1195331
+24	0.012647038     -0.14060767     -0.12796063
+26	0.012647038     -0.15277335     -0.14012632
+28	0.012647038     -0.16116831     -0.14852127
+30	0.012647038	-0.166175	-0.15352796
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+

@@ -1,0 +1,25 @@
+#
+# 26 pt results for the 2DHEG:
+# Wigner-Seitz radius rs = 0.5
+# The reference energy is 2.59951 Ry
+#
+#sh.	N_W	E_corr(Ry)	error	
+30 	2400e3 	-0.2572		3e-4
+#
+40	1200e3	-0.2578		5e-4
+40	1200e3	-0.2600		4e-4
+40 	2400e3 	-0.2618		3e-4 #ca 1000 CPUH
+#
+50 	2400e3 	-0.2641 	3e-4
+#
+60	400e3	-0.2612 	7e-4
+60	600e3	-0.2630 	7e-4
+60	1200e3	-0.2657 	4e-4
+60	2400e3	-0.2666 	4e-4 
+60 	4800e3	-0.2665		3e-4
+#
+70	4800e3	-0.2675		5e-4
+#extrapolated energy: 
+# 40, 50, 60, 70 shells: -0.274 Ry (-.27397)
+
+#approx 8000 CPUH all together

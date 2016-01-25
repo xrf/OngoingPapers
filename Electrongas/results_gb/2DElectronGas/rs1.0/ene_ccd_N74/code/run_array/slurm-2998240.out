@@ -1,0 +1,193 @@
+Starting job 2998240 ("arrayscript_omp") on c2-24 at Fri Aug 30 14:21:29 CEST 2013
+TASK_IDs to submit: 1,2,3,4,5,6,7,8
+Command line: jobscript_omp
+Main job id: 2998240
+Start time: 2013-08-30
+Fri Aug 30 14:21:30 2013: Submitting jobs...
+8 more job(s) to submit
+0 job(s) are running, and 0 are waiting
+Submitting 5 job(s):
+ TASK_ID 1:
+  Result from submit: Submitted batch job 2998243 => job ID 2998243
+ TASK_ID 2:
+  Result from submit: Submitted batch job 2998244 => job ID 2998244
+ TASK_ID 3:
+  Result from submit: Submitted batch job 2998246 => job ID 2998246
+ TASK_ID 4:
+  Result from submit: Submitted batch job 2998247 => job ID 2998247
+ TASK_ID 5:
+  Result from submit: Submitted batch job 2998248 => job ID 2998248
+Sleeping...
+Fri Aug 30 14:23:44 2013: Checking queue...
+Number of jobs to check: 5
+ Job 2998243 is still running
+ Job 2998244 is still running
+ Job 2998246 is still running
+ Job 2998247 is still running
+ Job 2998248 is still waiting
+Fri Aug 30 14:23:55 2013: Submitting jobs...
+3 more job(s) to submit
+4 job(s) are running, and 1 are waiting
+Submitting 3 job(s):
+ TASK_ID 6:
+  Result from submit: Submitted batch job 2998263 => job ID 2998263
+ TASK_ID 7:
+  Result from submit: Submitted batch job 2998264 => job ID 2998264
+ TASK_ID 8:
+  Result from submit: Submitted batch job 2998265 => job ID 2998265
+Sleeping...
+Fri Aug 30 14:26:01 2013: Checking queue...
+Number of jobs to check: 8
+ Job 2998243 is still running
+ Job 2998244 is still running
+ Job 2998246 is still running
+ Job 2998247 is still running
+ Job 2998248 is still running
+ Job 2998263 is still running
+ Job 2998264 is still waiting
+ Job 2998265 is still waiting
+All jobs have been submitted
+6 job(s) are still running, and 2 are waiting
+Sleeping...
+Fri Aug 30 14:28:07 2013: Checking queue...
+Number of jobs to check: 8
+ Job 2998243 is still running
+ Job 2998244 is still running
+ Job 2998246 is still running
+ Job 2998247 is still running
+ Job 2998248 is still running
+ Job 2998263 is still running
+ Job 2998264 is still running
+ Job 2998265 is still running
+8 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:30:21 2013: Checking queue...
+Number of jobs to check: 8
+ Job 2998243 is still running
+ Job 2998244 is still running
+ Job 2998246 is still running
+ Job 2998247 is still running
+ Job 2998248 is still running
+ Job 2998263 is still running
+ Job 2998264 is still running
+ Job 2998265 is still running
+8 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:32:35 2013: Checking queue...
+Number of jobs to check: 8
+ Job 2998243 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998243      2013-08-30T14:21:59 2013-08-30T14:31:19                        COMPLETED      0:0 
+  2998243.bat+ 2013-08-30T14:21:59 2013-08-30T14:31:19   2760628K   2091460K  COMPLETED      0:0 
+  2998243.0    2013-08-30T14:22:00 2013-08-30T14:22:00    176120K      1092K  COMPLETED      0:0 
+  2998243.1    2013-08-30T14:22:07 2013-08-30T14:31:19   2364228K   2053160K  COMPLETED      0:0 
+ Job 2998244 is still running
+ Job 2998246 is still running
+ Job 2998247 is still running
+ Job 2998248 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998248      2013-08-30T14:23:59 2013-08-30T14:32:09                        COMPLETED      0:0 
+  2998248.bat+ 2013-08-30T14:23:59 2013-08-30T14:32:09   2758480K   2090052K  COMPLETED      0:0 
+  2998248.0    2013-08-30T14:23:59 2013-08-30T14:23:59    176116K      1080K  COMPLETED      0:0 
+  2998248.1    2013-08-30T14:24:01 2013-08-30T14:32:09   2364508K   2056956K  COMPLETED      0:0 
+ Job 2998263 is still running
+ Job 2998264 is still running
+ Job 2998265 is still running
+6 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:34:47 2013: Checking queue...
+Number of jobs to check: 6
+ Job 2998244 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998244      2013-08-30T14:22:29 2013-08-30T14:34:37                        COMPLETED      0:0 
+  2998244.bat+ 2013-08-30T14:22:29 2013-08-30T14:34:37   3858312K   3186012K  COMPLETED      0:0 
+  2998244.0    2013-08-30T14:22:29 2013-08-30T14:22:30    176116K      1080K  COMPLETED      0:0 
+  2998244.1    2013-08-30T14:22:31 2013-08-30T14:34:37   3330304K   3018928K  COMPLETED      0:0 
+ Job 2998246 is still running
+ Job 2998247 is still running
+ Job 2998263 is still running
+ Job 2998264 is still running
+ Job 2998265 is still running
+5 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:36:58 2013: Checking queue...
+Number of jobs to check: 5
+ Job 2998246 is still running
+ Job 2998247 is still running
+ Job 2998263 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998263      2013-08-30T14:24:59 2013-08-30T14:35:53                        COMPLETED      0:0 
+  2998263.bat+ 2013-08-30T14:24:59 2013-08-30T14:35:53   3856636K   3184232K  COMPLETED      0:0 
+  2998263.0    2013-08-30T14:24:59 2013-08-30T14:25:00    176120K      1088K  COMPLETED      0:0 
+  2998263.1    2013-08-30T14:25:01 2013-08-30T14:35:53   3328864K   3020828K  COMPLETED      0:0 
+ Job 2998264 is still running
+ Job 2998265 is still running
+4 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:39:09 2013: Checking queue...
+Number of jobs to check: 4
+ Job 2998246 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998246      2013-08-30T14:22:59 2013-08-30T14:38:46                        COMPLETED      0:0 
+  2998246.bat+ 2013-08-30T14:22:59 2013-08-30T14:38:46   5184848K   4509864K  COMPLETED      0:0 
+  2998246.0    2013-08-30T14:23:00 2013-08-30T14:23:00    176120K       836K  COMPLETED      0:0 
+  2998246.1    2013-08-30T14:23:02 2013-08-30T14:38:45   4757184K   4443520K  COMPLETED      0:0 
+ Job 2998247 is still running
+ Job 2998264 is still running
+ Job 2998265 is still running
+3 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:41:25 2013: Checking queue...
+Number of jobs to check: 3
+ Job 2998247 is still running
+ Job 2998264 is still running
+ Job 2998265 is still running
+3 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:43:35 2013: Checking queue...
+Number of jobs to check: 3
+ Job 2998247 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998247      2013-08-30T14:22:59 2013-08-30T14:42:11                        COMPLETED      0:0 
+  2998247.bat+ 2013-08-30T14:22:59 2013-08-30T14:42:11   6673088K   5999820K  COMPLETED      0:0 
+  2998247.0    2013-08-30T14:23:00 2013-08-30T14:23:00    176120K      1080K  COMPLETED      0:0 
+  2998247.1    2013-08-30T14:23:01 2013-08-30T14:42:11      5.79G   5765812K  COMPLETED      0:0 
+ Job 2998264 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998264      2013-08-30T14:27:29 2013-08-30T14:41:46                        COMPLETED      0:0 
+  2998264.bat+ 2013-08-30T14:27:29 2013-08-30T14:41:46   5173688K   4503688K  COMPLETED      0:0 
+  2998264.0    2013-08-30T14:27:29 2013-08-30T14:27:30    176120K      1084K  COMPLETED      0:0 
+  2998264.1    2013-08-30T14:27:31 2013-08-30T14:41:46   4619212K   4310456K  COMPLETED      0:0 
+ Job 2998265 is still running
+1 job(s) are still running, and 0 are waiting
+Sleeping...
+Fri Aug 30 14:45:50 2013: Checking queue...
+Number of jobs to check: 1
+ Job 2998265 has finished:
+       JobID               Start                 End  MaxVMSize     MaxRSS      State ExitCode 
+  ------------ ------------------- ------------------- ---------- ---------- ---------- -------- 
+  2998265      2013-08-30T14:26:59 2013-08-30T14:44:18                        COMPLETED      0:0 
+  2998265.bat+ 2013-08-30T14:26:59 2013-08-30T14:44:18   6675428K   6000084K  COMPLETED      0:0 
+  2998265.0    2013-08-30T14:27:00 2013-08-30T14:27:00    176120K      1084K  COMPLETED      0:0 
+  2998265.1    2013-08-30T14:27:01 2013-08-30T14:44:18   6232432K   5922132K  COMPLETED      0:0 
+Done.
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+2998240.bat+    359092K      6568K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+2998240      arrayscri+          1                         00:24:32      0:0 
+2998240.0    arrayrun_+          1    176112K      3828K   00:24:31      0:0 
+
+Job 2998240 ("arrayscript_omp") completed on c2-24 at Fri Aug 30 14:46:01 CEST 2013
