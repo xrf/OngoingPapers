@@ -1,0 +1,399 @@
+\begin{thebibliography}{46}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Lawson}(1980)}]{lawson1980}
+\bibinfo{author}{\bibfnamefont{R.~D.} \bibnamefont{Lawson}},
+  \emph{\bibinfo{title}{Theory of the Nuclear Shell Model}}
+  (\bibinfo{publisher}{Clarendon Press}, \bibinfo{year}{1980}).
+
+\bibitem[{\citenamefont{Talmi}(1993)}]{talmi1993}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Talmi}},
+  \emph{\bibinfo{title}{Simple Models of Complex Nuclei}}
+  (\bibinfo{publisher}{Harwood Academic Publishers}, \bibinfo{year}{1993}).
+
+\bibitem[{\citenamefont{Caurier et~al.}(2005)\citenamefont{Caurier,
+  Martinez-Pinedo, Nowacki, Poves, and Zuker}}]{caurier2005}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Caurier}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Martinez-Pinedo}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Nowacki}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Poves}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~P.} \bibnamefont{Zuker}},
+  \bibinfo{journal}{Rev.~Mod.~Phys.} \textbf{\bibinfo{volume}{77}},
+  \bibinfo{pages}{427} (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Schiffer et~al.}(2012)\citenamefont{Schiffer, Hoffman,
+  Kay, Clark, Deibel, Freeman, Howard, Mitchell, Parker, Sharp
+  et~al.}}]{schiffer2012}
+\bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Schiffer}},
+  \bibinfo{author}{\bibfnamefont{C.~R.} \bibnamefont{Hoffman}},
+  \bibinfo{author}{\bibfnamefont{B.~P.} \bibnamefont{Kay}},
+  \bibinfo{author}{\bibfnamefont{J.~A.} \bibnamefont{Clark}},
+  \bibinfo{author}{\bibfnamefont{C.~M.} \bibnamefont{Deibel}},
+  \bibinfo{author}{\bibfnamefont{S.~J.} \bibnamefont{Freeman}},
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Howard}},
+  \bibinfo{author}{\bibfnamefont{A.~J.} \bibnamefont{Mitchell}},
+  \bibinfo{author}{\bibfnamefont{P.~D.} \bibnamefont{Parker}},
+  \bibinfo{author}{\bibfnamefont{D.~K.} \bibnamefont{Sharp}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{108}}, \bibinfo{pages}{022501}
+  (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Schiffer et~al.}(2013)\citenamefont{Schiffer, Hoffman,
+  Kay, Clark, Deibel, Freeman, Honma, Howard, Mitchell, Otsuka
+  et~al.}}]{schiffer2013}
+\bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Schiffer}},
+  \bibinfo{author}{\bibfnamefont{C.~R.} \bibnamefont{Hoffman}},
+  \bibinfo{author}{\bibfnamefont{B.~P.} \bibnamefont{Kay}},
+  \bibinfo{author}{\bibfnamefont{J.~A.} \bibnamefont{Clark}},
+  \bibinfo{author}{\bibfnamefont{C.~M.} \bibnamefont{Deibel}},
+  \bibinfo{author}{\bibfnamefont{S.~J.} \bibnamefont{Freeman}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Honma}},
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Howard}},
+  \bibinfo{author}{\bibfnamefont{A.~J.} \bibnamefont{Mitchell}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Otsuka}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. C}
+  \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{034306}
+  (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{Weinberg}(1990)}]{weinberg1990}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Weinberg}},
+  \bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{251}},
+  \bibinfo{pages}{288} (\bibinfo{year}{1990}).
+
+\bibitem[{\citenamefont{Weinberg}(1991)}]{weinberg1991}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Weinberg}},
+  \bibinfo{journal}{Nucl. Phys. B} \textbf{\bibinfo{volume}{363}},
+  \bibinfo{pages}{3} (\bibinfo{year}{1991}).
+
+\bibitem[{\citenamefont{Ord{\'o}{\~n}ez and van Kolck}(1992)}]{ordonez1992}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Ord{\'o}{\~n}ez}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{van
+  Kolck}}, \bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{291}},
+  \bibinfo{pages}{459} (\bibinfo{year}{1992}).
+
+\bibitem[{\citenamefont{Ord\'o\~nez et~al.}(1994)\citenamefont{Ord\'o\~nez,
+  Ray, and van Kolck}}]{ordonez1994}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Ord\'o\~nez}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Ray}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{van Kolck}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{72}},
+  \bibinfo{pages}{1982} (\bibinfo{year}{1994}).
+
+\bibitem[{\citenamefont{Ord\'o\~nez et~al.}(1996)\citenamefont{Ord\'o\~nez,
+  Ray, and van Kolck}}]{ordonez1996}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Ord\'o\~nez}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Ray}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{van Kolck}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{53}},
+  \bibinfo{pages}{2086} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{van Kolck}(1999)}]{vankolck1999}
+\bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{van Kolck}},
+  \bibinfo{journal}{Progress in Particle and Nuclear Physics}
+  \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{337} (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Machleidt and Entem}(2011)}]{machleidt2011}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Machleidt}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Entem}},
+  \bibinfo{journal}{Phys. Rep.} \textbf{\bibinfo{volume}{503}},
+  \bibinfo{pages}{1} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Epelbaum et~al.}(2009)\citenamefont{Epelbaum, Hammer,
+  and Mei\ss{}ner}}]{epelbaum2009}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Epelbaum}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{Hammer}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{U.-G.}
+  \bibnamefont{Mei\ss{}ner}}, \bibinfo{journal}{Rev. Mod. Phys.}
+  \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{1773} (\bibinfo{year}{2009}).
+
+\bibitem[{\citenamefont{Ekstr\"om et~al.}(2013)\citenamefont{Ekstr\"om,
+  Baardsen, Forss\'en, Hagen, Hjorth-Jensen, Jansen, Machleidt, Nazarewicz,
+  Papenbrock, Sarich et~al.}}]{ekstrom2013}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Ekstr\"om}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Baardsen}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Forss\'en}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Hagen}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hjorth-Jensen}},
+  \bibinfo{author}{\bibfnamefont{G.~R.} \bibnamefont{Jansen}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Machleidt}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Nazarewicz}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Papenbrock}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Sarich}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{192502}
+  (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{Machleidt}(1989)}]{machleidt1989}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Machleidt}},
+  \bibinfo{journal}{Adv. Nucl. Phys.} \textbf{\bibinfo{volume}{19}},
+  \bibinfo{pages}{189} (\bibinfo{year}{1989}).
+
+\bibitem[{\citenamefont{Machleidt}(2001)}]{machleidt2001}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Machleidt}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{63}},
+  \bibinfo{pages}{024001} (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Hagen et~al.}(2012{\natexlab{a}})\citenamefont{Hagen,
+  Hjorth-Jensen, Jansen, Machleidt, and Papenbrock}}]{hagen2012a}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Hagen}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hjorth-Jensen}},
+  \bibinfo{author}{\bibfnamefont{G.~R.} \bibnamefont{Jansen}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Machleidt}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Papenbrock}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{108}},
+  \bibinfo{pages}{242501} (\bibinfo{year}{2012}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Hagen et~al.}(2012{\natexlab{b}})\citenamefont{Hagen,
+  Hjorth-Jensen, Jansen, Machleidt, and Papenbrock}}]{hagen2012b}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Hagen}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hjorth-Jensen}},
+  \bibinfo{author}{\bibfnamefont{G.~R.} \bibnamefont{Jansen}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Machleidt}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Papenbrock}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{109}},
+  \bibinfo{pages}{032502} (\bibinfo{year}{2012}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Otsuka et~al.}(2001)\citenamefont{Otsuka, Fujimoto,
+  Utsuno, Brown, Honma, and Mizusaki}}]{otsuka2001}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Otsuka}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Fujimoto}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Utsuno}},
+  \bibinfo{author}{\bibfnamefont{B.~A.} \bibnamefont{Brown}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Honma}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Mizusaki}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{87}},
+  \bibinfo{pages}{082502} (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Otsuka et~al.}(2005)\citenamefont{Otsuka, Suzuki,
+  Fujimoto, Grawe, and Akaishi}}]{otsuka2005}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Otsuka}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Suzuki}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Fujimoto}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Grawe}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Akaishi}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{95}},
+  \bibinfo{pages}{232502} (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Otsuka et~al.}(2010)\citenamefont{Otsuka, Suzuki,
+  Honma, Utsuno, Tsunoda, Tsukiyama, and Hjorth-Jensen}}]{otsuka2010b}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Otsuka}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Suzuki}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Honma}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Utsuno}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Tsunoda}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Tsukiyama}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hjorth-Jensen}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{104}},
+  \bibinfo{pages}{012501} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Tsunoda et~al.}(2011)\citenamefont{Tsunoda, Otsuka,
+  Tsukiyama, and Hjorth-Jensen}}]{tsunoda2011}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Tsunoda}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Otsuka}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Tsukiyama}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hjorth-Jensen}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{84}},
+  \bibinfo{pages}{044322} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Smirnova et~al.}(2010)\citenamefont{Smirnova, Bally,
+  Heyde, Nowacki, and Sieja}}]{smirnova2010}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Smirnova}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Bally}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Heyde}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Nowacki}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Sieja}},
+  \bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{686}},
+  \bibinfo{pages}{109} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Mayer}(1949)}]{mayer1949}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mayer}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{75}},
+  \bibinfo{pages}{1969} (\bibinfo{year}{1949}).
+
+\bibitem[{\citenamefont{Haxel et~al.}(1949)\citenamefont{Haxel, Jensen, and
+  Suess}}]{haxel1949}
+\bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Haxel}},
+  \bibinfo{author}{\bibfnamefont{J.~H.~D.} \bibnamefont{Jensen}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{H.~E.} \bibnamefont{Suess}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{75}},
+  \bibinfo{pages}{1766} (\bibinfo{year}{1949}).
+
+\bibitem[{\citenamefont{Ando and Bando}(1981)}]{ando1981}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Ando}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Bando}},
+  \bibinfo{journal}{Prog.~Theor.~Phys.} \textbf{\bibinfo{volume}{66}},
+  \bibinfo{pages}{227} (\bibinfo{year}{1981}).
+
+\bibitem[{\citenamefont{Burgunder et~al.}(2014)\citenamefont{Burgunder, Sorlin,
+  Nowacki, Giron, Hammache, Moukaddam, de~S\'er\'eville, Beaumel, C\`aceres,
+  Cl\'ement et~al.}}]{burgunder2014}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Burgunder}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Sorlin}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Nowacki}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Giron}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Hammache}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Moukaddam}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{de~S\'er\'eville}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Beaumel}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{C\`aceres}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Cl\'ement}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{112}}, \bibinfo{pages}{042502}
+  (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Pieper and Pandharipande}(1993)}]{pieper1993}
+\bibinfo{author}{\bibfnamefont{S.~C.} \bibnamefont{Pieper}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.~R.} \bibnamefont{Pandharipande}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{70}},
+  \bibinfo{pages}{2541} (\bibinfo{year}{1993}).
+
+\bibitem[{\citenamefont{Munson et~al.}(2012)\citenamefont{Munson, Sarich, Wild,
+  Benson, and {Curfman McInnes}}}]{taoman}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Munson}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Sarich}},
+  \bibinfo{author}{\bibfnamefont{S.~M.} \bibnamefont{Wild}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Benson}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{{Curfman McInnes}}},
+  \bibinfo{type}{Technical Memorandum} \bibinfo{number}{ANL/MCS-TM-322},
+  \bibinfo{institution}{Argonne National Laboratory},
+  \bibinfo{address}{Argonne, Illinois} (\bibinfo{year}{2012}),
+  \urlprefix\url{http://www.mcs.anl.gov/uploads/cels/papers/TM-322.pdf}.
+
+\bibitem[{\citenamefont{Elliott et~al.}(1968)\citenamefont{Elliott, Jackson,
+  Mavromatis, Sanderson, and Singh}}]{elliott1968}
+\bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Elliott}},
+  \bibinfo{author}{\bibfnamefont{A.~D.} \bibnamefont{Jackson}},
+  \bibinfo{author}{\bibfnamefont{H.~A.} \bibnamefont{Mavromatis}},
+  \bibinfo{author}{\bibfnamefont{E.~A.} \bibnamefont{Sanderson}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Singh}},
+  \bibinfo{journal}{Nucl. Phys. A} \textbf{\bibinfo{volume}{121}},
+  \bibinfo{pages}{241} (\bibinfo{year}{1968}).
+
+\bibitem[{\citenamefont{Kirson}(1973)}]{kirson1973}
+\bibinfo{author}{\bibfnamefont{M.~W.} \bibnamefont{Kirson}},
+  \bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{47}},
+  \bibinfo{pages}{110} (\bibinfo{year}{1973}).
+
+\bibitem[{\citenamefont{Brown et~al.}(1988)\citenamefont{Brown, Richter,
+  Julies, and Wildenthal}}]{brown1988}
+\bibinfo{author}{\bibfnamefont{B.~A.} \bibnamefont{Brown}},
+  \bibinfo{author}{\bibfnamefont{W.~A.} \bibnamefont{Richter}},
+  \bibinfo{author}{\bibfnamefont{R.~E.} \bibnamefont{Julies}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~H.}
+  \bibnamefont{Wildenthal}}, \bibinfo{journal}{Ann. Phys.}
+  \textbf{\bibinfo{volume}{182}}, \bibinfo{pages}{191} (\bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{Osnes and Strottman}(1992)}]{osnes1992}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Osnes}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Strottman}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{45}},
+  \bibinfo{pages}{662} (\bibinfo{year}{1992}).
+
+\bibitem[{\citenamefont{Richter et~al.}(1991)\citenamefont{Richter,
+  Vandermerwe, Julies, and Brown}}]{richter1991}
+\bibinfo{author}{\bibfnamefont{W.~A.} \bibnamefont{Richter}},
+  \bibinfo{author}{\bibfnamefont{M.~G.} \bibnamefont{Vandermerwe}},
+  \bibinfo{author}{\bibfnamefont{R.~E.} \bibnamefont{Julies}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~A.} \bibnamefont{Brown}},
+  \bibinfo{journal}{Nucl. Phys. A} \textbf{\bibinfo{volume}{523}},
+  \bibinfo{pages}{325} (\bibinfo{year}{1991}).
+
+\bibitem[{\citenamefont{Shavitt and Bartlett}(2009)}]{shavittbartlett2009}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Shavitt}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~J.} \bibnamefont{Bartlett}},
+  \emph{\bibinfo{title}{Many-Body Methods in Chemistry and Physics}}
+  (\bibinfo{publisher}{Cambridge University Press}, \bibinfo{year}{2009}).
+
+\bibitem[{\citenamefont{Duguet and Hagen}(2012)}]{duguet2012}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Duguet}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Hagen}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{034330} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Sieja and Nowacki}(2012)}]{nowacki2012}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Sieja}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Nowacki}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{051301} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Smirnova et~al.}(2012)\citenamefont{Smirnova, Heyde,
+  Bally, Nowacki, and Sieja}}]{smirnova2012}
+\bibinfo{author}{\bibfnamefont{N.~A.} \bibnamefont{Smirnova}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Heyde}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Bally}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Nowacki}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Sieja}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{86}},
+  \bibinfo{pages}{034314} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Sorlin and Porquet}(2008)}]{sorlin2008}
+\bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Sorlin}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.~G.} \bibnamefont{Porquet}},
+  \bibinfo{journal}{Prog.~Part.~Nucl.~Phys.} \textbf{\bibinfo{volume}{61}},
+  \bibinfo{pages}{602} (\bibinfo{year}{2008}).
+
+\bibitem[{\citenamefont{Carlsson et~al.}(2014)\citenamefont{Carlsson,
+  Ekstr\"om, and ore Authors}}]{carlsson2014}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Carlsson}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Ekstr\"om}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{ore
+  Authors}} (\bibinfo{year}{2014}), \bibinfo{note}{in preparation}.
+
+\bibitem[{\citenamefont{Poves and Zuker}(1981{\natexlab{a}})}]{poves1981a}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Poves}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zuker}},
+  \bibinfo{journal}{Phys. Rep.} \textbf{\bibinfo{volume}{70}},
+  \bibinfo{pages}{235} (\bibinfo{year}{1981}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Poves and Zuker}(1981{\natexlab{b}})}]{poves1981b}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Poves}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zuker}},
+  \bibinfo{journal}{Phys. Rep.} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{141} (\bibinfo{year}{1981}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Zuker}(2003)}]{zuker2003}
+\bibinfo{author}{\bibfnamefont{A.~P.} \bibnamefont{Zuker}},
+  \bibinfo{journal}{Phys.~Rev.~Lett.} \textbf{\bibinfo{volume}{90}},
+  \bibinfo{pages}{042502} (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{Conze et~al.}(1973)\citenamefont{Conze, Feldmeier, and
+  Manakos}}]{conze1973}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Conze}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Feldmeier}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Manakos}},
+  \bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{43}},
+  \bibinfo{pages}{101} (\bibinfo{year}{1973}).
+
+\bibitem[{\citenamefont{Epelbaum et~al.}(2002)\citenamefont{Epelbaum, Nogga,
+  Gl\"ockle, Kamada, Mei\ss{}ner, and Wita\l{}a}}]{epelbaum2002}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Epelbaum}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nogga}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Gl\"ockle}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Kamada}},
+  \bibinfo{author}{\bibfnamefont{U.-G.} \bibnamefont{Mei\ss{}ner}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Wita\l{}a}},
+  \bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{66}},
+  \bibinfo{pages}{064001} (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Navr\'atil}(2007)}]{navratil2007}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Navr\'atil}},
+  \bibinfo{journal}{Few-Body Systems} \textbf{\bibinfo{volume}{41}},
+  \bibinfo{pages}{117} (\bibinfo{year}{2007}).
+
+\end{thebibliography}
