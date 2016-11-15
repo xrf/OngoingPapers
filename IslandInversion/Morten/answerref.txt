@@ -1,0 +1,162 @@
+Dear Editor,
+
+Thank you very much for your letter on our manuscript LN14687.
+
+This part is solely to the editor, and not to the referees.
+
+We have decided to resubmit the paper to PRL after revisions based on 
+the referee reports.   Actually a substantial revision has been made.
+A summary of major changes and reply to Referee A are combined 
+as shown below.
+
+The tex file of the revised manuscript is attached as well as new eps 
+files of all figures. 
+
+We would like to ask for a new  Referee B due to the following reason.   
+Referee B discussed advanced details of microscopic nuclear forces, 
+but the report is not so relevant to the present work.   The present work 
+has its focus on nuclear structure studies and 
+needs basic features of nuclear forces as  input to our procedure 
+based on the novel method, called EKK.  We actually took one of the 
+standard forces as done in many other works published in the Physical Review Letters or Physical Review C (see for example Phys. Rev. Lett. 107, 072501).  Since it is rather unlikely that 
+Referee B will change her/his strong (personal) standpoint regarding 
+nuclear forces, it should be much more productive to look for a more 
+appropriate referee.
+
+For completeness, we attach our reply to Referee B below.  This is only 
+to the editors of PRL, and is the same as the paragraph above.  
+Please do not send it to Referee B.
+
+As candidates of such a suitable referee, we can nominate
+    B.R.Barrett     (Tucson)   nuclear forces, ab initio shell model
+    C. Johnson     (San Diego)   shell model
+    J. Vary            (Iowa)   nuclear forces, ab initio shell model
+    A. Schwenk    (Darmstadt)   nuclear forces, ab initio shell model
+    S. Lenzi           (Padova)      experiment, shell model calc.
+    R.V.F. Janssens    (ANL)     experiment
+    F. Azaiez         (Capetown)   experiment 
+    M. Lewitowitz  (GANIL)        experiment
+where nobody in Tokyo, MSU or Leuven is included. 
+
+Regarding referee A, we are concerned that the negative suggestion for 
+transferring to PRC Rapid Communications is not among the usual tasks
+which a referee is asked for by the editors.  This suggestion implies strong 
+intention so as to cut down the impact of this work as much as possible.  
+This is a very subjective behavior, and we ask you to remain fair, 
+especially if referee A is among those who are competitors AND do not 
+like developments by us.  If you could avoid, 
+   F. Nowacki, C. Seija, E. Caurier, A. Zuker and A. Poves,
+the situation could be securer.  They are good physicists, but may not 
+be suitable as fair referees.  
+
+With our best regards,
+
+N. Tsunoda, T. Otsuka, N. Shimizu, M. H.-Jensen, K, Takayanagi and T. Suzuki
+
+=======================================================
+A summary of major changes and reply to Referee A
+
+We thank Referee A for his/her positive report on the present paper. 
+Referee A found that the physics of this manuscript is sound.
+He/She raised, however, a question whether this work was a mere 
+application of some method to some new group of nuclei or not.
+We have worked hard so that really new and innovative points can 
+be clearly presented on a very firm basis.   
+For this purpose, we not only improved the manuscript but also 
+carried out some additional calculations which are more difficult than
+those presented in the original version of the paper.  
+
+In the revised version, we made the following major changes.
+
+1) The pattern of particle-hole excitations over Z=N=20 gap is discussed
+to a good detail.
+It has been a long-standing issue how these excitations occur in exotic 
+nuclei, especially in the island of inversion.
+In the conventional picture, for instance, the Warburton-Brown-Becker’s 
+island-of-inversion model, the ground state of 32Mg is basically of 2p2h 
+excitation.  This feature remains in other shell-model calculations made 
+later.   The present work is really the first work to investigate  
+this pattern based on the microscopic nuclear forces.
+The result shows two aspects, as written in the revised manuscript.
+In the first aspect, the 2p2h picture is incorrect.  The right description is 
+that the ground-state wave function of 32Mg is comprised of various 
+particle-hole components centered at 4p4h with wide distribution.
+Physical observables can be well described by this kind of wave 
+functions.
+  
+In the second aspect, however, this pattern can be interpreted as a 
+combination of dynamical 2p2h + background modest 2p2h excitations.  
+In the actual quantitative calculations, these two are mixed and 
+indistinguishable.   On the other hand, from systematic changes, 
+one can find two basic underlying trends.  If one focuses on the 
+dynamical part, the conventional description can be viewed as an 
+intuitive interpretation.   The manuscript has been revised to show 
+such discussions: four paragraphs are added from the beginning of 
+the right column of page 3 till the beginning of the left column of 
+page 4.   Figure 2 has been enlarged so that its panels (c,d) exhibit 
+how much such particle-hole excitations occur in the ground states 
+of Mg isotopes.
+
+2) The present work can give two-body matrix elements connecting 
+the sd and pf shells from the microscopic basis.   Thus, it can play 
+a crucial role in the description of transitional nuclei like 31Mg.   
+The level scheme of 31Mg has been added as Fig. 3.   For 31Mg, 
+the above-mentioned connecting two-body matrix elements are 
+particularly important even for the ground and lowest states, but 
+phenomenological fit (of the quality of other groups of nuclei) 
+is infeasible because of too many parameters and too few data.  
+On the other hand, the levels of 31Mg can be reproduced very well 
+by the present work (without fit, of course).
+Thus, the present work paves the way to the precise understanding 
+and description of more exotic nuclei which are beyond the limit of 
+phenomenological fit.
+
+3) Because of these additions, the old Fig. 4 has been removed.
+The old Fig. 3 has been reduced, and has become Fig. 4.   
+The relevant texts have been changed accordingly.
+
+4) Some other parts of the texts have been modified.   For instance, 
+the abstract and summary section have been revised, for instance, 
+by mentioning the long-standing issue of particle-hole excitations 
+and its solution.
+
+Since the present work solves the long-standing puzzle regarding the 
+island of inversion, one of the major issues of nuclear physics, and 
+introduces a novel way for the description of exotic nuclei in general, 
+this manuscript should have become suitable for the publication 
+in Phys. Rev. Lett.  This point was not so well presented in the first 
+version, and we are grateful to Referee A for demanding this kind of 
+improvement.
+
+Referee A suggested two concrete changes.   The text corresponding 
+to the first change has been removed.  So this change is not necessary.
+The second suggestion, from “filling” to “normal filling”, has been 
+incorporated exactly as suggested.
+
+Thus, we believe that the revised manuscript has become suitable 
+for the publication in Phys. Rev. Lett.
+
+=======================================================
+reply to Referee B
+
+This reply is ONLY for the editors of PRL, and is NOT intended to be 
+sent to Referee B.
+
+Referee B discussed advanced details of microscopic nuclear forces,
+but the report is not so relevant to our work.  In our work,
+basic nuclear forces are used as inputs to define our effective
+Hamiltonians used in large-scale nuclear structure calculations.  
+In our work we have, as done by many other nuclear many-body theorists, employed
+state-of-the-art models for the nuclear forces. This is a common
+procedure, as seen in many other works published in the Physical
+Review Letters or Physical Review C (see for example
+Phys. Rev. Lett. 107, 072501).  We are obviously familiar with 
+the present theoretical shortcomings
+of the various models of nuclear forces, but if we were to adopt referee B's approach,
+most likely there would be no articles that could be published in nuclear structure. 
+We feel the criticism is not relevant to our present work. However, 
+since it is rather unlikely that 
+Referee B will change her/his strong (personal) standpoint regarding 
+nuclear forces, it may be  more productive to look for a more 
+appropriate referee.
+
